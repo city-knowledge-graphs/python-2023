@@ -1,0 +1,18 @@
+@prefix city: <http://www.example.org/university/london/city#> .
+@prefix dbpo: <https://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+city:ernesto a foaf:Person ;
+    city:teaches city:inm713 ;
+    foaf:name "Ernesto Jimenez-Ruiz"^^xsd:string .
+
+city:inm713 a city:Module .
+
+[] a rdf:Statement ;
+    rdf:object city:inm713 ;
+    rdf:predicate city:teaches ;
+    rdf:subject city:ernesto ;
+    dbpo:year "2021-01-01"^^xsd:gYear .
+
