@@ -14,5 +14,5 @@ city:inm713 a city:Module .
     rdf:object city:inm713 ;
     rdf:predicate city:teaches ;
     rdf:subject city:ernesto ;
-    dbpo:year "2021-01-01"^^xsd:gYear .
+    dbpo:year "2021"^^xsd:gYear .
 
