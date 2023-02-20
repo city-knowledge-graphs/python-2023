@@ -1,0 +1,49 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+@prefix dbp:   <http://dbpedia.org/property/> .
+@prefix city:  <http://www.example.org/university/london/city#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+
+# Blank node syntax
+# One could give a proper URI or use a blank node id _:bn1 instead
+# e.g., city:ernesto_city_university_triple a rdf:Statement .
+# e.g., _:bn1 a rdf:Statement .
+[ a		            rdf:Statement ;
+  rdf:object 		dbr:City\,_University_of_London ;
+  rdf:predicate 	dbp:employer ;
+  rdf:subject   	city:ernesto ;
+  dbo:startDate  	"2019-09-23T00:00:00"^^xsd:date
+] .
+
+# Some predicates and entities reused from DBPedia
+# Google "entity name" + dbpedia to find out the right URI
+# Note that "," needs to be escaped
+city:ernesto  a               foaf:Person ;
+        city:speaks           ( dbr:Spanish_language dbr:Italian_language dbr:English_language ) ;
+        foaf:family_name      "Jiménez-Ruiz" ;
+        foaf:givenname        "Ernesto" ;
+        dbo:birthPlace        dbr:Castellón_de_la_Plana ;
+        dbp:employer          dbr:City\,_University_of_London ;
+        dbo:nationality		  dbr:Spain ;
+        dbp:weight			  _:bnW ;
+        dbp:height			  city:height_ernesto .	  
+
+# Instead of using reification and alternative solution is using n-ary relationhips.
+# In this case we would like to associate a unit (i.e. Kg) to a measurement (70).
+# This solutions is also common, but note that we do not have a direct triple with the value
+# e.g., <city:ernesto dbp:weight   "70"^^xsd:integer> instead, dbp:weight points to an 
+# object (the blank node _:bnW or the URI city:height_ernesto) 
+# that contains the unit and value. 
+_:bnW	qudt:hasUnit 		  unit:KiloGM ;
+      	rdf:value			  "70"^^xsd:integer .
+      	
+city:height_ernesto		qudt:hasUnit	unit:CentiM ;
+						rdf:value		"168"^^xsd:integer .
+        

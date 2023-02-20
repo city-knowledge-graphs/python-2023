@@ -1,0 +1,29 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix lab3: <http://www.semanticweb.org/ernesto/in3067-inm713/lab3/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:DeepMind a dbo:Company ;
+    dbo:foundingYear "2010"^^xsd:gYear ;
+    dbo:headquarter dbr:London .
+
+dbr:Oxbotica a dbo:Company ;
+    dbo:foundingYear "2014"^^xsd:gYear ;
+    dbo:headquarter dbr:Oxford .
+
+lab3:DeepReason.ai a dbo:Company ;
+    dbo:foundingYear "2018"^^xsd:gYear ;
+    dbo:headquarter dbr:Oxford .
+
+lab3:OST a dbo:Company ;
+    dbo:foundingYear "2017"^^xsd:gYear ;
+    dbo:headquarter dbr:Oxford .
+
+lab3:Oxstem a dbo:Company ;
+    dbo:foundingYear "2011"^^xsd:gYear ;
+    dbo:headquarter dbr:Oxford .
+
+dbr:London a dbo:City .
+
+dbr:Oxford a dbo:City .
+
