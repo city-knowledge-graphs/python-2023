@@ -1,7 +1,7 @@
 ## Python codes for the Semantic Web Technologies and Knowledge Graphs module (2022/2023)
 
 - **Laboratory 1**: Set up.
-- **Laboratory 2**: Loading OWL ontologies programmatically.
+- **Laboratory 2**: Modelling OWL ontologies in Protégé.
 - **Laboratory 3**: Creating (small) RDF-based Knowledge Graphs
 - **Laboratory 4**: Querying RDF-basedKnowledge Graphs via SPARQL 1.0
 - **Laboratory 5**: Exposing Tabular Data as an RDF-based Knowledge Graph
