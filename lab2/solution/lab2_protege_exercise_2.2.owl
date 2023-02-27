@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/in3067inm713/2023/lab2/"
+     xml:base="http://www.semanticweb.org/in3067inm713/2023/lab2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:city="http://www.example.org/university/london/city#"
+     xmlns:dbpo="https://dbpedia.org/ontology/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/in3067inm713/2023/lab2/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/in3067inm713/2023/lab2/year -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/in3067inm713/2023/lab2/year"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/university/london/city#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/university/london/city#teaches"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/university/london/city#Lecturer -->
+
+    <owl:Class rdf:about="http://www.example.org/university/london/city#Lecturer">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.example.org/university/london/city#teaches"/>
+                <owl:someValuesFrom rdf:resource="http://www.example.org/university/london/city#Module"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Lecturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/university/london/city#Module -->
+
+    <owl:Class rdf:about="http://www.example.org/university/london/city#Module">
+        <rdfs:label>Module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/university/london/city#ernesto -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/university/london/city#ernesto">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <city:teaches rdf:resource="http://www.example.org/university/london/city#inm713"/>
+        <city:teaches rdf:resource="http://www.semanticweb.org/in3067inm713/2023/lab2/inm373"/>
+        <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ernesto Jimenez-Ruiz</foaf:name>
+    </owl:NamedIndividual>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.example.org/university/london/city#ernesto"/>
+        <owl:annotatedProperty rdf:resource="http://www.example.org/university/london/city#teaches"/>
+        <owl:annotatedTarget rdf:resource="http://www.example.org/university/london/city#inm713"/>
+        <year rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">2023</year>
+        <rdfs:comment xml:lang="en">Given in the academic year 2023.</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.example.org/university/london/city#ernesto"/>
+        <owl:annotatedProperty rdf:resource="http://www.example.org/university/london/city#teaches"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/in3067inm713/2023/lab2/inm373"/>
+        <year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</year>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.example.org/university/london/city#inm713 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/university/london/city#inm713">
+        <rdf:type rdf:resource="http://www.example.org/university/london/city#Module"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/in3067inm713/2023/lab2/in3067"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/in3067inm713/2023/lab2/in3067 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/in3067inm713/2023/lab2/in3067"/>
+    
+
+
+    <!-- http://www.semanticweb.org/in3067inm713/2023/lab2/inm373 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/in3067inm713/2023/lab2/inm373"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

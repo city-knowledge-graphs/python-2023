@@ -1,0 +1,29 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<file:///home/ernesto/git/python-2023/lab3/data/ernesto_foaf.rdf> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <file:///home/ernesto/git/python-2023/lab3/data/ernesto_foaf.rdf#me> ;
+    foaf:primaryTopic <file:///home/ernesto/git/python-2023/lab3/data/ernesto_foaf.rdf#me> .
+
+<file:///home/ernesto/git/python-2023/lab3/data/ernesto_foaf.rdf#me> a foaf:Person ;
+    foaf:depiction <https://www.city.ac.uk/__data/assets/image/0003/492915/Ernesto-Jimenez-Ruiz-2-200px.jpg> ;
+    foaf:family_name "Jimenez-Ruiz" ;
+    foaf:givenname "Ernesto" ;
+    foaf:homepage <https://www.city.ac.uk/people/academics/ernesto-jimenez-ruiz> ;
+    foaf:knows [ a foaf:Person ;
+            foaf:mbox <mailto:a.slingsby@city.ac.uk> ;
+            foaf:name "Aidan Slingsby" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <http://www.cs.rpi.edu/~hendler/foaf.rdf> ;
+            foaf:mbox <mailto:james@cs.rpi.edu> ;
+            foaf:name "James Hendler" ] ;
+    foaf:mbox <mailto:ernesto.jimenez-ruiz@city.ac.uk> ;
+    foaf:name "Ernesto Jimenez-Ruiz" ;
+    foaf:phone <tel:+44-(0)20-7040-0202> ;
+    foaf:title "Dr" ;
+    foaf:workInfoHomepage <https://www.city.ac.uk/people/academics/ernesto-jimenez-ruiz> ;
+    foaf:workplaceHomepage <https://www.city.ac.uk/people/academics/ernesto-jimenez-ruiz> .
+

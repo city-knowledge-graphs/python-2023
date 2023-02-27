@@ -1,0 +1,10 @@
+PREFIX: <http://xmlns.com/foaf/0.1/name/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX city <http://city.ac.uk/>
+
+city:BF
+city:BF a :Person
+city:BF :firstName "Benjamin"
+city:BF :lastName "Fang"
+city:BF dbo:birthPlace dbr:Ipoh

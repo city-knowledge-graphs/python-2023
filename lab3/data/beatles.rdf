@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://stardog.com/tutorial/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/Please_Please_Me">
+    <track rdf:resource="http://stardog.com/tutorial/Love_Me_Do"/>
+    <date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1963-03-22</date>
+    <artist rdf:resource="http://stardog.com/tutorial/The_Beatles"/>
+    <rdf:type rdf:resource="http://stardog.com/tutorial/Album"/>
+    <name>Please Please Me</name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/The_Beatles">
+    <name>The Beatles</name>
+    <rdf:type rdf:resource="http://stardog.com/tutorial/Band"/>
+    <member rdf:resource="http://stardog.com/tutorial/Paul_McCartney"/>
+    <member rdf:resource="http://stardog.com/tutorial/John_Lennon"/>
+    <member rdf:resource="http://stardog.com/tutorial/George_Harrison"/>
+    <member rdf:resource="http://stardog.com/tutorial/Ringo_Starr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/Love_Me_Do">
+    <writer rdf:resource="http://stardog.com/tutorial/John_Lennon"/>
+    <name>Love Me Do</name>
+    <rdf:type rdf:resource="http://stardog.com/tutorial/Song"/>
+    <length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</length>
+    <writer rdf:resource="http://stardog.com/tutorial/Paul_McCartney"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/George_Harrison">
+    <rdf:type rdf:resource="http://stardog.com/tutorial/SoloArtist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/Ringo_Starr">
+    <rdf:type rdf:resource="http://stardog.com/tutorial/SoloArtist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/John_Lennon">
+    <rdf:type rdf:resource="http://stardog.com/tutorial/SoloArtist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://stardog.com/tutorial/Paul_McCartney">
+    <rdf:type rdf:resource="http://stardog.com/tutorial/SoloArtist"/>
+  </rdf:Description>
+</rdf:RDF>
