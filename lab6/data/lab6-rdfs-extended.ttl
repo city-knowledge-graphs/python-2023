@@ -1,0 +1,263 @@
+@prefix : <http://city.ac.uk/kg/lab4/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Child a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Child,
+        :Person,
+        rdfs:Resource .
+
+:Father a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Father,
+        :Man,
+        :Parent,
+        :Person,
+        rdfs:Resource .
+
+:Man a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Man,
+        :Person,
+        rdfs:Resource .
+
+:Mother a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Mother,
+        :Parent,
+        :Person,
+        :Woman,
+        rdfs:Resource .
+
+:Parent a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Parent,
+        :Person,
+        rdfs:Resource .
+
+:Person a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Person,
+        rdfs:Resource .
+
+:Woman a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf :Person,
+        :Woman,
+        rdfs:Resource .
+
+rdf:Alt a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Alt,
+        rdfs:Container,
+        rdfs:Resource .
+
+rdf:Bag a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Bag,
+        rdfs:Container,
+        rdfs:Resource .
+
+rdf:List a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:List,
+        rdfs:Resource .
+
+rdf:Property a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Property,
+        rdfs:Resource .
+
+rdf:Seq a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Seq,
+        rdfs:Container,
+        rdfs:Resource .
+
+rdf:Statement a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Statement,
+        rdfs:Resource .
+
+rdf:XMLLiteral a rdfs:Class,
+        rdfs:Datatype,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:XMLLiteral,
+        rdfs:Literal,
+        rdfs:Resource .
+
+rdfs:Class a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdfs:Class,
+        rdfs:Resource .
+
+rdfs:Container a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdfs:Container,
+        rdfs:Resource .
+
+rdfs:ContainerMembershipProperty a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdf:Property,
+        rdfs:ContainerMembershipProperty,
+        rdfs:Resource .
+
+rdfs:Datatype a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdfs:Class,
+        rdfs:Datatype,
+        rdfs:Resource .
+
+rdfs:Literal a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdfs:Literal,
+        rdfs:Resource .
+
+rdfs:Resource a rdfs:Class,
+        rdfs:Resource ;
+    rdfs:subClassOf rdfs:Resource .
+
+:Ann a :Person,
+        rdfs:Resource ;
+    :hasFather :Carl ;
+    :hasMother :Juliet ;
+    :hasParent :Carl,
+        :Juliet .
+
+() a rdf:List,
+        rdfs:Resource .
+
+:hasFather a rdf:Property,
+        rdfs:Resource ;
+    rdfs:range :Father ;
+    rdfs:subPropertyOf :hasFather,
+        :hasParent .
+
+:hasMother a rdf:Property,
+        rdfs:Resource ;
+    rdfs:range :Mother ;
+    rdfs:subPropertyOf :hasMother,
+        :hasParent .
+
+:isChildOf a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain :Child ;
+    rdfs:range :Parent ;
+    rdfs:subPropertyOf :isChildOf .
+
+rdf:first a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:List ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:first .
+
+rdf:object a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Statement ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:object .
+
+rdf:predicate a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Statement ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:predicate .
+
+rdf:rest a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:List ;
+    rdfs:range rdf:List ;
+    rdfs:subPropertyOf rdf:rest .
+
+rdf:subject a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Statement ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:subject .
+
+rdf:type a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Class ;
+    rdfs:subPropertyOf rdf:type .
+
+rdf:value a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdf:value .
+
+rdfs:comment a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf rdfs:comment .
+
+rdfs:domain a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Property ;
+    rdfs:range rdfs:Class ;
+    rdfs:subPropertyOf rdfs:domain .
+
+rdfs:isDefinedBy a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:isDefinedBy,
+        rdfs:seeAlso .
+
+rdfs:label a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf rdfs:label .
+
+rdfs:member a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:member .
+
+rdfs:range a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Property ;
+    rdfs:range rdfs:Class ;
+    rdfs:subPropertyOf rdfs:range .
+
+rdfs:subClassOf a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Class ;
+    rdfs:range rdfs:Class ;
+    rdfs:subPropertyOf rdfs:subClassOf .
+
+rdfs:subPropertyOf a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdf:Property ;
+    rdfs:range rdf:Property ;
+    rdfs:subPropertyOf rdfs:subPropertyOf .
+
+:Carl a :Father,
+        :Man,
+        :Parent,
+        :Person,
+        rdfs:Resource .
+
+:Juliet a :Mother,
+        :Parent,
+        :Person,
+        :Woman,
+        rdfs:Resource .
+
+rdfs:seeAlso a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:range rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:seeAlso .
+
+:hasParent a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain :Person ;
+    rdfs:range :Parent ;
+    rdfs:subPropertyOf :hasParent .
+
