@@ -366,7 +366,7 @@ class Lab5Solution(object):
     
         #We should load the ontology first
         #print(guess_format(ontology_file))
-        self.g.load(ontology_file,  format=guess_format(ontology_file)) #e.g., format=ttl
+        self.g.parse(ontology_file,  format=guess_format(ontology_file)) #e.g., format=ttl
         
         
         print("Triples including ontology: '" + str(len(self.g)) + "'.")
