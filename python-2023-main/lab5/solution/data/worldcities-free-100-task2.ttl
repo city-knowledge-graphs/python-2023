@@ -1,0 +1,1045 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix lab5: <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Ahmadabad a lab5:City ;
+    lab5:admin_name "Gujarāt"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "23.03"^^xsd:float ;
+    lab5:longitude "72.58"^^xsd:float ;
+    lab5:name "Ahmadābād"^^xsd:string ;
+    lab5:name_ascii "Ahmadabad"^^xsd:string ;
+    lab5:population "7410000"^^xsd:long .
+
+dbr:Bangalore a lab5:City ;
+    lab5:admin_name "Karnātaka"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "12.9699"^^xsd:float ;
+    lab5:longitude "77.598"^^xsd:float ;
+    lab5:name "Bangalore"^^xsd:string ;
+    lab5:name_ascii "Bangalore"^^xsd:string ;
+    lab5:population "13707000"^^xsd:long .
+
+dbr:Bangkok a lab5:City ;
+    lab5:admin_name "Krung Thep Maha Nakhon"^^xsd:string ;
+    lab5:isCapitalOf dbr:Thailand ;
+    lab5:latitude "13.75"^^xsd:float ;
+    lab5:longitude "100.5167"^^xsd:float ;
+    lab5:name "Bangkok"^^xsd:string ;
+    lab5:name_ascii "Bangkok"^^xsd:string ;
+    lab5:population "17066000"^^xsd:long .
+
+dbr:Baoding a lab5:City ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "38.8671"^^xsd:float ;
+    lab5:longitude "115.4845"^^xsd:float ;
+    lab5:name "Baoding"^^xsd:string ;
+    lab5:name_ascii "Baoding"^^xsd:string ;
+    lab5:population "10700000"^^xsd:long .
+
+dbr:Beijing a lab5:City ;
+    lab5:admin_name "Beijing"^^xsd:string ;
+    lab5:isCapitalOf dbr:China ;
+    lab5:latitude "39.905"^^xsd:float ;
+    lab5:longitude "116.3914"^^xsd:float ;
+    lab5:name "Beijing"^^xsd:string ;
+    lab5:name_ascii "Beijing"^^xsd:string ;
+    lab5:population "19433000"^^xsd:long .
+
+dbr:Bijie a lab5:City ;
+    lab5:admin_name "Guizhou"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "27.3019"^^xsd:float ;
+    lab5:longitude "105.2863"^^xsd:float ;
+    lab5:name "Bijie"^^xsd:string ;
+    lab5:name_ascii "Bijie"^^xsd:string ;
+    lab5:population "6537498"^^xsd:long .
+
+<http://dbpedia.org/resource/Bogota,_New_Jersey> a lab5:City ;
+    lab5:admin_name "Bogotá"^^xsd:string ;
+    lab5:isCapitalOf dbr:Colombia ;
+    lab5:latitude "4.6126"^^xsd:float ;
+    lab5:longitude "-74.0705"^^xsd:float ;
+    lab5:name "Bogotá"^^xsd:string ;
+    lab5:name_ascii "Bogota"^^xsd:string ;
+    lab5:population "9464000"^^xsd:long .
+
+dbr:Buenos_Aires a lab5:City ;
+    lab5:admin_name "Buenos Aires, Ciudad Autónoma de"^^xsd:string ;
+    lab5:isCapitalOf dbr:Argentina ;
+    lab5:latitude "-34.5997"^^xsd:float ;
+    lab5:longitude "-58.3819"^^xsd:float ;
+    lab5:name "Buenos Aires"^^xsd:string ;
+    lab5:name_ascii "Buenos Aires"^^xsd:string ;
+    lab5:population "16157000"^^xsd:long .
+
+dbr:Cairo a lab5:City ;
+    lab5:admin_name "Al Qāhirah"^^xsd:string ;
+    lab5:isCapitalOf dbr:Egypt ;
+    lab5:latitude "30.0561"^^xsd:float ;
+    lab5:longitude "31.2394"^^xsd:float ;
+    lab5:name "Cairo"^^xsd:string ;
+    lab5:name_ascii "Cairo"^^xsd:string ;
+    lab5:population "19372000"^^xsd:long .
+
+dbr:Cangzhou a lab5:City ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "38.3037"^^xsd:float ;
+    lab5:longitude "116.8452"^^xsd:float ;
+    lab5:name "Cangzhou"^^xsd:string ;
+    lab5:name_ascii "Cangzhou"^^xsd:string ;
+    lab5:population "6800000"^^xsd:long .
+
+dbr:Changchun a lab5:City ;
+    lab5:admin_name "Jilin"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "43.9"^^xsd:float ;
+    lab5:longitude "125.2"^^xsd:float ;
+    lab5:name "Changchun"^^xsd:string ;
+    lab5:name_ascii "Changchun"^^xsd:string ;
+    lab5:population "7674439"^^xsd:long .
+
+dbr:Changsha a lab5:City ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "28.1987"^^xsd:float ;
+    lab5:longitude "112.9709"^^xsd:float ;
+    lab5:name "Changsha"^^xsd:string ;
+    lab5:name_ascii "Changsha"^^xsd:string ;
+    lab5:population "7044118"^^xsd:long .
+
+dbr:Chengdu a lab5:City ;
+    lab5:admin_name "Sichuan"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "30.6636"^^xsd:float ;
+    lab5:longitude "104.0667"^^xsd:float ;
+    lab5:name "Chengdu"^^xsd:string ;
+    lab5:name_ascii "Chengdu"^^xsd:string ;
+    lab5:population "11309000"^^xsd:long .
+
+dbr:Chennai a lab5:City ;
+    lab5:admin_name "Tamil Nādu"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "13.0825"^^xsd:float ;
+    lab5:longitude "80.275"^^xsd:float ;
+    lab5:name "Chennai"^^xsd:string ;
+    lab5:name_ascii "Chennai"^^xsd:string ;
+    lab5:population "11324000"^^xsd:long .
+
+dbr:Chicago a lab5:City ;
+    lab5:admin_name "Illinois"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:United_States ;
+    lab5:latitude "41.8373"^^xsd:float ;
+    lab5:longitude "-87.6862"^^xsd:float ;
+    lab5:name "Chicago"^^xsd:string ;
+    lab5:name_ascii "Chicago"^^xsd:string ;
+    lab5:population "8604203"^^xsd:long .
+
+dbr:Chongqing a lab5:City ;
+    lab5:admin_name "Chongqing"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "29.55"^^xsd:float ;
+    lab5:longitude "106.5069"^^xsd:float ;
+    lab5:name "Chongqing"^^xsd:string ;
+    lab5:name_ascii "Chongqing"^^xsd:string ;
+    lab5:population "7739000"^^xsd:long .
+
+dbr:Dar_es_Salaam a lab5:City ;
+    lab5:admin_name "Dar es Salaam"^^xsd:string ;
+    lab5:isCapitalOf dbr:Tanzania ;
+    lab5:latitude "-6.8"^^xsd:float ;
+    lab5:longitude "39.2833"^^xsd:float ;
+    lab5:name "Dar es Salaam"^^xsd:string ;
+    lab5:name_ascii "Dar es Salaam"^^xsd:string ;
+    lab5:population "6698000"^^xsd:long .
+
+dbr:Delhi a lab5:City ;
+    lab5:admin_name "Delhi"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "28.66"^^xsd:float ;
+    lab5:longitude "77.23"^^xsd:float ;
+    lab5:name "Delhi"^^xsd:string ;
+    lab5:name_ascii "Delhi"^^xsd:string ;
+    lab5:population "29617000"^^xsd:long .
+
+dbr:Dhaka a lab5:City ;
+    lab5:admin_name "Dhaka"^^xsd:string ;
+    lab5:isCapitalOf dbr:Bangladesh ;
+    lab5:latitude "23.7161"^^xsd:float ;
+    lab5:longitude "90.3961"^^xsd:float ;
+    lab5:name "Dhaka"^^xsd:string ;
+    lab5:name_ascii "Dhaka"^^xsd:string ;
+    lab5:population "15443000"^^xsd:long .
+
+dbr:Dongguan a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "23.0475"^^xsd:float ;
+    lab5:longitude "113.7493"^^xsd:float ;
+    lab5:name "Dongguan"^^xsd:string ;
+    lab5:name_ascii "Dongguan"^^xsd:string ;
+    lab5:population "7981000"^^xsd:long .
+
+dbr:Foshan a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "23.0292"^^xsd:float ;
+    lab5:longitude "113.1056"^^xsd:float ;
+    lab5:name "Foshan"^^xsd:string ;
+    lab5:name_ascii "Foshan"^^xsd:string ;
+    lab5:population "7194311"^^xsd:long .
+
+dbr:Fuyang a lab5:City ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "32.8986"^^xsd:float ;
+    lab5:longitude "115.8045"^^xsd:float ;
+    lab5:name "Fuyang"^^xsd:string ;
+    lab5:name_ascii "Fuyang"^^xsd:string ;
+    lab5:population "8360000"^^xsd:long .
+
+dbr:Ganzhou a lab5:City ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "25.8292"^^xsd:float ;
+    lab5:longitude "114.9336"^^xsd:float ;
+    lab5:name "Ganzhou"^^xsd:string ;
+    lab5:name_ascii "Ganzhou"^^xsd:string ;
+    lab5:population "8677600"^^xsd:long .
+
+dbr:Guangzhou a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "23.1288"^^xsd:float ;
+    lab5:longitude "113.259"^^xsd:float ;
+    lab5:name "Guangzhou"^^xsd:string ;
+    lab5:name_ascii "Guangzhou"^^xsd:string ;
+    lab5:population "20902000"^^xsd:long .
+
+dbr:Handan a lab5:City ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "36.6116"^^xsd:float ;
+    lab5:longitude "114.4894"^^xsd:float ;
+    lab5:name "Handan"^^xsd:string ;
+    lab5:name_ascii "Handan"^^xsd:string ;
+    lab5:population "8499000"^^xsd:long .
+
+dbr:Hangzhou a lab5:City ;
+    lab5:admin_name "Zhejiang"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "30.25"^^xsd:float ;
+    lab5:longitude "120.1675"^^xsd:float ;
+    lab5:name "Hangzhou"^^xsd:string ;
+    lab5:name_ascii "Hangzhou"^^xsd:string ;
+    lab5:population "6446000"^^xsd:long .
+
+dbr:Hanoi a lab5:City ;
+    lab5:admin_name "Hà Nội"^^xsd:string ;
+    lab5:isCapitalOf dbr:Vietnam ;
+    lab5:latitude "21.0245"^^xsd:float ;
+    lab5:longitude "105.8412"^^xsd:float ;
+    lab5:name "Hanoi"^^xsd:string ;
+    lab5:name_ascii "Hanoi"^^xsd:string ;
+    lab5:population "7785000"^^xsd:long .
+
+dbr:Hefei a lab5:City ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "31.8639"^^xsd:float ;
+    lab5:longitude "117.2808"^^xsd:float ;
+    lab5:name "Hefei"^^xsd:string ;
+    lab5:name_ascii "Hefei"^^xsd:string ;
+    lab5:population "7457027"^^xsd:long .
+
+dbr:Hengyang a lab5:City ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "26.8968"^^xsd:float ;
+    lab5:longitude "112.5857"^^xsd:float ;
+    lab5:name "Hengyang"^^xsd:string ;
+    lab5:name_ascii "Hengyang"^^xsd:string ;
+    lab5:population "7148344"^^xsd:long .
+
+dbr:Heze a lab5:City ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "35.2333"^^xsd:float ;
+    lab5:longitude "115.4333"^^xsd:float ;
+    lab5:name "Heze"^^xsd:string ;
+    lab5:name_ascii "Heze"^^xsd:string ;
+    lab5:population "8750000"^^xsd:long .
+
+dbr:Huanggang a lab5:City ;
+    lab5:admin_name "Hubei"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "30.45"^^xsd:float ;
+    lab5:longitude "114.875"^^xsd:float ;
+    lab5:name "Huanggang"^^xsd:string ;
+    lab5:name_ascii "Huanggang"^^xsd:string ;
+    lab5:population "6667000"^^xsd:long .
+
+dbr:Hyderabad a lab5:City ;
+    lab5:admin_name "Telangana"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "17.3667"^^xsd:float ;
+    lab5:longitude "78.4667"^^xsd:float ;
+    lab5:name "Hyderābād"^^xsd:string ;
+    lab5:name_ascii "Hyderabad"^^xsd:string ;
+    lab5:population "9746000"^^xsd:long .
+
+dbr:Istanbul a lab5:City ;
+    lab5:admin_name "İstanbul"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Turkey ;
+    lab5:latitude "41.01"^^xsd:float ;
+    lab5:longitude "28.9603"^^xsd:float ;
+    lab5:name "Istanbul"^^xsd:string ;
+    lab5:name_ascii "Istanbul"^^xsd:string ;
+    lab5:population "15154000"^^xsd:long .
+
+dbr:Jakarta a lab5:City ;
+    lab5:admin_name "Jakarta"^^xsd:string ;
+    lab5:isCapitalOf dbr:Indonesia ;
+    lab5:latitude "-6.2146"^^xsd:float ;
+    lab5:longitude "106.8451"^^xsd:float ;
+    lab5:name "Jakarta"^^xsd:string ;
+    lab5:name_ascii "Jakarta"^^xsd:string ;
+    lab5:population "34540000"^^xsd:long .
+
+dbr:Jining a lab5:City ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "35.4"^^xsd:float ;
+    lab5:longitude "116.5667"^^xsd:float ;
+    lab5:name "Jining"^^xsd:string ;
+    lab5:name_ascii "Jining"^^xsd:string ;
+    lab5:population "8023000"^^xsd:long .
+
+dbr:Karachi a lab5:City ;
+    lab5:admin_name "Sindh"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Pakistan ;
+    lab5:latitude "24.86"^^xsd:float ;
+    lab5:longitude "67.01"^^xsd:float ;
+    lab5:name "Karachi"^^xsd:string ;
+    lab5:name_ascii "Karachi"^^xsd:string ;
+    lab5:population "14835000"^^xsd:long .
+
+dbr:Khartoum a lab5:City ;
+    lab5:admin_name "Khartoum"^^xsd:string ;
+    lab5:isCapitalOf dbr:Sudan ;
+    lab5:latitude "15.6031"^^xsd:float ;
+    lab5:longitude "32.5265"^^xsd:float ;
+    lab5:name "Khartoum"^^xsd:string ;
+    lab5:name_ascii "Khartoum"^^xsd:string ;
+    lab5:population "7282000"^^xsd:long .
+
+dbr:Kolkata a lab5:City ;
+    lab5:admin_name "West Bengal"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "22.5411"^^xsd:float ;
+    lab5:longitude "88.3378"^^xsd:float ;
+    lab5:name "Kolkāta"^^xsd:string ;
+    lab5:name_ascii "Kolkata"^^xsd:string ;
+    lab5:population "17560000"^^xsd:long .
+
+dbr:Kuala_Lumpur a lab5:City ;
+    lab5:admin_name "Kuala Lumpur"^^xsd:string ;
+    lab5:isCapitalOf dbr:Malaysia ;
+    lab5:latitude "3.1478"^^xsd:float ;
+    lab5:longitude "101.6953"^^xsd:float ;
+    lab5:name "Kuala Lumpur"^^xsd:string ;
+    lab5:name_ascii "Kuala Lumpur"^^xsd:string ;
+    lab5:population "8285000"^^xsd:long .
+
+dbr:Kunming a lab5:City ;
+    lab5:admin_name "Yunnan"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "25.0433"^^xsd:float ;
+    lab5:longitude "102.7061"^^xsd:float ;
+    lab5:name "Kunming"^^xsd:string ;
+    lab5:name_ascii "Kunming"^^xsd:string ;
+    lab5:population "6250000"^^xsd:long .
+
+dbr:Lagos a lab5:City ;
+    lab5:admin_name "Lagos"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:Nigeria ;
+    lab5:latitude "6.45"^^xsd:float ;
+    lab5:longitude "3.4"^^xsd:float ;
+    lab5:name "Lagos"^^xsd:string ;
+    lab5:name_ascii "Lagos"^^xsd:string ;
+    lab5:population "15279000"^^xsd:long .
+
+dbr:Lahore a lab5:City ;
+    lab5:admin_name "Punjab"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Pakistan ;
+    lab5:latitude "31.5497"^^xsd:float ;
+    lab5:longitude "74.3436"^^xsd:float ;
+    lab5:name "Lahore"^^xsd:string ;
+    lab5:name_ascii "Lahore"^^xsd:string ;
+    lab5:population "11021000"^^xsd:long .
+
+dbr:Lima a lab5:City ;
+    lab5:admin_name "Lima"^^xsd:string ;
+    lab5:isCapitalOf dbr:Peru ;
+    lab5:latitude "-12.05"^^xsd:float ;
+    lab5:longitude "-77.0333"^^xsd:float ;
+    lab5:name "Lima"^^xsd:string ;
+    lab5:name_ascii "Lima"^^xsd:string ;
+    lab5:population "9848000"^^xsd:long .
+
+dbr:Linyi a lab5:City ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "35.0606"^^xsd:float ;
+    lab5:longitude "118.3425"^^xsd:float ;
+    lab5:name "Linyi"^^xsd:string ;
+    lab5:name_ascii "Linyi"^^xsd:string ;
+    lab5:population "10820000"^^xsd:long .
+
+dbr:London a lab5:City ;
+    lab5:admin_name "London, City of"^^xsd:string ;
+    lab5:isCapitalOf dbr:United_Kingdom ;
+    lab5:latitude "51.5072"^^xsd:float ;
+    lab5:longitude "-0.1275"^^xsd:float ;
+    lab5:name "London"^^xsd:string ;
+    lab5:name_ascii "London"^^xsd:string ;
+    lab5:population "10979000"^^xsd:long .
+
+dbr:Los_Angeles a lab5:City ;
+    lab5:admin_name "California"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:United_States ;
+    lab5:latitude "34.1139"^^xsd:float ;
+    lab5:longitude "-118.4068"^^xsd:float ;
+    lab5:name "Los Angeles"^^xsd:string ;
+    lab5:name_ascii "Los Angeles"^^xsd:string ;
+    lab5:population "12750807"^^xsd:long .
+
+<http://dbpedia.org/resource/Lu'an> a lab5:City ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "31.7542"^^xsd:float ;
+    lab5:longitude "116.5078"^^xsd:float ;
+    lab5:name "Lu’an"^^xsd:string ;
+    lab5:name_ascii "Lu'an"^^xsd:string ;
+    lab5:population "6090000"^^xsd:long .
+
+dbr:Luanda a lab5:City ;
+    lab5:admin_name "Luanda"^^xsd:string ;
+    lab5:isCapitalOf dbr:Angola ;
+    lab5:latitude "-8.8383"^^xsd:float ;
+    lab5:longitude "13.2344"^^xsd:float ;
+    lab5:name "Luanda"^^xsd:string ;
+    lab5:name_ascii "Luanda"^^xsd:string ;
+    lab5:population "8417000"^^xsd:long .
+
+dbr:Luoyang a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "34.6587"^^xsd:float ;
+    lab5:longitude "112.4245"^^xsd:float ;
+    lab5:name "Luoyang"^^xsd:string ;
+    lab5:name_ascii "Luoyang"^^xsd:string ;
+    lab5:population "6549941"^^xsd:long .
+
+dbr:Manila a lab5:City ;
+    lab5:admin_name "Manila"^^xsd:string ;
+    lab5:isCapitalOf dbr:Philippines ;
+    lab5:latitude "14.5958"^^xsd:float ;
+    lab5:longitude "120.9772"^^xsd:float ;
+    lab5:name "Manila"^^xsd:string ;
+    lab5:name_ascii "Manila"^^xsd:string ;
+    lab5:population "23088000"^^xsd:long .
+
+dbr:Maoming a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "21.6618"^^xsd:float ;
+    lab5:longitude "110.9178"^^xsd:float ;
+    lab5:name "Maoming"^^xsd:string ;
+    lab5:name_ascii "Maoming"^^xsd:string ;
+    lab5:population "6706000"^^xsd:long .
+
+dbr:Mexico_City a lab5:City ;
+    lab5:admin_name "Ciudad de México"^^xsd:string ;
+    lab5:isCapitalOf dbr:Mexico ;
+    lab5:latitude "19.4333"^^xsd:float ;
+    lab5:longitude "-99.1333"^^xsd:float ;
+    lab5:name "Mexico City"^^xsd:string ;
+    lab5:name_ascii "Mexico City"^^xsd:string ;
+    lab5:population "20996000"^^xsd:long .
+
+dbr:Miami a lab5:City ;
+    lab5:admin_name "Florida"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:United_States ;
+    lab5:latitude "25.7839"^^xsd:float ;
+    lab5:longitude "-80.2102"^^xsd:float ;
+    lab5:name "Miami"^^xsd:string ;
+    lab5:name_ascii "Miami"^^xsd:string ;
+    lab5:population "6445545"^^xsd:long .
+
+dbr:Moscow a lab5:City ;
+    lab5:admin_name "Moskva"^^xsd:string ;
+    lab5:isCapitalOf dbr:Russia ;
+    lab5:latitude "55.7558"^^xsd:float ;
+    lab5:longitude "37.6178"^^xsd:float ;
+    lab5:name "Moscow"^^xsd:string ;
+    lab5:name_ascii "Moscow"^^xsd:string ;
+    lab5:population "17125000"^^xsd:long .
+
+dbr:Mumbai a lab5:City ;
+    lab5:admin_name "Mahārāshtra"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:India ;
+    lab5:latitude "18.9667"^^xsd:float ;
+    lab5:longitude "72.8333"^^xsd:float ;
+    lab5:name "Mumbai"^^xsd:string ;
+    lab5:name_ascii "Mumbai"^^xsd:string ;
+    lab5:population "23355000"^^xsd:long .
+
+dbr:Nagoya a lab5:City ;
+    lab5:admin_name "Aichi"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Japan ;
+    lab5:latitude "35.1167"^^xsd:float ;
+    lab5:longitude "136.9333"^^xsd:float ;
+    lab5:name "Nagoya"^^xsd:string ;
+    lab5:name_ascii "Nagoya"^^xsd:string ;
+    lab5:population "9113000"^^xsd:long .
+
+dbr:Nanchong a lab5:City ;
+    lab5:admin_name "Sichuan"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "30.7991"^^xsd:float ;
+    lab5:longitude "106.0784"^^xsd:float ;
+    lab5:name "Nanchong"^^xsd:string ;
+    lab5:name_ascii "Nanchong"^^xsd:string ;
+    lab5:population "6183000"^^xsd:long .
+
+dbr:Nanjing a lab5:City ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "32.05"^^xsd:float ;
+    lab5:longitude "118.7667"^^xsd:float ;
+    lab5:name "Nanjing"^^xsd:string ;
+    lab5:name_ascii "Nanjing"^^xsd:string ;
+    lab5:population "7496000"^^xsd:long .
+
+dbr:Nanning a lab5:City ;
+    lab5:admin_name "Guangxi"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "22.8192"^^xsd:float ;
+    lab5:longitude "108.315"^^xsd:float ;
+    lab5:name "Nanning"^^xsd:string ;
+    lab5:name_ascii "Nanning"^^xsd:string ;
+    lab5:population "7153300"^^xsd:long .
+
+dbr:Nantong a lab5:City ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "31.9829"^^xsd:float ;
+    lab5:longitude "120.8873"^^xsd:float ;
+    lab5:name "Nantong"^^xsd:string ;
+    lab5:name_ascii "Nantong"^^xsd:string ;
+    lab5:population "7282835"^^xsd:long .
+
+dbr:Nanyang a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "32.9987"^^xsd:float ;
+    lab5:longitude "112.5292"^^xsd:float ;
+    lab5:name "Nanyang"^^xsd:string ;
+    lab5:name_ascii "Nanyang"^^xsd:string ;
+    lab5:population "12010000"^^xsd:long .
+
+dbr:New_York_City a lab5:City ;
+    lab5:admin_name "New York"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:United_States ;
+    lab5:latitude "40.6943"^^xsd:float ;
+    lab5:longitude "-73.9249"^^xsd:float ;
+    lab5:name "New York"^^xsd:string ;
+    lab5:name_ascii "New York"^^xsd:string ;
+    lab5:population "18713220"^^xsd:long .
+
+dbr:Ningbo a lab5:City ;
+    lab5:admin_name "Zhejiang"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "29.875"^^xsd:float ;
+    lab5:longitude "121.5492"^^xsd:float ;
+    lab5:name "Ningbo"^^xsd:string ;
+    lab5:name_ascii "Ningbo"^^xsd:string ;
+    lab5:population "7639000"^^xsd:long .
+
+dbr:Onitsha a lab5:City ;
+    lab5:admin_name "Anambra"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:Nigeria ;
+    lab5:latitude "6.1667"^^xsd:float ;
+    lab5:longitude "6.7833"^^xsd:float ;
+    lab5:name "Onitsha"^^xsd:string ;
+    lab5:name_ascii "Onitsha"^^xsd:string ;
+    lab5:population "7635000"^^xsd:long .
+
+dbr:Osaka a lab5:City ;
+    lab5:admin_name "Ōsaka"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Japan ;
+    lab5:latitude "34.6936"^^xsd:float ;
+    lab5:longitude "135.5019"^^xsd:float ;
+    lab5:name "Ōsaka"^^xsd:string ;
+    lab5:name_ascii "Osaka"^^xsd:string ;
+    lab5:population "14977000"^^xsd:long .
+
+dbr:Paris a lab5:City ;
+    lab5:admin_name "Île-de-France"^^xsd:string ;
+    lab5:isCapitalOf dbr:France ;
+    lab5:latitude "48.8566"^^xsd:float ;
+    lab5:longitude "2.3522"^^xsd:float ;
+    lab5:name "Paris"^^xsd:string ;
+    lab5:name_ascii "Paris"^^xsd:string ;
+    lab5:population "11020000"^^xsd:long .
+
+dbr:Pune a lab5:City ;
+    lab5:admin_name "Mahārāshtra"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:India ;
+    lab5:latitude "18.5196"^^xsd:float ;
+    lab5:longitude "73.8553"^^xsd:float ;
+    lab5:name "Pune"^^xsd:string ;
+    lab5:name_ascii "Pune"^^xsd:string ;
+    lab5:population "7764000"^^xsd:long .
+
+dbr:Quanzhou a lab5:City ;
+    lab5:admin_name "Fujian"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "24.9139"^^xsd:float ;
+    lab5:longitude "118.5858"^^xsd:float ;
+    lab5:name "Quanzhou"^^xsd:string ;
+    lab5:name_ascii "Quanzhou"^^xsd:string ;
+    lab5:population "6480000"^^xsd:long .
+
+dbr:Rio_de_Janeiro a lab5:City ;
+    lab5:admin_name "Rio de Janeiro"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Brazil ;
+    lab5:latitude "-22.9083"^^xsd:float ;
+    lab5:longitude "-43.1964"^^xsd:float ;
+    lab5:name "Rio de Janeiro"^^xsd:string ;
+    lab5:name_ascii "Rio de Janeiro"^^xsd:string ;
+    lab5:population "12272000"^^xsd:long .
+
+dbr:Riyadh a lab5:City ;
+    lab5:admin_name "Ar Riyāḑ"^^xsd:string ;
+    lab5:isCapitalOf dbr:Saudi_Arabia ;
+    lab5:latitude "24.65"^^xsd:float ;
+    lab5:longitude "46.71"^^xsd:float ;
+    lab5:name "Riyadh"^^xsd:string ;
+    lab5:name_ascii "Riyadh"^^xsd:string ;
+    lab5:population "6881000"^^xsd:long .
+
+dbr:Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City a lab5:City ;
+    lab5:admin_name "Hồ Chí Minh"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Vietnam ;
+    lab5:latitude "10.8167"^^xsd:float ;
+    lab5:longitude "106.6333"^^xsd:float ;
+    lab5:name "Ho Chi Minh City"^^xsd:string ;
+    lab5:name_ascii "Ho Chi Minh City"^^xsd:string ;
+    lab5:population "13312000"^^xsd:long .
+
+dbr:Santiago a lab5:City ;
+    lab5:admin_name "Región Metropolitana"^^xsd:string ;
+    lab5:isCapitalOf dbr:Chile ;
+    lab5:latitude "-33.45"^^xsd:float ;
+    lab5:longitude "-70.6667"^^xsd:float ;
+    lab5:name "Santiago"^^xsd:string ;
+    lab5:name_ascii "Santiago"^^xsd:string ;
+    lab5:population "7007000"^^xsd:long .
+
+dbr:Seoul a lab5:City ;
+    lab5:admin_name "Seoul"^^xsd:string ;
+    lab5:isCapitalOf dbr:South_Korea ;
+    lab5:latitude "37.5833"^^xsd:float ;
+    lab5:longitude "127.0"^^xsd:float ;
+    lab5:name "Seoul"^^xsd:string ;
+    lab5:name_ascii "Seoul"^^xsd:string ;
+    lab5:population "21794000"^^xsd:long .
+
+dbr:Shanghai a lab5:City ;
+    lab5:admin_name "Shanghai"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "31.1667"^^xsd:float ;
+    lab5:longitude "121.4667"^^xsd:float ;
+    lab5:name "Shanghai"^^xsd:string ;
+    lab5:name_ascii "Shanghai"^^xsd:string ;
+    lab5:population "22120000"^^xsd:long .
+
+dbr:Shangrao a lab5:City ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "28.4419"^^xsd:float ;
+    lab5:longitude "117.9633"^^xsd:float ;
+    lab5:name "Shangrao"^^xsd:string ;
+    lab5:name_ascii "Shangrao"^^xsd:string ;
+    lab5:population "6579714"^^xsd:long .
+
+dbr:Shaoyang a lab5:City ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "27.2418"^^xsd:float ;
+    lab5:longitude "111.4725"^^xsd:float ;
+    lab5:name "Shaoyang"^^xsd:string ;
+    lab5:name_ascii "Shaoyang"^^xsd:string ;
+    lab5:population "7071000"^^xsd:long .
+
+dbr:Shenyang a lab5:City ;
+    lab5:admin_name "Liaoning"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "41.8039"^^xsd:float ;
+    lab5:longitude "123.4258"^^xsd:float ;
+    lab5:name "Shenyang"^^xsd:string ;
+    lab5:name_ascii "Shenyang"^^xsd:string ;
+    lab5:population "7105000"^^xsd:long .
+
+dbr:Shenzhen a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "22.535"^^xsd:float ;
+    lab5:longitude "114.054"^^xsd:float ;
+    lab5:name "Shenzhen"^^xsd:string ;
+    lab5:name_ascii "Shenzhen"^^xsd:string ;
+    lab5:population "15929000"^^xsd:long .
+
+dbr:Shijiazhuang a lab5:City ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "38.0422"^^xsd:float ;
+    lab5:longitude "114.5086"^^xsd:float ;
+    lab5:name "Shijiazhuang"^^xsd:string ;
+    lab5:name_ascii "Shijiazhuang"^^xsd:string ;
+    lab5:population "10784600"^^xsd:long .
+
+dbr:São_Paulo a lab5:City ;
+    lab5:admin_name "São Paulo"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:Brazil ;
+    lab5:latitude "-23.5504"^^xsd:float ;
+    lab5:longitude "-46.6339"^^xsd:float ;
+    lab5:name "São Paulo"^^xsd:string ;
+    lab5:name_ascii "Sao Paulo"^^xsd:string ;
+    lab5:population "22046000"^^xsd:long .
+
+dbr:Tangshan a lab5:City ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "39.6292"^^xsd:float ;
+    lab5:longitude "118.1742"^^xsd:float ;
+    lab5:name "Tangshan"^^xsd:string ;
+    lab5:name_ascii "Tangshan"^^xsd:string ;
+    lab5:population "7100000"^^xsd:long .
+
+dbr:Tianjin a lab5:City ;
+    lab5:admin_name "Tianjin"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "39.1467"^^xsd:float ;
+    lab5:longitude "117.2056"^^xsd:float ;
+    lab5:name "Tianjin"^^xsd:string ;
+    lab5:name_ascii "Tianjin"^^xsd:string ;
+    lab5:population "10800000"^^xsd:long .
+
+dbr:Tokyo a lab5:City ;
+    lab5:admin_name "Tōkyō"^^xsd:string ;
+    lab5:isCapitalOf dbr:Japan ;
+    lab5:latitude "35.6897"^^xsd:float ;
+    lab5:longitude "139.6922"^^xsd:float ;
+    lab5:name "Tokyo"^^xsd:string ;
+    lab5:name_ascii "Tokyo"^^xsd:string ;
+    lab5:population "37977000"^^xsd:long .
+
+dbr:Tongshan a lab5:City ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "34.261"^^xsd:float ;
+    lab5:longitude "117.1859"^^xsd:float ;
+    lab5:name "Tongshan"^^xsd:string ;
+    lab5:name_ascii "Tongshan"^^xsd:string ;
+    lab5:population "8669000"^^xsd:long .
+
+dbr:Weifang a lab5:City ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "36.7167"^^xsd:float ;
+    lab5:longitude "119.1"^^xsd:float ;
+    lab5:name "Weifang"^^xsd:string ;
+    lab5:name_ascii "Weifang"^^xsd:string ;
+    lab5:population "9373000"^^xsd:long .
+
+dbr:Wuhan a lab5:City ;
+    lab5:admin_name "Hubei"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "30.5872"^^xsd:float ;
+    lab5:longitude "114.2881"^^xsd:float ;
+    lab5:name "Wuhan"^^xsd:string ;
+    lab5:name_ascii "Wuhan"^^xsd:string ;
+    lab5:population "8962000"^^xsd:long .
+
+<http://dbpedia.org/resource/Xi'an> a lab5:City ;
+    lab5:admin_name "Shaanxi"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "34.2667"^^xsd:float ;
+    lab5:longitude "108.9"^^xsd:float ;
+    lab5:name "Xi’an"^^xsd:string ;
+    lab5:name_ascii "Xi'an"^^xsd:string ;
+    lab5:population "7135000"^^xsd:long .
+
+dbr:Xinyang a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "32.1264"^^xsd:float ;
+    lab5:longitude "114.0672"^^xsd:float ;
+    lab5:name "Xinyang"^^xsd:string ;
+    lab5:name_ascii "Xinyang"^^xsd:string ;
+    lab5:population "6634000"^^xsd:long .
+
+dbr:Yancheng a lab5:City ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "33.3936"^^xsd:float ;
+    lab5:longitude "120.1339"^^xsd:float ;
+    lab5:name "Yancheng"^^xsd:string ;
+    lab5:name_ascii "Yancheng"^^xsd:string ;
+    lab5:population "7260240"^^xsd:long .
+
+dbr:Yantai a lab5:City ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "37.3997"^^xsd:float ;
+    lab5:longitude "121.2664"^^xsd:float ;
+    lab5:name "Yantai"^^xsd:string ;
+    lab5:name_ascii "Yantai"^^xsd:string ;
+    lab5:population "6516900"^^xsd:long .
+
+dbr:Yichun a lab5:City ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "27.8041"^^xsd:float ;
+    lab5:longitude "114.383"^^xsd:float ;
+    lab5:name "Yichun"^^xsd:string ;
+    lab5:name_ascii "Yichun"^^xsd:string ;
+    lab5:population "6048700"^^xsd:long .
+
+dbr:Zhanjiang a lab5:City ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "21.1967"^^xsd:float ;
+    lab5:longitude "110.4031"^^xsd:float ;
+    lab5:name "Zhanjiang"^^xsd:string ;
+    lab5:name_ascii "Zhanjiang"^^xsd:string ;
+    lab5:population "6900000"^^xsd:long .
+
+dbr:Zhengzhou a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:isFirstLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "34.7492"^^xsd:float ;
+    lab5:longitude "113.6605"^^xsd:float ;
+    lab5:name "Zhengzhou"^^xsd:string ;
+    lab5:name_ascii "Zhengzhou"^^xsd:string ;
+    lab5:population "7005000"^^xsd:long .
+
+dbr:Zhoukou a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:isSecondLevelAdminCapitalOf dbr:China ;
+    lab5:latitude "33.625"^^xsd:float ;
+    lab5:longitude "114.6418"^^xsd:float ;
+    lab5:name "Zhoukou"^^xsd:string ;
+    lab5:name_ascii "Zhoukou"^^xsd:string ;
+    lab5:population "9901000"^^xsd:long .
+
+dbr:Zhumadian a lab5:City ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "32.9773"^^xsd:float ;
+    lab5:longitude "114.0253"^^xsd:float ;
+    lab5:name "Zhumadian"^^xsd:string ;
+    lab5:name_ascii "Zhumadian"^^xsd:string ;
+    lab5:population "7640000"^^xsd:long .
+
+dbr:Zunyi a lab5:City ;
+    lab5:admin_name "Guizhou"^^xsd:string ;
+    lab5:cityIsLocatedIn dbr:China ;
+    lab5:latitude "27.705"^^xsd:float ;
+    lab5:longitude "106.9336"^^xsd:float ;
+    lab5:name "Zunyi"^^xsd:string ;
+    lab5:name_ascii "Zunyi"^^xsd:string ;
+    lab5:population "6127009"^^xsd:long .
+
+dbr:Angola a lab5:Country ;
+    lab5:iso2code "AO"^^xsd:string ;
+    lab5:iso3code "AGO"^^xsd:string ;
+    lab5:name "Angola"^^xsd:string .
+
+dbr:Argentina a lab5:Country ;
+    lab5:iso2code "AR"^^xsd:string ;
+    lab5:iso3code "ARG"^^xsd:string ;
+    lab5:name "Argentina"^^xsd:string .
+
+dbr:Bangladesh a lab5:Country ;
+    lab5:iso2code "BD"^^xsd:string ;
+    lab5:iso3code "BGD"^^xsd:string ;
+    lab5:name "Bangladesh"^^xsd:string .
+
+dbr:British_Hong_Kong a lab5:City,
+        lab5:Country ;
+    lab5:cityIsLocatedIn dbr:British_Hong_Kong ;
+    lab5:iso2code "HK"^^xsd:string ;
+    lab5:iso3code "HKG"^^xsd:string ;
+    lab5:latitude "22.305"^^xsd:float ;
+    lab5:longitude "114.185"^^xsd:float ;
+    lab5:name "Hong Kong"^^xsd:string ;
+    lab5:name_ascii "Hong Kong"^^xsd:string ;
+    lab5:population "7347000"^^xsd:long .
+
+dbr:Chile a lab5:Country ;
+    lab5:iso2code "CL"^^xsd:string ;
+    lab5:iso3code "CHL"^^xsd:string ;
+    lab5:name "Chile"^^xsd:string .
+
+dbr:Colombia a lab5:Country ;
+    lab5:iso2code "CO"^^xsd:string ;
+    lab5:iso3code "COL"^^xsd:string ;
+    lab5:name "Colombia"^^xsd:string .
+
+dbr:Egypt a lab5:Country ;
+    lab5:iso2code "EG"^^xsd:string ;
+    lab5:iso3code "EGY"^^xsd:string ;
+    lab5:name "Egypt"^^xsd:string .
+
+dbr:France a lab5:Country ;
+    lab5:iso2code "FR"^^xsd:string ;
+    lab5:iso3code "FRA"^^xsd:string ;
+    lab5:name "France"^^xsd:string .
+
+dbr:Indonesia a lab5:Country ;
+    lab5:iso2code "ID"^^xsd:string ;
+    lab5:iso3code "IDN"^^xsd:string ;
+    lab5:name "Indonesia"^^xsd:string .
+
+dbr:Kinshasa a lab5:City,
+        lab5:Country ;
+    lab5:admin_name "Kinshasa"^^xsd:string ;
+    lab5:isCapitalOf dbr:Kinshasa ;
+    lab5:iso2code "CD"^^xsd:string ;
+    lab5:iso3code "COD"^^xsd:string ;
+    lab5:latitude "-4.3317"^^xsd:float ;
+    lab5:longitude "15.3139"^^xsd:float ;
+    lab5:name "Congo (Kinshasa)"^^xsd:string,
+        "Kinshasa"^^xsd:string ;
+    lab5:name_ascii "Kinshasa"^^xsd:string ;
+    lab5:population "13528000"^^xsd:long .
+
+dbr:Malaysia a lab5:Country ;
+    lab5:iso2code "MY"^^xsd:string ;
+    lab5:iso3code "MYS"^^xsd:string ;
+    lab5:name "Malaysia"^^xsd:string .
+
+dbr:Mexico a lab5:Country ;
+    lab5:iso2code "MX"^^xsd:string ;
+    lab5:iso3code "MEX"^^xsd:string ;
+    lab5:name "Mexico"^^xsd:string .
+
+dbr:Peru a lab5:Country ;
+    lab5:iso2code "PE"^^xsd:string ;
+    lab5:iso3code "PER"^^xsd:string ;
+    lab5:name "Peru"^^xsd:string .
+
+dbr:Philippines a lab5:Country ;
+    lab5:iso2code "PH"^^xsd:string ;
+    lab5:iso3code "PHL"^^xsd:string ;
+    lab5:name "Philippines"^^xsd:string .
+
+dbr:Russia a lab5:Country ;
+    lab5:iso2code "RU"^^xsd:string ;
+    lab5:iso3code "RUS"^^xsd:string ;
+    lab5:name "Russia"^^xsd:string .
+
+dbr:Saudi_Arabia a lab5:Country ;
+    lab5:iso2code "SA"^^xsd:string ;
+    lab5:iso3code "SAU"^^xsd:string ;
+    lab5:name "Saudi Arabia"^^xsd:string .
+
+dbr:South_Korea a lab5:Country ;
+    lab5:iso2code "KR"^^xsd:string ;
+    lab5:iso3code "KOR"^^xsd:string ;
+    lab5:name "Korea, South"^^xsd:string .
+
+dbr:Sudan a lab5:Country ;
+    lab5:iso2code "SD"^^xsd:string ;
+    lab5:iso3code "SDN"^^xsd:string ;
+    lab5:name "Sudan"^^xsd:string .
+
+dbr:Tanzania a lab5:Country ;
+    lab5:iso2code "TZ"^^xsd:string ;
+    lab5:iso3code "TZA"^^xsd:string ;
+    lab5:name "Tanzania"^^xsd:string .
+
+dbr:Tehran a lab5:City,
+        lab5:Country ;
+    lab5:admin_name "Tehrān"^^xsd:string ;
+    lab5:isCapitalOf dbr:Tehran ;
+    lab5:iso2code "IR"^^xsd:string ;
+    lab5:iso3code "IRN"^^xsd:string ;
+    lab5:latitude "35.7"^^xsd:float ;
+    lab5:longitude "51.4167"^^xsd:float ;
+    lab5:name "Iran"^^xsd:string,
+        "Tehran"^^xsd:string ;
+    lab5:name_ascii "Tehran"^^xsd:string ;
+    lab5:population "13633000"^^xsd:long .
+
+dbr:Thailand a lab5:Country ;
+    lab5:iso2code "TH"^^xsd:string ;
+    lab5:iso3code "THA"^^xsd:string ;
+    lab5:name "Thailand"^^xsd:string .
+
+dbr:Turkey a lab5:Country ;
+    lab5:iso2code "TR"^^xsd:string ;
+    lab5:iso3code "TUR"^^xsd:string ;
+    lab5:name "Turkey"^^xsd:string .
+
+dbr:United_Kingdom a lab5:Country ;
+    lab5:iso2code "GB"^^xsd:string ;
+    lab5:iso3code "GBR"^^xsd:string ;
+    lab5:name "United Kingdom"^^xsd:string .
+
+dbr:Brazil a lab5:Country ;
+    lab5:iso2code "BR"^^xsd:string ;
+    lab5:iso3code "BRA"^^xsd:string ;
+    lab5:name "Brazil"^^xsd:string .
+
+dbr:Nigeria a lab5:Country ;
+    lab5:iso2code "NG"^^xsd:string ;
+    lab5:iso3code "NGA"^^xsd:string ;
+    lab5:name "Nigeria"^^xsd:string .
+
+dbr:Pakistan a lab5:Country ;
+    lab5:iso2code "PK"^^xsd:string ;
+    lab5:iso3code "PAK"^^xsd:string ;
+    lab5:name "Pakistan"^^xsd:string .
+
+dbr:Vietnam a lab5:Country ;
+    lab5:iso2code "VN"^^xsd:string ;
+    lab5:iso3code "VNM"^^xsd:string ;
+    lab5:name "Vietnam"^^xsd:string .
+
+dbr:Japan a lab5:Country ;
+    lab5:iso2code "JP"^^xsd:string ;
+    lab5:iso3code "JPN"^^xsd:string ;
+    lab5:name "Japan"^^xsd:string .
+
+dbr:United_States a lab5:Country ;
+    lab5:iso2code "US"^^xsd:string ;
+    lab5:iso3code "USA"^^xsd:string ;
+    lab5:name "United States"^^xsd:string .
+
+dbr:India a lab5:Country ;
+    lab5:iso2code "IN"^^xsd:string ;
+    lab5:iso3code "IND"^^xsd:string ;
+    lab5:name "India"^^xsd:string .
+
+dbr:China a lab5:Country ;
+    lab5:iso2code "CN"^^xsd:string ;
+    lab5:iso3code "CHN"^^xsd:string ;
+    lab5:name "China"^^xsd:string .
+

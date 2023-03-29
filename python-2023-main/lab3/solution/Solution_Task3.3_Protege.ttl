@@ -1,0 +1,159 @@
+@prefix : <http://www.example.org/university/london/city#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix city: <http://www.example.org/university/london/city#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.example.org/university/london/city#> .
+
+<http://www.example.org/university/london/city#> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.example.org/university/london/city#startDate
+city:startDate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.example.org/university/london/city#year
+city:year rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.example.org/university/london/city#speaks
+city:speaks rdf:type owl:ObjectProperty .
+
+
+###  http://www.example.org/university/london/city#teaches
+city:teaches rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/birthPlace
+dbo:birthPlace rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/locationCountry
+dbo:locationCountry rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/nationality
+dbo:nationality rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/property/employer
+dbp:employer rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.example.org/university/london/city#Module
+city:Module rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/City
+dbo:City rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Country
+dbo:Country rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Language
+dbo:Language rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/University
+dbo:University rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/resource/Castellón_de_la_Plana
+<http://dbpedia.org/resource/Castellón_de_la_Plana> rdf:type owl:NamedIndividual ,
+                                                             dbo:City ;
+                                                    dbo:locationCountry <http://dbpedia.org/resource/Spain> .
+
+
+###  http://dbpedia.org/resource/English_language
+<http://dbpedia.org/resource/English_language> rdf:type owl:NamedIndividual ,
+                                                        dbo:Language .
+
+
+###  http://dbpedia.org/resource/Italian_language
+<http://dbpedia.org/resource/Italian_language> rdf:type owl:NamedIndividual ,
+                                                        dbo:Language .
+
+
+###  http://dbpedia.org/resource/Spain
+<http://dbpedia.org/resource/Spain> rdf:type owl:NamedIndividual ,
+                                             dbo:Country .
+
+
+###  http://dbpedia.org/resource/Spanish_language
+<http://dbpedia.org/resource/Spanish_language> rdf:type owl:NamedIndividual ,
+                                                        dbo:Language .
+
+
+###  http://dbpedia.org/resource/City,_University_of_London
+<http://dbpedia.org/resource/City,_University_of_London> rdf:type owl:NamedIndividual ,
+                                                                  dbo:University .
+
+
+###  http://www.example.org/university/london/city#ernesto
+city:ernesto rdf:type owl:NamedIndividual ,
+                      foaf:Person ;
+             city:speaks <http://dbpedia.org/resource/English_language> ,
+                         <http://dbpedia.org/resource/Italian_language> ,
+                         <http://dbpedia.org/resource/Spanish_language> ;
+             city:teaches city:inm713 ;
+             dbo:birthPlace <http://dbpedia.org/resource/Castellón_de_la_Plana> ;
+             dbp:employer <http://dbpedia.org/resource/City,_University_of_London> ;
+             foaf:name "Ernesto Jimenez-Ruiz"^^xsd:string .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource city:ernesto ;
+   owl:annotatedProperty city:teaches ;
+   owl:annotatedTarget city:inm713 ;
+   city:year "2021" ;
+   rdfs:comment "Given the academic year 2021."@en
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource city:ernesto ;
+   owl:annotatedProperty dbp:employer ;
+   owl:annotatedTarget <http://dbpedia.org/resource/City,_University_of_London> ;
+   city:startDate "2019-09-23T00:00:00"^^xsd:dateTime
+ ] .
+
+
+###  http://www.example.org/university/london/city#inm713
+city:inm713 rdf:type owl:NamedIndividual ,
+                     city:Module .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
