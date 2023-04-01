@@ -1,0 +1,4546 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix lab5: <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty ;
+    owl:sameAs dc:creator .
+
+lab5: a owl:Ontology ;
+    dc:creator "Ernesto Jimenez-Ruiz"^^xsd:string ;
+    owl:sameAs lab5: .
+
+lab5:population owl:sameAs lab5:population .
+
+rdf:HTML a rdfs:Datatype ;
+    owl:sameAs rdf:HTML .
+
+rdf:LangString a rdfs:Datatype ;
+    owl:sameAs rdf:LangString .
+
+rdf:PlainLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:PlainLiteral .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:XMLLiteral .
+
+rdf:type owl:sameAs rdf:type .
+
+rdfs:Literal a rdfs:Datatype ;
+    owl:sameAs rdfs:Literal .
+
+rdfs:comment a owl:AnnotationProperty ;
+    owl:sameAs rdfs:comment .
+
+rdfs:domain owl:sameAs rdfs:domain .
+
+rdfs:isDefinedBy a owl:AnnotationProperty ;
+    owl:sameAs rdfs:isDefinedBy .
+
+rdfs:label a owl:AnnotationProperty ;
+    owl:sameAs rdfs:label .
+
+rdfs:range owl:sameAs rdfs:range .
+
+rdfs:seeAlso a owl:AnnotationProperty ;
+    owl:sameAs rdfs:seeAlso .
+
+rdfs:subClassOf owl:sameAs rdfs:subClassOf .
+
+rdfs:subPropertyOf owl:sameAs rdfs:subPropertyOf .
+
+xsd:NCName a rdfs:Datatype ;
+    owl:sameAs xsd:NCName .
+
+xsd:NMTOKEN a rdfs:Datatype ;
+    owl:sameAs xsd:NMTOKEN .
+
+xsd:Name a rdfs:Datatype ;
+    owl:sameAs xsd:Name .
+
+xsd:anyURI a rdfs:Datatype ;
+    owl:sameAs xsd:anyURI .
+
+xsd:base64Binary a rdfs:Datatype ;
+    owl:sameAs xsd:base64Binary .
+
+xsd:boolean a rdfs:Datatype ;
+    owl:sameAs xsd:boolean .
+
+xsd:byte a rdfs:Datatype ;
+    owl:sameAs xsd:byte .
+
+xsd:date a rdfs:Datatype ;
+    owl:sameAs xsd:date .
+
+xsd:dateTime a rdfs:Datatype ;
+    owl:sameAs xsd:dateTime .
+
+xsd:dateTimeStamp a rdfs:Datatype ;
+    owl:sameAs xsd:dateTimeStamp .
+
+xsd:double a rdfs:Datatype ;
+    owl:sameAs xsd:double .
+
+xsd:hexBinary a rdfs:Datatype ;
+    owl:sameAs xsd:hexBinary .
+
+xsd:int a rdfs:Datatype ;
+    owl:sameAs xsd:int .
+
+xsd:language a rdfs:Datatype ;
+    owl:sameAs xsd:language .
+
+xsd:negativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:negativeInteger .
+
+xsd:nonNegativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonNegativeInteger .
+
+xsd:nonPositiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonPositiveInteger .
+
+xsd:normalizedString a rdfs:Datatype ;
+    owl:sameAs xsd:normalizedString .
+
+xsd:positiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:positiveInteger .
+
+xsd:short a rdfs:Datatype ;
+    owl:sameAs xsd:short .
+
+xsd:time a rdfs:Datatype ;
+    owl:sameAs xsd:time .
+
+xsd:token a rdfs:Datatype ;
+    owl:sameAs xsd:token .
+
+xsd:unsignedByte a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedByte .
+
+xsd:unsignedInt a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedInt .
+
+xsd:unsignedLong a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedLong .
+
+xsd:unsignedShort a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedShort .
+
+owl:backwardCompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:backwardCompatibleWith .
+
+owl:deprecated a owl:AnnotationProperty ;
+    owl:sameAs owl:deprecated .
+
+owl:disjointWith owl:sameAs owl:disjointWith .
+
+owl:equivalentClass owl:sameAs owl:equivalentClass .
+
+owl:equivalentProperty owl:sameAs owl:equivalentProperty .
+
+owl:incompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:incompatibleWith .
+
+owl:inverseOf owl:sameAs owl:inverseOf .
+
+owl:onProperty owl:sameAs owl:onProperty .
+
+owl:priorVersion a owl:AnnotationProperty ;
+    owl:sameAs owl:priorVersion .
+
+owl:sameAs owl:sameAs owl:sameAs .
+
+owl:someValuesFrom owl:sameAs owl:someValuesFrom .
+
+owl:versionInfo a owl:AnnotationProperty ;
+    owl:sameAs owl:versionInfo .
+
+lab5:baoding a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "38.8671"^^xsd:float ;
+    lab5:longitude "115.4845"^^xsd:float ;
+    lab5:name "Baoding"^^xsd:string ;
+    lab5:name_ascii "Baoding"^^xsd:string ;
+    lab5:population "10700000"^^xsd:long ;
+    owl:sameAs lab5:baoding .
+
+lab5:bijie a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Guizhou"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "27.3019"^^xsd:float ;
+    lab5:longitude "105.2863"^^xsd:float ;
+    lab5:name "Bijie"^^xsd:string ;
+    lab5:name_ascii "Bijie"^^xsd:string ;
+    lab5:population "6537498"^^xsd:long ;
+    owl:sameAs lab5:bijie .
+
+lab5:cangzhou a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "38.3037"^^xsd:float ;
+    lab5:longitude "116.8452"^^xsd:float ;
+    lab5:name "Cangzhou"^^xsd:string ;
+    lab5:name_ascii "Cangzhou"^^xsd:string ;
+    lab5:population "6800000"^^xsd:long ;
+    owl:sameAs lab5:cangzhou .
+
+lab5:chicago a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Illinois"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:united_states ;
+    lab5:isLocatedIn lab5:united_states ;
+    lab5:latitude "41.8373"^^xsd:float ;
+    lab5:longitude "-87.6862"^^xsd:float ;
+    lab5:name "Chicago"^^xsd:string ;
+    lab5:name_ascii "Chicago"^^xsd:string ;
+    lab5:population "8604203"^^xsd:long ;
+    owl:sameAs lab5:chicago .
+
+lab5:fuyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "32.8986"^^xsd:float ;
+    lab5:longitude "115.8045"^^xsd:float ;
+    lab5:name "Fuyang"^^xsd:string ;
+    lab5:name_ascii "Fuyang"^^xsd:string ;
+    lab5:population "8360000"^^xsd:long ;
+    owl:sameAs lab5:fuyang .
+
+lab5:handan a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "36.6116"^^xsd:float ;
+    lab5:longitude "114.4894"^^xsd:float ;
+    lab5:name "Handan"^^xsd:string ;
+    lab5:name_ascii "Handan"^^xsd:string ;
+    lab5:population "8499000"^^xsd:long ;
+    owl:sameAs lab5:handan .
+
+lab5:hengyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "26.8968"^^xsd:float ;
+    lab5:longitude "112.5857"^^xsd:float ;
+    lab5:name "Hengyang"^^xsd:string ;
+    lab5:name_ascii "Hengyang"^^xsd:string ;
+    lab5:population "7148344"^^xsd:long ;
+    owl:sameAs lab5:hengyang .
+
+lab5:jining a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "35.4"^^xsd:float ;
+    lab5:longitude "116.5667"^^xsd:float ;
+    lab5:name "Jining"^^xsd:string ;
+    lab5:name_ascii "Jining"^^xsd:string ;
+    lab5:population "8023000"^^xsd:long ;
+    owl:sameAs lab5:jining .
+
+lab5:linyi a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "35.0606"^^xsd:float ;
+    lab5:longitude "118.3425"^^xsd:float ;
+    lab5:name "Linyi"^^xsd:string ;
+    lab5:name_ascii "Linyi"^^xsd:string ;
+    lab5:population "10820000"^^xsd:long ;
+    owl:sameAs lab5:linyi .
+
+lab5:los_angeles a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "California"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:united_states ;
+    lab5:isLocatedIn lab5:united_states ;
+    lab5:latitude "34.1139"^^xsd:float ;
+    lab5:longitude "-118.4068"^^xsd:float ;
+    lab5:name "Los Angeles"^^xsd:string ;
+    lab5:name_ascii "Los Angeles"^^xsd:string ;
+    lab5:population "12750807"^^xsd:long ;
+    owl:sameAs lab5:los_angeles .
+
+lab5:luoyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "34.6587"^^xsd:float ;
+    lab5:longitude "112.4245"^^xsd:float ;
+    lab5:name "Luoyang"^^xsd:string ;
+    lab5:name_ascii "Luoyang"^^xsd:string ;
+    lab5:population "6549941"^^xsd:long ;
+    owl:sameAs lab5:luoyang .
+
+lab5:miami a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Florida"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:united_states ;
+    lab5:isLocatedIn lab5:united_states ;
+    lab5:latitude "25.7839"^^xsd:float ;
+    lab5:longitude "-80.2102"^^xsd:float ;
+    lab5:name "Miami"^^xsd:string ;
+    lab5:name_ascii "Miami"^^xsd:string ;
+    lab5:population "6445545"^^xsd:long ;
+    owl:sameAs lab5:miami .
+
+lab5:nanyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "32.9987"^^xsd:float ;
+    lab5:longitude "112.5292"^^xsd:float ;
+    lab5:name "Nanyang"^^xsd:string ;
+    lab5:name_ascii "Nanyang"^^xsd:string ;
+    lab5:population "12010000"^^xsd:long ;
+    owl:sameAs lab5:nanyang .
+
+lab5:new_york a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "New York"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:united_states ;
+    lab5:isLocatedIn lab5:united_states ;
+    lab5:latitude "40.6943"^^xsd:float ;
+    lab5:longitude "-73.9249"^^xsd:float ;
+    lab5:name "New York"^^xsd:string ;
+    lab5:name_ascii "New York"^^xsd:string ;
+    lab5:population "18713220"^^xsd:long ;
+    owl:sameAs lab5:new_york .
+
+lab5:oxford a _:ub1bL150C26,
+        dbo:City,
+        owl:NamedIndividual,
+        owl:Thing ;
+    dbo:populationTotal "177676"^^xsd:long ;
+    lab5:cityIsLocatedIn lab5:united_kingdom ;
+    lab5:isLocatedIn lab5:united_kingdom ;
+    lab5:latitude "51.751163"^^xsd:float ;
+    lab5:longitude "-1.2546656"^^xsd:float ;
+    lab5:name "Oxford" ;
+    lab5:name_ascii "Oxford" ;
+    owl:sameAs lab5:oxford .
+
+lab5:pune a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Mahārāshtra"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "18.5196"^^xsd:float ;
+    lab5:longitude "73.8553"^^xsd:float ;
+    lab5:name "Pune"^^xsd:string ;
+    lab5:name_ascii "Pune"^^xsd:string ;
+    lab5:population "7764000"^^xsd:long ;
+    owl:sameAs lab5:pune .
+
+lab5:shaoyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "27.2418"^^xsd:float ;
+    lab5:longitude "111.4725"^^xsd:float ;
+    lab5:name "Shaoyang"^^xsd:string ;
+    lab5:name_ascii "Shaoyang"^^xsd:string ;
+    lab5:population "7071000"^^xsd:long ;
+    owl:sameAs lab5:shaoyang .
+
+lab5:tangshan a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "39.6292"^^xsd:float ;
+    lab5:longitude "118.1742"^^xsd:float ;
+    lab5:name "Tangshan"^^xsd:string ;
+    lab5:name_ascii "Tangshan"^^xsd:string ;
+    lab5:population "7100000"^^xsd:long ;
+    owl:sameAs lab5:tangshan .
+
+lab5:weifang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "36.7167"^^xsd:float ;
+    lab5:longitude "119.1"^^xsd:float ;
+    lab5:name "Weifang"^^xsd:string ;
+    lab5:name_ascii "Weifang"^^xsd:string ;
+    lab5:population "9373000"^^xsd:long ;
+    owl:sameAs lab5:weifang .
+
+lab5:xinyang a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "32.1264"^^xsd:float ;
+    lab5:longitude "114.0672"^^xsd:float ;
+    lab5:name "Xinyang"^^xsd:string ;
+    lab5:name_ascii "Xinyang"^^xsd:string ;
+    lab5:population "6634000"^^xsd:long ;
+    owl:sameAs lab5:xinyang .
+
+lab5:yantai a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "37.3997"^^xsd:float ;
+    lab5:longitude "121.2664"^^xsd:float ;
+    lab5:name "Yantai"^^xsd:string ;
+    lab5:name_ascii "Yantai"^^xsd:string ;
+    lab5:population "6516900"^^xsd:long ;
+    owl:sameAs lab5:yantai .
+
+lab5:zhumadian a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "32.9773"^^xsd:float ;
+    lab5:longitude "114.0253"^^xsd:float ;
+    lab5:name "Zhumadian"^^xsd:string ;
+    lab5:name_ascii "Zhumadian"^^xsd:string ;
+    lab5:population "7640000"^^xsd:long ;
+    owl:sameAs lab5:zhumadian .
+
+lab5:zunyi a _:ub1bL150C26,
+        dbo:City,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Guizhou"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "27.705"^^xsd:float ;
+    lab5:longitude "106.9336"^^xsd:float ;
+    lab5:name "Zunyi"^^xsd:string ;
+    lab5:name_ascii "Zunyi"^^xsd:string ;
+    lab5:population "6127009"^^xsd:long ;
+    owl:sameAs lab5:zunyi .
+
+owl:Ontology owl:sameAs owl:Ontology .
+
+"-118.4068"^^xsd:float a xsd:float ;
+    owl:sameAs "-118.4068"^^xsd:float .
+
+"-99.1333"^^xsd:float a xsd:float ;
+    owl:sameAs "-99.1333"^^xsd:float .
+
+"-87.6862"^^xsd:float a xsd:float ;
+    owl:sameAs "-87.6862"^^xsd:float .
+
+"-80.2102"^^xsd:float a xsd:float ;
+    owl:sameAs "-80.2102"^^xsd:float .
+
+"-77.0333"^^xsd:float a xsd:float ;
+    owl:sameAs "-77.0333"^^xsd:float .
+
+"-74.0705"^^xsd:float a xsd:float ;
+    owl:sameAs "-74.0705"^^xsd:float .
+
+"-73.9249"^^xsd:float a xsd:float ;
+    owl:sameAs "-73.9249"^^xsd:float .
+
+"-70.6667"^^xsd:float a xsd:float ;
+    owl:sameAs "-70.6667"^^xsd:float .
+
+"-58.3819"^^xsd:float a xsd:float ;
+    owl:sameAs "-58.3819"^^xsd:float .
+
+"-46.6339"^^xsd:float a xsd:float ;
+    owl:sameAs "-46.6339"^^xsd:float .
+
+"-43.1964"^^xsd:float a xsd:float ;
+    owl:sameAs "-43.1964"^^xsd:float .
+
+"-34.5997"^^xsd:float a xsd:float ;
+    owl:sameAs "-34.5997"^^xsd:float .
+
+"-33.45"^^xsd:float a xsd:float ;
+    owl:sameAs "-33.45"^^xsd:float .
+
+"-23.5504"^^xsd:float a xsd:float ;
+    owl:sameAs "-23.5504"^^xsd:float .
+
+"-22.9083"^^xsd:float a xsd:float ;
+    owl:sameAs "-22.9083"^^xsd:float .
+
+"-12.05"^^xsd:float a xsd:float ;
+    owl:sameAs "-12.05"^^xsd:float .
+
+"-8.8383"^^xsd:float a xsd:float ;
+    owl:sameAs "-8.8383"^^xsd:float .
+
+"-6.8"^^xsd:float a xsd:float ;
+    owl:sameAs "-6.8"^^xsd:float .
+
+"-6.2146"^^xsd:float a xsd:float ;
+    owl:sameAs "-6.2146"^^xsd:float .
+
+"-4.3317"^^xsd:float a xsd:float ;
+    owl:sameAs "-4.3317"^^xsd:float .
+
+"-1.2546656"^^xsd:float a xsd:float ;
+    owl:sameAs "-1.2546656"^^xsd:float .
+
+"-0.1275"^^xsd:float a xsd:float ;
+    owl:sameAs "-0.1275"^^xsd:float .
+
+"2.3522"^^xsd:float a xsd:float ;
+    owl:sameAs "2.3522"^^xsd:float .
+
+"3.1478"^^xsd:float a xsd:float ;
+    owl:sameAs "3.1478"^^xsd:float .
+
+"3.4"^^xsd:float a xsd:float ;
+    owl:sameAs "3.4"^^xsd:float .
+
+"4.6126"^^xsd:float a xsd:float ;
+    owl:sameAs "4.6126"^^xsd:float .
+
+"6.1667"^^xsd:float a xsd:float ;
+    owl:sameAs "6.1667"^^xsd:float .
+
+"6.45"^^xsd:float a xsd:float ;
+    owl:sameAs "6.45"^^xsd:float .
+
+"6.7833"^^xsd:float a xsd:float ;
+    owl:sameAs "6.7833"^^xsd:float .
+
+"10.8167"^^xsd:float a xsd:float ;
+    owl:sameAs "10.8167"^^xsd:float .
+
+"12.9699"^^xsd:float a xsd:float ;
+    owl:sameAs "12.9699"^^xsd:float .
+
+"13.0825"^^xsd:float a xsd:float ;
+    owl:sameAs "13.0825"^^xsd:float .
+
+"13.2344"^^xsd:float a xsd:float ;
+    owl:sameAs "13.2344"^^xsd:float .
+
+"13.75"^^xsd:float a xsd:float ;
+    owl:sameAs "13.75"^^xsd:float .
+
+"14.5958"^^xsd:float a xsd:float ;
+    owl:sameAs "14.5958"^^xsd:float .
+
+"15.3139"^^xsd:float a xsd:float ;
+    owl:sameAs "15.3139"^^xsd:float .
+
+"15.6031"^^xsd:float a xsd:float ;
+    owl:sameAs "15.6031"^^xsd:float .
+
+"17.3667"^^xsd:float a xsd:float ;
+    owl:sameAs "17.3667"^^xsd:float .
+
+"18.5196"^^xsd:float a xsd:float ;
+    owl:sameAs "18.5196"^^xsd:float .
+
+"18.9667"^^xsd:float a xsd:float ;
+    owl:sameAs "18.9667"^^xsd:float .
+
+"19.4333"^^xsd:float a xsd:float ;
+    owl:sameAs "19.4333"^^xsd:float .
+
+"21.0245"^^xsd:float a xsd:float ;
+    owl:sameAs "21.0245"^^xsd:float .
+
+"21.1967"^^xsd:float a xsd:float ;
+    owl:sameAs "21.1967"^^xsd:float .
+
+"21.6618"^^xsd:float a xsd:float ;
+    owl:sameAs "21.6618"^^xsd:float .
+
+"22.305"^^xsd:float a xsd:float ;
+    owl:sameAs "22.305"^^xsd:float .
+
+"22.535"^^xsd:float a xsd:float ;
+    owl:sameAs "22.535"^^xsd:float .
+
+"22.5411"^^xsd:float a xsd:float ;
+    owl:sameAs "22.5411"^^xsd:float .
+
+"22.8192"^^xsd:float a xsd:float ;
+    owl:sameAs "22.8192"^^xsd:float .
+
+"23.0292"^^xsd:float a xsd:float ;
+    owl:sameAs "23.0292"^^xsd:float .
+
+"23.03"^^xsd:float a xsd:float ;
+    owl:sameAs "23.03"^^xsd:float .
+
+"23.0475"^^xsd:float a xsd:float ;
+    owl:sameAs "23.0475"^^xsd:float .
+
+"23.1288"^^xsd:float a xsd:float ;
+    owl:sameAs "23.1288"^^xsd:float .
+
+"23.7161"^^xsd:float a xsd:float ;
+    owl:sameAs "23.7161"^^xsd:float .
+
+"24.65"^^xsd:float a xsd:float ;
+    owl:sameAs "24.65"^^xsd:float .
+
+"24.86"^^xsd:float a xsd:float ;
+    owl:sameAs "24.86"^^xsd:float .
+
+"24.9139"^^xsd:float a xsd:float ;
+    owl:sameAs "24.9139"^^xsd:float .
+
+"25.0433"^^xsd:float a xsd:float ;
+    owl:sameAs "25.0433"^^xsd:float .
+
+"25.7839"^^xsd:float a xsd:float ;
+    owl:sameAs "25.7839"^^xsd:float .
+
+"25.8292"^^xsd:float a xsd:float ;
+    owl:sameAs "25.8292"^^xsd:float .
+
+"26.8968"^^xsd:float a xsd:float ;
+    owl:sameAs "26.8968"^^xsd:float .
+
+"27.2418"^^xsd:float a xsd:float ;
+    owl:sameAs "27.2418"^^xsd:float .
+
+"27.3019"^^xsd:float a xsd:float ;
+    owl:sameAs "27.3019"^^xsd:float .
+
+"27.705"^^xsd:float a xsd:float ;
+    owl:sameAs "27.705"^^xsd:float .
+
+"27.8041"^^xsd:float a xsd:float ;
+    owl:sameAs "27.8041"^^xsd:float .
+
+"28.1987"^^xsd:float a xsd:float ;
+    owl:sameAs "28.1987"^^xsd:float .
+
+"28.4419"^^xsd:float a xsd:float ;
+    owl:sameAs "28.4419"^^xsd:float .
+
+"28.66"^^xsd:float a xsd:float ;
+    owl:sameAs "28.66"^^xsd:float .
+
+"28.9603"^^xsd:float a xsd:float ;
+    owl:sameAs "28.9603"^^xsd:float .
+
+"29.55"^^xsd:float a xsd:float ;
+    owl:sameAs "29.55"^^xsd:float .
+
+"29.875"^^xsd:float a xsd:float ;
+    owl:sameAs "29.875"^^xsd:float .
+
+"30.0561"^^xsd:float a xsd:float ;
+    owl:sameAs "30.0561"^^xsd:float .
+
+"30.25"^^xsd:float a xsd:float ;
+    owl:sameAs "30.25"^^xsd:float .
+
+"30.45"^^xsd:float a xsd:float ;
+    owl:sameAs "30.45"^^xsd:float .
+
+"30.5872"^^xsd:float a xsd:float ;
+    owl:sameAs "30.5872"^^xsd:float .
+
+"30.6636"^^xsd:float a xsd:float ;
+    owl:sameAs "30.6636"^^xsd:float .
+
+"30.7991"^^xsd:float a xsd:float ;
+    owl:sameAs "30.7991"^^xsd:float .
+
+"31.1667"^^xsd:float a xsd:float ;
+    owl:sameAs "31.1667"^^xsd:float .
+
+"31.2394"^^xsd:float a xsd:float ;
+    owl:sameAs "31.2394"^^xsd:float .
+
+"31.5497"^^xsd:float a xsd:float ;
+    owl:sameAs "31.5497"^^xsd:float .
+
+"31.7542"^^xsd:float a xsd:float ;
+    owl:sameAs "31.7542"^^xsd:float .
+
+"31.8639"^^xsd:float a xsd:float ;
+    owl:sameAs "31.8639"^^xsd:float .
+
+"31.9829"^^xsd:float a xsd:float ;
+    owl:sameAs "31.9829"^^xsd:float .
+
+"32.05"^^xsd:float a xsd:float ;
+    owl:sameAs "32.05"^^xsd:float .
+
+"32.1264"^^xsd:float a xsd:float ;
+    owl:sameAs "32.1264"^^xsd:float .
+
+"32.5265"^^xsd:float a xsd:float ;
+    owl:sameAs "32.5265"^^xsd:float .
+
+"32.8986"^^xsd:float a xsd:float ;
+    owl:sameAs "32.8986"^^xsd:float .
+
+"32.9773"^^xsd:float a xsd:float ;
+    owl:sameAs "32.9773"^^xsd:float .
+
+"32.9987"^^xsd:float a xsd:float ;
+    owl:sameAs "32.9987"^^xsd:float .
+
+"33.3936"^^xsd:float a xsd:float ;
+    owl:sameAs "33.3936"^^xsd:float .
+
+"33.625"^^xsd:float a xsd:float ;
+    owl:sameAs "33.625"^^xsd:float .
+
+"34.1139"^^xsd:float a xsd:float ;
+    owl:sameAs "34.1139"^^xsd:float .
+
+"34.261"^^xsd:float a xsd:float ;
+    owl:sameAs "34.261"^^xsd:float .
+
+"34.2667"^^xsd:float a xsd:float ;
+    owl:sameAs "34.2667"^^xsd:float .
+
+"34.6587"^^xsd:float a xsd:float ;
+    owl:sameAs "34.6587"^^xsd:float .
+
+"34.6936"^^xsd:float a xsd:float ;
+    owl:sameAs "34.6936"^^xsd:float .
+
+"34.7492"^^xsd:float a xsd:float ;
+    owl:sameAs "34.7492"^^xsd:float .
+
+"35.0606"^^xsd:float a xsd:float ;
+    owl:sameAs "35.0606"^^xsd:float .
+
+"35.1167"^^xsd:float a xsd:float ;
+    owl:sameAs "35.1167"^^xsd:float .
+
+"35.2333"^^xsd:float a xsd:float ;
+    owl:sameAs "35.2333"^^xsd:float .
+
+"35.4"^^xsd:float a xsd:float ;
+    owl:sameAs "35.4"^^xsd:float .
+
+"35.6897"^^xsd:float a xsd:float ;
+    owl:sameAs "35.6897"^^xsd:float .
+
+"35.7"^^xsd:float a xsd:float ;
+    owl:sameAs "35.7"^^xsd:float .
+
+"36.6116"^^xsd:float a xsd:float ;
+    owl:sameAs "36.6116"^^xsd:float .
+
+"36.7167"^^xsd:float a xsd:float ;
+    owl:sameAs "36.7167"^^xsd:float .
+
+"37.3997"^^xsd:float a xsd:float ;
+    owl:sameAs "37.3997"^^xsd:float .
+
+"37.5833"^^xsd:float a xsd:float ;
+    owl:sameAs "37.5833"^^xsd:float .
+
+"37.6178"^^xsd:float a xsd:float ;
+    owl:sameAs "37.6178"^^xsd:float .
+
+"38.0422"^^xsd:float a xsd:float ;
+    owl:sameAs "38.0422"^^xsd:float .
+
+"38.3037"^^xsd:float a xsd:float ;
+    owl:sameAs "38.3037"^^xsd:float .
+
+"38.8671"^^xsd:float a xsd:float ;
+    owl:sameAs "38.8671"^^xsd:float .
+
+"39.1467"^^xsd:float a xsd:float ;
+    owl:sameAs "39.1467"^^xsd:float .
+
+"39.2833"^^xsd:float a xsd:float ;
+    owl:sameAs "39.2833"^^xsd:float .
+
+"39.6292"^^xsd:float a xsd:float ;
+    owl:sameAs "39.6292"^^xsd:float .
+
+"39.905"^^xsd:float a xsd:float ;
+    owl:sameAs "39.905"^^xsd:float .
+
+"40.6943"^^xsd:float a xsd:float ;
+    owl:sameAs "40.6943"^^xsd:float .
+
+"41.01"^^xsd:float a xsd:float ;
+    owl:sameAs "41.01"^^xsd:float .
+
+"41.8039"^^xsd:float a xsd:float ;
+    owl:sameAs "41.8039"^^xsd:float .
+
+"41.8373"^^xsd:float a xsd:float ;
+    owl:sameAs "41.8373"^^xsd:float .
+
+"43.9"^^xsd:float a xsd:float ;
+    owl:sameAs "43.9"^^xsd:float .
+
+"46.71"^^xsd:float a xsd:float ;
+    owl:sameAs "46.71"^^xsd:float .
+
+"48.8566"^^xsd:float a xsd:float ;
+    owl:sameAs "48.8566"^^xsd:float .
+
+"51.4167"^^xsd:float a xsd:float ;
+    owl:sameAs "51.4167"^^xsd:float .
+
+"51.5072"^^xsd:float a xsd:float ;
+    owl:sameAs "51.5072"^^xsd:float .
+
+"51.751163"^^xsd:float a xsd:float ;
+    owl:sameAs "51.751163"^^xsd:float .
+
+"55.7558"^^xsd:float a xsd:float ;
+    owl:sameAs "55.7558"^^xsd:float .
+
+"67.01"^^xsd:float a xsd:float ;
+    owl:sameAs "67.01"^^xsd:float .
+
+"72.58"^^xsd:float a xsd:float ;
+    owl:sameAs "72.58"^^xsd:float .
+
+"72.8333"^^xsd:float a xsd:float ;
+    owl:sameAs "72.8333"^^xsd:float .
+
+"73.8553"^^xsd:float a xsd:float ;
+    owl:sameAs "73.8553"^^xsd:float .
+
+"74.3436"^^xsd:float a xsd:float ;
+    owl:sameAs "74.3436"^^xsd:float .
+
+"77.23"^^xsd:float a xsd:float ;
+    owl:sameAs "77.23"^^xsd:float .
+
+"77.598"^^xsd:float a xsd:float ;
+    owl:sameAs "77.598"^^xsd:float .
+
+"78.4667"^^xsd:float a xsd:float ;
+    owl:sameAs "78.4667"^^xsd:float .
+
+"80.275"^^xsd:float a xsd:float ;
+    owl:sameAs "80.275"^^xsd:float .
+
+"88.3378"^^xsd:float a xsd:float ;
+    owl:sameAs "88.3378"^^xsd:float .
+
+"90.3961"^^xsd:float a xsd:float ;
+    owl:sameAs "90.3961"^^xsd:float .
+
+"100.5167"^^xsd:float a xsd:float ;
+    owl:sameAs "100.5167"^^xsd:float .
+
+"101.6953"^^xsd:float a xsd:float ;
+    owl:sameAs "101.6953"^^xsd:float .
+
+"102.7061"^^xsd:float a xsd:float ;
+    owl:sameAs "102.7061"^^xsd:float .
+
+"104.0667"^^xsd:float a xsd:float ;
+    owl:sameAs "104.0667"^^xsd:float .
+
+"105.2863"^^xsd:float a xsd:float ;
+    owl:sameAs "105.2863"^^xsd:float .
+
+"105.8412"^^xsd:float a xsd:float ;
+    owl:sameAs "105.8412"^^xsd:float .
+
+"106.0784"^^xsd:float a xsd:float ;
+    owl:sameAs "106.0784"^^xsd:float .
+
+"106.5069"^^xsd:float a xsd:float ;
+    owl:sameAs "106.5069"^^xsd:float .
+
+"106.6333"^^xsd:float a xsd:float ;
+    owl:sameAs "106.6333"^^xsd:float .
+
+"106.8451"^^xsd:float a xsd:float ;
+    owl:sameAs "106.8451"^^xsd:float .
+
+"106.9336"^^xsd:float a xsd:float ;
+    owl:sameAs "106.9336"^^xsd:float .
+
+"108.315"^^xsd:float a xsd:float ;
+    owl:sameAs "108.315"^^xsd:float .
+
+"108.9"^^xsd:float a xsd:float ;
+    owl:sameAs "108.9"^^xsd:float .
+
+"110.4031"^^xsd:float a xsd:float ;
+    owl:sameAs "110.4031"^^xsd:float .
+
+"110.9178"^^xsd:float a xsd:float ;
+    owl:sameAs "110.9178"^^xsd:float .
+
+"111.4725"^^xsd:float a xsd:float ;
+    owl:sameAs "111.4725"^^xsd:float .
+
+"112.4245"^^xsd:float a xsd:float ;
+    owl:sameAs "112.4245"^^xsd:float .
+
+"112.5292"^^xsd:float a xsd:float ;
+    owl:sameAs "112.5292"^^xsd:float .
+
+"112.5857"^^xsd:float a xsd:float ;
+    owl:sameAs "112.5857"^^xsd:float .
+
+"112.9709"^^xsd:float a xsd:float ;
+    owl:sameAs "112.9709"^^xsd:float .
+
+"113.1056"^^xsd:float a xsd:float ;
+    owl:sameAs "113.1056"^^xsd:float .
+
+"113.259"^^xsd:float a xsd:float ;
+    owl:sameAs "113.259"^^xsd:float .
+
+"113.6605"^^xsd:float a xsd:float ;
+    owl:sameAs "113.6605"^^xsd:float .
+
+"113.7493"^^xsd:float a xsd:float ;
+    owl:sameAs "113.7493"^^xsd:float .
+
+"114.0253"^^xsd:float a xsd:float ;
+    owl:sameAs "114.0253"^^xsd:float .
+
+"114.054"^^xsd:float a xsd:float ;
+    owl:sameAs "114.054"^^xsd:float .
+
+"114.0672"^^xsd:float a xsd:float ;
+    owl:sameAs "114.0672"^^xsd:float .
+
+"114.185"^^xsd:float a xsd:float ;
+    owl:sameAs "114.185"^^xsd:float .
+
+"114.2881"^^xsd:float a xsd:float ;
+    owl:sameAs "114.2881"^^xsd:float .
+
+"114.383"^^xsd:float a xsd:float ;
+    owl:sameAs "114.383"^^xsd:float .
+
+"114.4894"^^xsd:float a xsd:float ;
+    owl:sameAs "114.4894"^^xsd:float .
+
+"114.5086"^^xsd:float a xsd:float ;
+    owl:sameAs "114.5086"^^xsd:float .
+
+"114.6418"^^xsd:float a xsd:float ;
+    owl:sameAs "114.6418"^^xsd:float .
+
+"114.875"^^xsd:float a xsd:float ;
+    owl:sameAs "114.875"^^xsd:float .
+
+"114.9336"^^xsd:float a xsd:float ;
+    owl:sameAs "114.9336"^^xsd:float .
+
+"115.4333"^^xsd:float a xsd:float ;
+    owl:sameAs "115.4333"^^xsd:float .
+
+"115.4845"^^xsd:float a xsd:float ;
+    owl:sameAs "115.4845"^^xsd:float .
+
+"115.8045"^^xsd:float a xsd:float ;
+    owl:sameAs "115.8045"^^xsd:float .
+
+"116.3914"^^xsd:float a xsd:float ;
+    owl:sameAs "116.3914"^^xsd:float .
+
+"116.5078"^^xsd:float a xsd:float ;
+    owl:sameAs "116.5078"^^xsd:float .
+
+"116.5667"^^xsd:float a xsd:float ;
+    owl:sameAs "116.5667"^^xsd:float .
+
+"116.8452"^^xsd:float a xsd:float ;
+    owl:sameAs "116.8452"^^xsd:float .
+
+"117.1859"^^xsd:float a xsd:float ;
+    owl:sameAs "117.1859"^^xsd:float .
+
+"117.2056"^^xsd:float a xsd:float ;
+    owl:sameAs "117.2056"^^xsd:float .
+
+"117.2808"^^xsd:float a xsd:float ;
+    owl:sameAs "117.2808"^^xsd:float .
+
+"117.9633"^^xsd:float a xsd:float ;
+    owl:sameAs "117.9633"^^xsd:float .
+
+"118.1742"^^xsd:float a xsd:float ;
+    owl:sameAs "118.1742"^^xsd:float .
+
+"118.3425"^^xsd:float a xsd:float ;
+    owl:sameAs "118.3425"^^xsd:float .
+
+"118.5858"^^xsd:float a xsd:float ;
+    owl:sameAs "118.5858"^^xsd:float .
+
+"118.7667"^^xsd:float a xsd:float ;
+    owl:sameAs "118.7667"^^xsd:float .
+
+"119.1"^^xsd:float a xsd:float ;
+    owl:sameAs "119.1"^^xsd:float .
+
+"120.1339"^^xsd:float a xsd:float ;
+    owl:sameAs "120.1339"^^xsd:float .
+
+"120.1675"^^xsd:float a xsd:float ;
+    owl:sameAs "120.1675"^^xsd:float .
+
+"120.8873"^^xsd:float a xsd:float ;
+    owl:sameAs "120.8873"^^xsd:float .
+
+"120.9772"^^xsd:float a xsd:float ;
+    owl:sameAs "120.9772"^^xsd:float .
+
+"121.2664"^^xsd:float a xsd:float ;
+    owl:sameAs "121.2664"^^xsd:float .
+
+"121.4667"^^xsd:float a xsd:float ;
+    owl:sameAs "121.4667"^^xsd:float .
+
+"121.5492"^^xsd:float a xsd:float ;
+    owl:sameAs "121.5492"^^xsd:float .
+
+"123.4258"^^xsd:float a xsd:float ;
+    owl:sameAs "123.4258"^^xsd:float .
+
+"125.2"^^xsd:float a xsd:float ;
+    owl:sameAs "125.2"^^xsd:float .
+
+"127.0"^^xsd:float a xsd:float ;
+    owl:sameAs "127.0"^^xsd:float .
+
+"135.5019"^^xsd:float a xsd:float ;
+    owl:sameAs "135.5019"^^xsd:float .
+
+"136.9333"^^xsd:float a xsd:float ;
+    owl:sameAs "136.9333"^^xsd:float .
+
+"139.6922"^^xsd:float a xsd:float ;
+    owl:sameAs "139.6922"^^xsd:float .
+
+"177676"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "177676"^^xsd:long .
+
+"6048700"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6048700"^^xsd:long .
+
+"6090000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6090000"^^xsd:long .
+
+"6127009"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6127009"^^xsd:long .
+
+"6183000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6183000"^^xsd:long .
+
+"6250000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6250000"^^xsd:long .
+
+"6445545"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6445545"^^xsd:long .
+
+"6446000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6446000"^^xsd:long .
+
+"6480000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6480000"^^xsd:long .
+
+"6516900"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6516900"^^xsd:long .
+
+"6537498"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6537498"^^xsd:long .
+
+"6549941"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6549941"^^xsd:long .
+
+"6579714"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6579714"^^xsd:long .
+
+"6634000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6634000"^^xsd:long .
+
+"6667000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6667000"^^xsd:long .
+
+"6698000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6698000"^^xsd:long .
+
+"6706000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6706000"^^xsd:long .
+
+"6800000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6800000"^^xsd:long .
+
+"6881000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6881000"^^xsd:long .
+
+"6900000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "6900000"^^xsd:long .
+
+"7005000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7005000"^^xsd:long .
+
+"7007000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7007000"^^xsd:long .
+
+"7044118"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7044118"^^xsd:long .
+
+"7071000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7071000"^^xsd:long .
+
+"7100000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7100000"^^xsd:long .
+
+"7105000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7105000"^^xsd:long .
+
+"7135000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7135000"^^xsd:long .
+
+"7148344"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7148344"^^xsd:long .
+
+"7153300"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7153300"^^xsd:long .
+
+"7194311"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7194311"^^xsd:long .
+
+"7260240"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7260240"^^xsd:long .
+
+"7282000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7282000"^^xsd:long .
+
+"7282835"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7282835"^^xsd:long .
+
+"7347000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7347000"^^xsd:long .
+
+"7410000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7410000"^^xsd:long .
+
+"7457027"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7457027"^^xsd:long .
+
+"7496000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7496000"^^xsd:long .
+
+"7635000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7635000"^^xsd:long .
+
+"7639000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7639000"^^xsd:long .
+
+"7640000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7640000"^^xsd:long .
+
+"7674439"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7674439"^^xsd:long .
+
+"7739000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7739000"^^xsd:long .
+
+"7764000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7764000"^^xsd:long .
+
+"7785000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7785000"^^xsd:long .
+
+"7981000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "7981000"^^xsd:long .
+
+"8023000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8023000"^^xsd:long .
+
+"8285000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8285000"^^xsd:long .
+
+"8360000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8360000"^^xsd:long .
+
+"8417000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8417000"^^xsd:long .
+
+"8499000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8499000"^^xsd:long .
+
+"8604203"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8604203"^^xsd:long .
+
+"8669000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8669000"^^xsd:long .
+
+"8677600"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8677600"^^xsd:long .
+
+"8750000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8750000"^^xsd:long .
+
+"8962000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "8962000"^^xsd:long .
+
+"9113000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9113000"^^xsd:long .
+
+"9373000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9373000"^^xsd:long .
+
+"9464000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9464000"^^xsd:long .
+
+"9746000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9746000"^^xsd:long .
+
+"9848000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9848000"^^xsd:long .
+
+"9901000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "9901000"^^xsd:long .
+
+"10700000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "10700000"^^xsd:long .
+
+"10784600"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "10784600"^^xsd:long .
+
+"10800000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "10800000"^^xsd:long .
+
+"10820000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "10820000"^^xsd:long .
+
+"11020000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "11020000"^^xsd:long .
+
+"11021000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "11021000"^^xsd:long .
+
+"11309000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "11309000"^^xsd:long .
+
+"11324000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "11324000"^^xsd:long .
+
+"12010000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "12010000"^^xsd:long .
+
+"12272000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "12272000"^^xsd:long .
+
+"12750807"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "12750807"^^xsd:long .
+
+"13312000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "13312000"^^xsd:long .
+
+"13528000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "13528000"^^xsd:long .
+
+"13633000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "13633000"^^xsd:long .
+
+"13707000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "13707000"^^xsd:long .
+
+"14835000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "14835000"^^xsd:long .
+
+"14977000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "14977000"^^xsd:long .
+
+"15154000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "15154000"^^xsd:long .
+
+"15279000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "15279000"^^xsd:long .
+
+"15443000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "15443000"^^xsd:long .
+
+"15929000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "15929000"^^xsd:long .
+
+"16157000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "16157000"^^xsd:long .
+
+"17066000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "17066000"^^xsd:long .
+
+"17125000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "17125000"^^xsd:long .
+
+"17560000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "17560000"^^xsd:long .
+
+"18713220"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "18713220"^^xsd:long .
+
+"19372000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "19372000"^^xsd:long .
+
+"19433000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "19433000"^^xsd:long .
+
+"20902000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "20902000"^^xsd:long .
+
+"20996000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "20996000"^^xsd:long .
+
+"21794000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "21794000"^^xsd:long .
+
+"22046000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "22046000"^^xsd:long .
+
+"22120000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "22120000"^^xsd:long .
+
+"23088000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "23088000"^^xsd:long .
+
+"23355000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "23355000"^^xsd:long .
+
+"29617000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "29617000"^^xsd:long .
+
+"34540000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "34540000"^^xsd:long .
+
+"37977000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "37977000"^^xsd:long .
+
+"AGO"^^xsd:string a xsd:string ;
+    owl:sameAs "AGO"^^xsd:string .
+
+"AO"^^xsd:string a xsd:string ;
+    owl:sameAs "AO"^^xsd:string .
+
+"AR"^^xsd:string a xsd:string ;
+    owl:sameAs "AR"^^xsd:string .
+
+"ARG"^^xsd:string a xsd:string ;
+    owl:sameAs "ARG"^^xsd:string .
+
+"Administrative name of a city" owl:sameAs "Administrative name of a city" .
+
+"Ahmadabad"^^xsd:string a xsd:string ;
+    owl:sameAs "Ahmadabad"^^xsd:string .
+
+"Ahmadābād"^^xsd:string a xsd:string ;
+    owl:sameAs "Ahmadābād"^^xsd:string .
+
+"Aichi"^^xsd:string a xsd:string ;
+    owl:sameAs "Aichi"^^xsd:string .
+
+"Al Qāhirah"^^xsd:string a xsd:string ;
+    owl:sameAs "Al Qāhirah"^^xsd:string .
+
+"Anambra"^^xsd:string a xsd:string ;
+    owl:sameAs "Anambra"^^xsd:string .
+
+"Angola"^^xsd:string a xsd:string ;
+    owl:sameAs "Angola"^^xsd:string .
+
+"Ar Riyāḑ"^^xsd:string a xsd:string ;
+    owl:sameAs "Ar Riyāḑ"^^xsd:string .
+
+"Argentina"^^xsd:string a xsd:string ;
+    owl:sameAs "Argentina"^^xsd:string .
+
+"BD"^^xsd:string a xsd:string ;
+    owl:sameAs "BD"^^xsd:string .
+
+"BGD"^^xsd:string a xsd:string ;
+    owl:sameAs "BGD"^^xsd:string .
+
+"BR"^^xsd:string a xsd:string ;
+    owl:sameAs "BR"^^xsd:string .
+
+"BRA"^^xsd:string a xsd:string ;
+    owl:sameAs "BRA"^^xsd:string .
+
+"Bangladesh"^^xsd:string a xsd:string ;
+    owl:sameAs "Bangladesh"^^xsd:string .
+
+"Bogota"^^xsd:string a xsd:string ;
+    owl:sameAs "Bogota"^^xsd:string .
+
+"Brazil"^^xsd:string a xsd:string ;
+    owl:sameAs "Brazil"^^xsd:string .
+
+"Buenos Aires, Ciudad Autónoma de"^^xsd:string a xsd:string ;
+    owl:sameAs "Buenos Aires, Ciudad Autónoma de"^^xsd:string .
+
+"CD"^^xsd:string a xsd:string ;
+    owl:sameAs "CD"^^xsd:string .
+
+"CHL"^^xsd:string a xsd:string ;
+    owl:sameAs "CHL"^^xsd:string .
+
+"CHN"^^xsd:string a xsd:string ;
+    owl:sameAs "CHN"^^xsd:string .
+
+"CL"^^xsd:string a xsd:string ;
+    owl:sameAs "CL"^^xsd:string .
+
+"CN"^^xsd:string a xsd:string ;
+    owl:sameAs "CN"^^xsd:string .
+
+"CO"^^xsd:string a xsd:string ;
+    owl:sameAs "CO"^^xsd:string .
+
+"COD"^^xsd:string a xsd:string ;
+    owl:sameAs "COD"^^xsd:string .
+
+"COL"^^xsd:string a xsd:string ;
+    owl:sameAs "COL"^^xsd:string .
+
+"California"^^xsd:string a xsd:string ;
+    owl:sameAs "California"^^xsd:string .
+
+"Chile"^^xsd:string a xsd:string ;
+    owl:sameAs "Chile"^^xsd:string .
+
+"China"^^xsd:string a xsd:string ;
+    owl:sameAs "China"^^xsd:string .
+
+"Ciudad de México"^^xsd:string a xsd:string ;
+    owl:sameAs "Ciudad de México"^^xsd:string .
+
+"Colombia"^^xsd:string a xsd:string ;
+    owl:sameAs "Colombia"^^xsd:string .
+
+"Congo (Kinshasa)"^^xsd:string a xsd:string ;
+    owl:sameAs "Congo (Kinshasa)"^^xsd:string .
+
+"EG"^^xsd:string a xsd:string ;
+    owl:sameAs "EG"^^xsd:string .
+
+"EGY"^^xsd:string a xsd:string ;
+    owl:sameAs "EGY"^^xsd:string .
+
+"Egypt"^^xsd:string a xsd:string ;
+    owl:sameAs "Egypt"^^xsd:string .
+
+"Ernesto Jimenez-Ruiz"^^xsd:string a xsd:string ;
+    owl:sameAs "Ernesto Jimenez-Ruiz"^^xsd:string .
+
+"FR"^^xsd:string a xsd:string ;
+    owl:sameAs "FR"^^xsd:string .
+
+"FRA"^^xsd:string a xsd:string ;
+    owl:sameAs "FRA"^^xsd:string .
+
+"Florida"^^xsd:string a xsd:string ;
+    owl:sameAs "Florida"^^xsd:string .
+
+"France"^^xsd:string a xsd:string ;
+    owl:sameAs "France"^^xsd:string .
+
+"Fujian"^^xsd:string a xsd:string ;
+    owl:sameAs "Fujian"^^xsd:string .
+
+"GB"^^xsd:string a xsd:string ;
+    owl:sameAs "GB"^^xsd:string .
+
+"GBR"^^xsd:string a xsd:string ;
+    owl:sameAs "GBR"^^xsd:string .
+
+"Guangxi"^^xsd:string a xsd:string ;
+    owl:sameAs "Guangxi"^^xsd:string .
+
+"Gujarāt"^^xsd:string a xsd:string ;
+    owl:sameAs "Gujarāt"^^xsd:string .
+
+"HK"^^xsd:string a xsd:string ;
+    owl:sameAs "HK"^^xsd:string .
+
+"HKG"^^xsd:string a xsd:string ;
+    owl:sameAs "HKG"^^xsd:string .
+
+"Hyderabad"^^xsd:string a xsd:string ;
+    owl:sameAs "Hyderabad"^^xsd:string .
+
+"Hyderābād"^^xsd:string a xsd:string ;
+    owl:sameAs "Hyderābād"^^xsd:string .
+
+"Hà Nội"^^xsd:string a xsd:string ;
+    owl:sameAs "Hà Nội"^^xsd:string .
+
+"Hồ Chí Minh"^^xsd:string a xsd:string ;
+    owl:sameAs "Hồ Chí Minh"^^xsd:string .
+
+"ID"^^xsd:string a xsd:string ;
+    owl:sameAs "ID"^^xsd:string .
+
+"IDN"^^xsd:string a xsd:string ;
+    owl:sameAs "IDN"^^xsd:string .
+
+"IN"^^xsd:string a xsd:string ;
+    owl:sameAs "IN"^^xsd:string .
+
+"IND"^^xsd:string a xsd:string ;
+    owl:sameAs "IND"^^xsd:string .
+
+"IR"^^xsd:string a xsd:string ;
+    owl:sameAs "IR"^^xsd:string .
+
+"IRN"^^xsd:string a xsd:string ;
+    owl:sameAs "IRN"^^xsd:string .
+
+"ISO 3166-1 code with 2 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" owl:sameAs "ISO 3166-1 code with 2 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" .
+
+"ISO 3166-1 code with 3 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" owl:sameAs "ISO 3166-1 code with 3 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" .
+
+"Illinois"^^xsd:string a xsd:string ;
+    owl:sameAs "Illinois"^^xsd:string .
+
+"India"^^xsd:string a xsd:string ;
+    owl:sameAs "India"^^xsd:string .
+
+"Indonesia"^^xsd:string a xsd:string ;
+    owl:sameAs "Indonesia"^^xsd:string .
+
+"Iran"^^xsd:string a xsd:string ;
+    owl:sameAs "Iran"^^xsd:string .
+
+"JP"^^xsd:string a xsd:string ;
+    owl:sameAs "JP"^^xsd:string .
+
+"JPN"^^xsd:string a xsd:string ;
+    owl:sameAs "JPN"^^xsd:string .
+
+"Japan"^^xsd:string a xsd:string ;
+    owl:sameAs "Japan"^^xsd:string .
+
+"Jilin"^^xsd:string a xsd:string ;
+    owl:sameAs "Jilin"^^xsd:string .
+
+"KOR"^^xsd:string a xsd:string ;
+    owl:sameAs "KOR"^^xsd:string .
+
+"KR"^^xsd:string a xsd:string ;
+    owl:sameAs "KR"^^xsd:string .
+
+"Karnātaka"^^xsd:string a xsd:string ;
+    owl:sameAs "Karnātaka"^^xsd:string .
+
+"Kolkata"^^xsd:string a xsd:string ;
+    owl:sameAs "Kolkata"^^xsd:string .
+
+"Kolkāta"^^xsd:string a xsd:string ;
+    owl:sameAs "Kolkāta"^^xsd:string .
+
+"Korea, South"^^xsd:string a xsd:string ;
+    owl:sameAs "Korea, South"^^xsd:string .
+
+"Krung Thep Maha Nakhon"^^xsd:string a xsd:string ;
+    owl:sameAs "Krung Thep Maha Nakhon"^^xsd:string .
+
+"Liaoning"^^xsd:string a xsd:string ;
+    owl:sameAs "Liaoning"^^xsd:string .
+
+"London, City of"^^xsd:string a xsd:string ;
+    owl:sameAs "London, City of"^^xsd:string .
+
+"Lu'an"^^xsd:string a xsd:string ;
+    owl:sameAs "Lu'an"^^xsd:string .
+
+"Lu’an"^^xsd:string a xsd:string ;
+    owl:sameAs "Lu’an"^^xsd:string .
+
+"MEX"^^xsd:string a xsd:string ;
+    owl:sameAs "MEX"^^xsd:string .
+
+"MX"^^xsd:string a xsd:string ;
+    owl:sameAs "MX"^^xsd:string .
+
+"MY"^^xsd:string a xsd:string ;
+    owl:sameAs "MY"^^xsd:string .
+
+"MYS"^^xsd:string a xsd:string ;
+    owl:sameAs "MYS"^^xsd:string .
+
+"Malaysia"^^xsd:string a xsd:string ;
+    owl:sameAs "Malaysia"^^xsd:string .
+
+"Mexico"^^xsd:string a xsd:string ;
+    owl:sameAs "Mexico"^^xsd:string .
+
+"Moskva"^^xsd:string a xsd:string ;
+    owl:sameAs "Moskva"^^xsd:string .
+
+"NG"^^xsd:string a xsd:string ;
+    owl:sameAs "NG"^^xsd:string .
+
+"NGA"^^xsd:string a xsd:string ;
+    owl:sameAs "NGA"^^xsd:string .
+
+"Name using only ascii characters" owl:sameAs "Name using only ascii characters" .
+
+"Nigeria"^^xsd:string a xsd:string ;
+    owl:sameAs "Nigeria"^^xsd:string .
+
+"Osaka"^^xsd:string a xsd:string ;
+    owl:sameAs "Osaka"^^xsd:string .
+
+"PAK"^^xsd:string a xsd:string ;
+    owl:sameAs "PAK"^^xsd:string .
+
+"PE"^^xsd:string a xsd:string ;
+    owl:sameAs "PE"^^xsd:string .
+
+"PER"^^xsd:string a xsd:string ;
+    owl:sameAs "PER"^^xsd:string .
+
+"PH"^^xsd:string a xsd:string ;
+    owl:sameAs "PH"^^xsd:string .
+
+"PHL"^^xsd:string a xsd:string ;
+    owl:sameAs "PHL"^^xsd:string .
+
+"PK"^^xsd:string a xsd:string ;
+    owl:sameAs "PK"^^xsd:string .
+
+"Pakistan"^^xsd:string a xsd:string ;
+    owl:sameAs "Pakistan"^^xsd:string .
+
+"Peru"^^xsd:string a xsd:string ;
+    owl:sameAs "Peru"^^xsd:string .
+
+"Philippines"^^xsd:string a xsd:string ;
+    owl:sameAs "Philippines"^^xsd:string .
+
+"Punjab"^^xsd:string a xsd:string ;
+    owl:sameAs "Punjab"^^xsd:string .
+
+"RU"^^xsd:string a xsd:string ;
+    owl:sameAs "RU"^^xsd:string .
+
+"RUS"^^xsd:string a xsd:string ;
+    owl:sameAs "RUS"^^xsd:string .
+
+"Región Metropolitana"^^xsd:string a xsd:string ;
+    owl:sameAs "Región Metropolitana"^^xsd:string .
+
+"Russia"^^xsd:string a xsd:string ;
+    owl:sameAs "Russia"^^xsd:string .
+
+"SA"^^xsd:string a xsd:string ;
+    owl:sameAs "SA"^^xsd:string .
+
+"SAU"^^xsd:string a xsd:string ;
+    owl:sameAs "SAU"^^xsd:string .
+
+"SD"^^xsd:string a xsd:string ;
+    owl:sameAs "SD"^^xsd:string .
+
+"SDN"^^xsd:string a xsd:string ;
+    owl:sameAs "SDN"^^xsd:string .
+
+"Sao Paulo"^^xsd:string a xsd:string ;
+    owl:sameAs "Sao Paulo"^^xsd:string .
+
+"Saudi Arabia"^^xsd:string a xsd:string ;
+    owl:sameAs "Saudi Arabia"^^xsd:string .
+
+"Shaanxi"^^xsd:string a xsd:string ;
+    owl:sameAs "Shaanxi"^^xsd:string .
+
+"Sindh"^^xsd:string a xsd:string ;
+    owl:sameAs "Sindh"^^xsd:string .
+
+"Sudan"^^xsd:string a xsd:string ;
+    owl:sameAs "Sudan"^^xsd:string .
+
+"TH"^^xsd:string a xsd:string ;
+    owl:sameAs "TH"^^xsd:string .
+
+"THA"^^xsd:string a xsd:string ;
+    owl:sameAs "THA"^^xsd:string .
+
+"TR"^^xsd:string a xsd:string ;
+    owl:sameAs "TR"^^xsd:string .
+
+"TUR"^^xsd:string a xsd:string ;
+    owl:sameAs "TUR"^^xsd:string .
+
+"TZ"^^xsd:string a xsd:string ;
+    owl:sameAs "TZ"^^xsd:string .
+
+"TZA"^^xsd:string a xsd:string ;
+    owl:sameAs "TZA"^^xsd:string .
+
+"Tamil Nādu"^^xsd:string a xsd:string ;
+    owl:sameAs "Tamil Nādu"^^xsd:string .
+
+"Tanzania"^^xsd:string a xsd:string ;
+    owl:sameAs "Tanzania"^^xsd:string .
+
+"Tehrān"^^xsd:string a xsd:string ;
+    owl:sameAs "Tehrān"^^xsd:string .
+
+"Telangana"^^xsd:string a xsd:string ;
+    owl:sameAs "Telangana"^^xsd:string .
+
+"Thailand"^^xsd:string a xsd:string ;
+    owl:sameAs "Thailand"^^xsd:string .
+
+"Turkey"^^xsd:string a xsd:string ;
+    owl:sameAs "Turkey"^^xsd:string .
+
+"Tōkyō"^^xsd:string a xsd:string ;
+    owl:sameAs "Tōkyō"^^xsd:string .
+
+"US"^^xsd:string a xsd:string ;
+    owl:sameAs "US"^^xsd:string .
+
+"USA"^^xsd:string a xsd:string ;
+    owl:sameAs "USA"^^xsd:string .
+
+"United Kingdom"^^xsd:string a xsd:string ;
+    owl:sameAs "United Kingdom"^^xsd:string .
+
+"United States"^^xsd:string a xsd:string ;
+    owl:sameAs "United States"^^xsd:string .
+
+"VN"^^xsd:string a xsd:string ;
+    owl:sameAs "VN"^^xsd:string .
+
+"VNM"^^xsd:string a xsd:string ;
+    owl:sameAs "VNM"^^xsd:string .
+
+"Vietnam"^^xsd:string a xsd:string ;
+    owl:sameAs "Vietnam"^^xsd:string .
+
+"West Bengal"^^xsd:string a xsd:string ;
+    owl:sameAs "West Bengal"^^xsd:string .
+
+"Xi'an"^^xsd:string a xsd:string ;
+    owl:sameAs "Xi'an"^^xsd:string .
+
+"Xi’an"^^xsd:string a xsd:string ;
+    owl:sameAs "Xi’an"^^xsd:string .
+
+"Yunnan"^^xsd:string a xsd:string ;
+    owl:sameAs "Yunnan"^^xsd:string .
+
+"admin - first-level admin capital (e.g. Little Rock, AR)" owl:sameAs "admin - first-level admin capital (e.g. Little Rock, AR)" .
+
+"has capital" owl:sameAs "has capital" .
+
+"lat" owl:sameAs "lat" .
+
+"long" owl:sameAs "long" .
+
+"minor - lower-level admin capital (e.g. Fayetteville, AR)" owl:sameAs "minor - lower-level admin capital (e.g. Fayetteville, AR)" .
+
+"population of a city" owl:sameAs "population of a city" .
+
+"primary - country's capital (e.g. Washington D.C.)" owl:sameAs "primary - country's capital (e.g. Washington D.C.)" .
+
+"Île-de-France"^^xsd:string a xsd:string ;
+    owl:sameAs "Île-de-France"^^xsd:string .
+
+"İstanbul"^^xsd:string a xsd:string ;
+    owl:sameAs "İstanbul"^^xsd:string .
+
+"City"@en owl:sameAs "City"@en .
+
+"Country"@en owl:sameAs "Country"@en .
+
+dbo:populationTotal a owl:DatatypeProperty ;
+    rdfs:comment "population of a city" ;
+    rdfs:range xsd:long ;
+    rdfs:subPropertyOf dbo:populationTotal ;
+    owl:equivalentProperty dbo:populationTotal ;
+    owl:sameAs dbo:populationTotal .
+
+lab5:ahmadabad a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Gujarāt"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:isSecondLevelAdminCapitalOf lab5:india ;
+    lab5:latitude "23.03"^^xsd:float ;
+    lab5:longitude "72.58"^^xsd:float ;
+    lab5:name "Ahmadābād"^^xsd:string ;
+    lab5:name_ascii "Ahmadabad"^^xsd:string ;
+    lab5:population "7410000"^^xsd:long ;
+    owl:sameAs lab5:ahmadabad .
+
+lab5:bangalore a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Karnātaka"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "12.9699"^^xsd:float ;
+    lab5:longitude "77.598"^^xsd:float ;
+    lab5:name "Bangalore"^^xsd:string ;
+    lab5:name_ascii "Bangalore"^^xsd:string ;
+    lab5:population "13707000"^^xsd:long ;
+    owl:sameAs lab5:bangalore .
+
+lab5:bangkok a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Krung Thep Maha Nakhon"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:thailand ;
+    lab5:isCapitalOf lab5:thailand ;
+    lab5:isLocatedIn lab5:thailand ;
+    lab5:latitude "13.75"^^xsd:float ;
+    lab5:longitude "100.5167"^^xsd:float ;
+    lab5:name "Bangkok"^^xsd:string ;
+    lab5:name_ascii "Bangkok"^^xsd:string ;
+    lab5:population "17066000"^^xsd:long ;
+    owl:sameAs lab5:bangkok .
+
+lab5:beijing a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Beijing"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "39.905"^^xsd:float ;
+    lab5:longitude "116.3914"^^xsd:float ;
+    lab5:name "Beijing"^^xsd:string ;
+    lab5:name_ascii "Beijing"^^xsd:string ;
+    lab5:population "19433000"^^xsd:long ;
+    owl:sameAs lab5:beijing .
+
+lab5:bogota a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Bogotá"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:colombia ;
+    lab5:isCapitalOf lab5:colombia ;
+    lab5:isLocatedIn lab5:colombia ;
+    lab5:latitude "4.6126"^^xsd:float ;
+    lab5:longitude "-74.0705"^^xsd:float ;
+    lab5:name "Bogotá"^^xsd:string ;
+    lab5:name_ascii "Bogota"^^xsd:string ;
+    lab5:population "9464000"^^xsd:long ;
+    owl:sameAs lab5:bogota .
+
+lab5:buenos_aires a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Buenos Aires, Ciudad Autónoma de"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:argentina ;
+    lab5:isCapitalOf lab5:argentina ;
+    lab5:isLocatedIn lab5:argentina ;
+    lab5:latitude "-34.5997"^^xsd:float ;
+    lab5:longitude "-58.3819"^^xsd:float ;
+    lab5:name "Buenos Aires"^^xsd:string ;
+    lab5:name_ascii "Buenos Aires"^^xsd:string ;
+    lab5:population "16157000"^^xsd:long ;
+    owl:sameAs lab5:buenos_aires .
+
+lab5:cairo a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Al Qāhirah"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:egypt ;
+    lab5:isCapitalOf lab5:egypt ;
+    lab5:isLocatedIn lab5:egypt ;
+    lab5:latitude "30.0561"^^xsd:float ;
+    lab5:longitude "31.2394"^^xsd:float ;
+    lab5:name "Cairo"^^xsd:string ;
+    lab5:name_ascii "Cairo"^^xsd:string ;
+    lab5:population "19372000"^^xsd:long ;
+    owl:sameAs lab5:cairo .
+
+lab5:changchun a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jilin"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "43.9"^^xsd:float ;
+    lab5:longitude "125.2"^^xsd:float ;
+    lab5:name "Changchun"^^xsd:string ;
+    lab5:name_ascii "Changchun"^^xsd:string ;
+    lab5:population "7674439"^^xsd:long ;
+    owl:sameAs lab5:changchun .
+
+lab5:changsha a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Hunan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "28.1987"^^xsd:float ;
+    lab5:longitude "112.9709"^^xsd:float ;
+    lab5:name "Changsha"^^xsd:string ;
+    lab5:name_ascii "Changsha"^^xsd:string ;
+    lab5:population "7044118"^^xsd:long ;
+    owl:sameAs lab5:changsha .
+
+lab5:chengdu a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Sichuan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "30.6636"^^xsd:float ;
+    lab5:longitude "104.0667"^^xsd:float ;
+    lab5:name "Chengdu"^^xsd:string ;
+    lab5:name_ascii "Chengdu"^^xsd:string ;
+    lab5:population "11309000"^^xsd:long ;
+    owl:sameAs lab5:chengdu .
+
+lab5:chennai a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Tamil Nādu"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "13.0825"^^xsd:float ;
+    lab5:longitude "80.275"^^xsd:float ;
+    lab5:name "Chennai"^^xsd:string ;
+    lab5:name_ascii "Chennai"^^xsd:string ;
+    lab5:population "11324000"^^xsd:long ;
+    owl:sameAs lab5:chennai .
+
+lab5:chongqing a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Chongqing"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "29.55"^^xsd:float ;
+    lab5:longitude "106.5069"^^xsd:float ;
+    lab5:name "Chongqing"^^xsd:string ;
+    lab5:name_ascii "Chongqing"^^xsd:string ;
+    lab5:population "7739000"^^xsd:long ;
+    owl:sameAs lab5:chongqing .
+
+lab5:dar_es_salaam a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Dar es Salaam"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:tanzania ;
+    lab5:isCapitalOf lab5:tanzania ;
+    lab5:isLocatedIn lab5:tanzania ;
+    lab5:latitude "-6.8"^^xsd:float ;
+    lab5:longitude "39.2833"^^xsd:float ;
+    lab5:name "Dar es Salaam"^^xsd:string ;
+    lab5:name_ascii "Dar es Salaam"^^xsd:string ;
+    lab5:population "6698000"^^xsd:long ;
+    owl:sameAs lab5:dar_es_salaam .
+
+lab5:delhi a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Delhi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "28.66"^^xsd:float ;
+    lab5:longitude "77.23"^^xsd:float ;
+    lab5:name "Delhi"^^xsd:string ;
+    lab5:name_ascii "Delhi"^^xsd:string ;
+    lab5:population "29617000"^^xsd:long ;
+    owl:sameAs lab5:delhi .
+
+lab5:dhaka a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Dhaka"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:bangladesh ;
+    lab5:isCapitalOf lab5:bangladesh ;
+    lab5:isLocatedIn lab5:bangladesh ;
+    lab5:latitude "23.7161"^^xsd:float ;
+    lab5:longitude "90.3961"^^xsd:float ;
+    lab5:name "Dhaka"^^xsd:string ;
+    lab5:name_ascii "Dhaka"^^xsd:string ;
+    lab5:population "15443000"^^xsd:long ;
+    owl:sameAs lab5:dhaka .
+
+lab5:dongguan a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "23.0475"^^xsd:float ;
+    lab5:longitude "113.7493"^^xsd:float ;
+    lab5:name "Dongguan"^^xsd:string ;
+    lab5:name_ascii "Dongguan"^^xsd:string ;
+    lab5:population "7981000"^^xsd:long ;
+    owl:sameAs lab5:dongguan .
+
+lab5:foshan a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "23.0292"^^xsd:float ;
+    lab5:longitude "113.1056"^^xsd:float ;
+    lab5:name "Foshan"^^xsd:string ;
+    lab5:name_ascii "Foshan"^^xsd:string ;
+    lab5:population "7194311"^^xsd:long ;
+    owl:sameAs lab5:foshan .
+
+lab5:ganzhou a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "25.8292"^^xsd:float ;
+    lab5:longitude "114.9336"^^xsd:float ;
+    lab5:name "Ganzhou"^^xsd:string ;
+    lab5:name_ascii "Ganzhou"^^xsd:string ;
+    lab5:population "8677600"^^xsd:long ;
+    owl:sameAs lab5:ganzhou .
+
+lab5:guangzhou a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "23.1288"^^xsd:float ;
+    lab5:longitude "113.259"^^xsd:float ;
+    lab5:name "Guangzhou"^^xsd:string ;
+    lab5:name_ascii "Guangzhou"^^xsd:string ;
+    lab5:population "20902000"^^xsd:long ;
+    owl:sameAs lab5:guangzhou .
+
+lab5:hangzhou a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Zhejiang"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "30.25"^^xsd:float ;
+    lab5:longitude "120.1675"^^xsd:float ;
+    lab5:name "Hangzhou"^^xsd:string ;
+    lab5:name_ascii "Hangzhou"^^xsd:string ;
+    lab5:population "6446000"^^xsd:long ;
+    owl:sameAs lab5:hangzhou .
+
+lab5:hanoi a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Hà Nội"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:vietnam ;
+    lab5:isCapitalOf lab5:vietnam ;
+    lab5:isLocatedIn lab5:vietnam ;
+    lab5:latitude "21.0245"^^xsd:float ;
+    lab5:longitude "105.8412"^^xsd:float ;
+    lab5:name "Hanoi"^^xsd:string ;
+    lab5:name_ascii "Hanoi"^^xsd:string ;
+    lab5:population "7785000"^^xsd:long ;
+    owl:sameAs lab5:hanoi .
+
+lab5:hasAdminCapital a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:range _:ub1bL150C26,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:hasAdminCapital,
+        lab5:hasCity ;
+    owl:equivalentProperty lab5:hasAdminCapital ;
+    owl:inverseOf lab5:isAdminCapitalOf ;
+    owl:sameAs lab5:hasAdminCapital .
+
+lab5:hefei a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "31.8639"^^xsd:float ;
+    lab5:longitude "117.2808"^^xsd:float ;
+    lab5:name "Hefei"^^xsd:string ;
+    lab5:name_ascii "Hefei"^^xsd:string ;
+    lab5:population "7457027"^^xsd:long ;
+    owl:sameAs lab5:hefei .
+
+lab5:heze a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Shandong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "35.2333"^^xsd:float ;
+    lab5:longitude "115.4333"^^xsd:float ;
+    lab5:name "Heze"^^xsd:string ;
+    lab5:name_ascii "Heze"^^xsd:string ;
+    lab5:population "8750000"^^xsd:long ;
+    owl:sameAs lab5:heze .
+
+lab5:ho_chi_minh_city a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Hồ Chí Minh"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:vietnam ;
+    lab5:isAdminCapitalOf lab5:vietnam ;
+    lab5:isFirstLevelAdminCapitalOf lab5:vietnam ;
+    lab5:isLocatedIn lab5:vietnam ;
+    lab5:latitude "10.8167"^^xsd:float ;
+    lab5:longitude "106.6333"^^xsd:float ;
+    lab5:name "Ho Chi Minh City"^^xsd:string ;
+    lab5:name_ascii "Ho Chi Minh City"^^xsd:string ;
+    lab5:population "13312000"^^xsd:long ;
+    owl:sameAs lab5:ho_chi_minh_city .
+
+lab5:huanggang a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Hubei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "30.45"^^xsd:float ;
+    lab5:longitude "114.875"^^xsd:float ;
+    lab5:name "Huanggang"^^xsd:string ;
+    lab5:name_ascii "Huanggang"^^xsd:string ;
+    lab5:population "6667000"^^xsd:long ;
+    owl:sameAs lab5:huanggang .
+
+lab5:hyderabad a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Telangana"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "17.3667"^^xsd:float ;
+    lab5:longitude "78.4667"^^xsd:float ;
+    lab5:name "Hyderābād"^^xsd:string ;
+    lab5:name_ascii "Hyderabad"^^xsd:string ;
+    lab5:population "9746000"^^xsd:long ;
+    owl:sameAs lab5:hyderabad .
+
+lab5:iso2code a owl:DatatypeProperty ;
+    rdfs:comment "ISO 3166-1 code with 2 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf lab5:iso2code ;
+    owl:equivalentProperty lab5:iso2code ;
+    owl:sameAs lab5:iso2code .
+
+lab5:iso3code a owl:DatatypeProperty ;
+    rdfs:comment "ISO 3166-1 code with 3 characters: https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf lab5:iso3code ;
+    owl:equivalentProperty lab5:iso3code ;
+    owl:sameAs lab5:iso3code .
+
+lab5:istanbul a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "İstanbul"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:turkey ;
+    lab5:isAdminCapitalOf lab5:turkey ;
+    lab5:isFirstLevelAdminCapitalOf lab5:turkey ;
+    lab5:isLocatedIn lab5:turkey ;
+    lab5:latitude "41.01"^^xsd:float ;
+    lab5:longitude "28.9603"^^xsd:float ;
+    lab5:name "Istanbul"^^xsd:string ;
+    lab5:name_ascii "Istanbul"^^xsd:string ;
+    lab5:population "15154000"^^xsd:long ;
+    owl:sameAs lab5:istanbul .
+
+lab5:jakarta a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Jakarta"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:indonesia ;
+    lab5:isCapitalOf lab5:indonesia ;
+    lab5:isLocatedIn lab5:indonesia ;
+    lab5:latitude "-6.2146"^^xsd:float ;
+    lab5:longitude "106.8451"^^xsd:float ;
+    lab5:name "Jakarta"^^xsd:string ;
+    lab5:name_ascii "Jakarta"^^xsd:string ;
+    lab5:population "34540000"^^xsd:long ;
+    owl:sameAs lab5:jakarta .
+
+lab5:karachi a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Sindh"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:pakistan ;
+    lab5:isAdminCapitalOf lab5:pakistan ;
+    lab5:isFirstLevelAdminCapitalOf lab5:pakistan ;
+    lab5:isLocatedIn lab5:pakistan ;
+    lab5:latitude "24.86"^^xsd:float ;
+    lab5:longitude "67.01"^^xsd:float ;
+    lab5:name "Karachi"^^xsd:string ;
+    lab5:name_ascii "Karachi"^^xsd:string ;
+    lab5:population "14835000"^^xsd:long ;
+    owl:sameAs lab5:karachi .
+
+lab5:khartoum a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Khartoum"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:sudan ;
+    lab5:isCapitalOf lab5:sudan ;
+    lab5:isLocatedIn lab5:sudan ;
+    lab5:latitude "15.6031"^^xsd:float ;
+    lab5:longitude "32.5265"^^xsd:float ;
+    lab5:name "Khartoum"^^xsd:string ;
+    lab5:name_ascii "Khartoum"^^xsd:string ;
+    lab5:population "7282000"^^xsd:long ;
+    owl:sameAs lab5:khartoum .
+
+lab5:kinshasa a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Kinshasa"^^xsd:string ;
+    lab5:cityIsLocatedIn <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/congo_(kinshasa)> ;
+    lab5:isCapitalOf <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/congo_(kinshasa)> ;
+    lab5:isLocatedIn <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/congo_(kinshasa)> ;
+    lab5:latitude "-4.3317"^^xsd:float ;
+    lab5:longitude "15.3139"^^xsd:float ;
+    lab5:name "Kinshasa"^^xsd:string ;
+    lab5:name_ascii "Kinshasa"^^xsd:string ;
+    lab5:population "13528000"^^xsd:long ;
+    owl:sameAs lab5:kinshasa .
+
+lab5:kolkata a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "West Bengal"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "22.5411"^^xsd:float ;
+    lab5:longitude "88.3378"^^xsd:float ;
+    lab5:name "Kolkāta"^^xsd:string ;
+    lab5:name_ascii "Kolkata"^^xsd:string ;
+    lab5:population "17560000"^^xsd:long ;
+    owl:sameAs lab5:kolkata .
+
+lab5:kuala_lumpur a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Kuala Lumpur"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:malaysia ;
+    lab5:isCapitalOf lab5:malaysia ;
+    lab5:isLocatedIn lab5:malaysia ;
+    lab5:latitude "3.1478"^^xsd:float ;
+    lab5:longitude "101.6953"^^xsd:float ;
+    lab5:name "Kuala Lumpur"^^xsd:string ;
+    lab5:name_ascii "Kuala Lumpur"^^xsd:string ;
+    lab5:population "8285000"^^xsd:long ;
+    owl:sameAs lab5:kuala_lumpur .
+
+lab5:kunming a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Yunnan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "25.0433"^^xsd:float ;
+    lab5:longitude "102.7061"^^xsd:float ;
+    lab5:name "Kunming"^^xsd:string ;
+    lab5:name_ascii "Kunming"^^xsd:string ;
+    lab5:population "6250000"^^xsd:long ;
+    owl:sameAs lab5:kunming .
+
+lab5:lagos a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Lagos"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:nigeria ;
+    lab5:isAdminCapitalOf lab5:nigeria ;
+    lab5:isLocatedIn lab5:nigeria ;
+    lab5:isSecondLevelAdminCapitalOf lab5:nigeria ;
+    lab5:latitude "6.45"^^xsd:float ;
+    lab5:longitude "3.4"^^xsd:float ;
+    lab5:name "Lagos"^^xsd:string ;
+    lab5:name_ascii "Lagos"^^xsd:string ;
+    lab5:population "15279000"^^xsd:long ;
+    owl:sameAs lab5:lagos .
+
+lab5:lahore a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Punjab"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:pakistan ;
+    lab5:isAdminCapitalOf lab5:pakistan ;
+    lab5:isFirstLevelAdminCapitalOf lab5:pakistan ;
+    lab5:isLocatedIn lab5:pakistan ;
+    lab5:latitude "31.5497"^^xsd:float ;
+    lab5:longitude "74.3436"^^xsd:float ;
+    lab5:name "Lahore"^^xsd:string ;
+    lab5:name_ascii "Lahore"^^xsd:string ;
+    lab5:population "11021000"^^xsd:long ;
+    owl:sameAs lab5:lahore .
+
+lab5:latitude a owl:DatatypeProperty ;
+    rdfs:label "lat" ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf lab5:latitude ;
+    owl:equivalentProperty lab5:latitude ;
+    owl:sameAs lab5:latitude .
+
+lab5:lima a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Lima"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:peru ;
+    lab5:isCapitalOf lab5:peru ;
+    lab5:isLocatedIn lab5:peru ;
+    lab5:latitude "-12.05"^^xsd:float ;
+    lab5:longitude "-77.0333"^^xsd:float ;
+    lab5:name "Lima"^^xsd:string ;
+    lab5:name_ascii "Lima"^^xsd:string ;
+    lab5:population "9848000"^^xsd:long ;
+    owl:sameAs lab5:lima .
+
+lab5:london a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:NamedIndividual,
+        owl:Thing ;
+    dbo:populationTotal "10979000"^^xsd:long ;
+    lab5:admin_name "London, City of"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:united_kingdom ;
+    lab5:isCapitalOf lab5:united_kingdom ;
+    lab5:isLocatedIn lab5:united_kingdom ;
+    lab5:latitude "51.5072"^^xsd:float ;
+    lab5:longitude "-0.1275"^^xsd:float ;
+    lab5:name "London"^^xsd:string ;
+    lab5:name_ascii "London"^^xsd:string ;
+    lab5:population "10979000"^^xsd:long ;
+    owl:sameAs lab5:london .
+
+lab5:longitude a owl:DatatypeProperty ;
+    rdfs:label "long" ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf lab5:longitude ;
+    owl:equivalentProperty lab5:longitude ;
+    owl:sameAs lab5:longitude .
+
+<http://www.semanticweb.org/ernesto/in3067-inm713/lab5/lu'an> a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Anhui"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "31.7542"^^xsd:float ;
+    lab5:longitude "116.5078"^^xsd:float ;
+    lab5:name "Lu’an"^^xsd:string ;
+    lab5:name_ascii "Lu'an"^^xsd:string ;
+    lab5:population "6090000"^^xsd:long ;
+    owl:sameAs <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/lu'an> .
+
+lab5:luanda a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Luanda"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:angola ;
+    lab5:isCapitalOf lab5:angola ;
+    lab5:isLocatedIn lab5:angola ;
+    lab5:latitude "-8.8383"^^xsd:float ;
+    lab5:longitude "13.2344"^^xsd:float ;
+    lab5:name "Luanda"^^xsd:string ;
+    lab5:name_ascii "Luanda"^^xsd:string ;
+    lab5:population "8417000"^^xsd:long ;
+    owl:sameAs lab5:luanda .
+
+lab5:manila a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Manila"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:philippines ;
+    lab5:isCapitalOf lab5:philippines ;
+    lab5:isLocatedIn lab5:philippines ;
+    lab5:latitude "14.5958"^^xsd:float ;
+    lab5:longitude "120.9772"^^xsd:float ;
+    lab5:name "Manila"^^xsd:string ;
+    lab5:name_ascii "Manila"^^xsd:string ;
+    lab5:population "23088000"^^xsd:long ;
+    owl:sameAs lab5:manila .
+
+lab5:maoming a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "21.6618"^^xsd:float ;
+    lab5:longitude "110.9178"^^xsd:float ;
+    lab5:name "Maoming"^^xsd:string ;
+    lab5:name_ascii "Maoming"^^xsd:string ;
+    lab5:population "6706000"^^xsd:long ;
+    owl:sameAs lab5:maoming .
+
+lab5:mexico_city a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Ciudad de México"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:mexico ;
+    lab5:isCapitalOf lab5:mexico ;
+    lab5:isLocatedIn lab5:mexico ;
+    lab5:latitude "19.4333"^^xsd:float ;
+    lab5:longitude "-99.1333"^^xsd:float ;
+    lab5:name "Mexico City"^^xsd:string ;
+    lab5:name_ascii "Mexico City"^^xsd:string ;
+    lab5:population "20996000"^^xsd:long ;
+    owl:sameAs lab5:mexico_city .
+
+lab5:moscow a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Moskva"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:russia ;
+    lab5:isCapitalOf lab5:russia ;
+    lab5:isLocatedIn lab5:russia ;
+    lab5:latitude "55.7558"^^xsd:float ;
+    lab5:longitude "37.6178"^^xsd:float ;
+    lab5:name "Moscow"^^xsd:string ;
+    lab5:name_ascii "Moscow"^^xsd:string ;
+    lab5:population "17125000"^^xsd:long ;
+    owl:sameAs lab5:moscow .
+
+lab5:mumbai a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Mahārāshtra"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:india ;
+    lab5:isAdminCapitalOf lab5:india ;
+    lab5:isFirstLevelAdminCapitalOf lab5:india ;
+    lab5:isLocatedIn lab5:india ;
+    lab5:latitude "18.9667"^^xsd:float ;
+    lab5:longitude "72.8333"^^xsd:float ;
+    lab5:name "Mumbai"^^xsd:string ;
+    lab5:name_ascii "Mumbai"^^xsd:string ;
+    lab5:population "23355000"^^xsd:long ;
+    owl:sameAs lab5:mumbai .
+
+lab5:nagoya a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Aichi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:japan ;
+    lab5:isAdminCapitalOf lab5:japan ;
+    lab5:isFirstLevelAdminCapitalOf lab5:japan ;
+    lab5:isLocatedIn lab5:japan ;
+    lab5:latitude "35.1167"^^xsd:float ;
+    lab5:longitude "136.9333"^^xsd:float ;
+    lab5:name "Nagoya"^^xsd:string ;
+    lab5:name_ascii "Nagoya"^^xsd:string ;
+    lab5:population "9113000"^^xsd:long ;
+    owl:sameAs lab5:nagoya .
+
+lab5:name a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:seeAlso lab5:admin_name ;
+    rdfs:subPropertyOf lab5:name ;
+    owl:equivalentProperty lab5:name ;
+    owl:sameAs lab5:name .
+
+lab5:name_ascii a owl:DatatypeProperty ;
+    rdfs:comment "Name using only ascii characters" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf lab5:name_ascii ;
+    owl:equivalentProperty lab5:name_ascii ;
+    owl:sameAs lab5:name_ascii .
+
+lab5:nanchong a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Sichuan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "30.7991"^^xsd:float ;
+    lab5:longitude "106.0784"^^xsd:float ;
+    lab5:name "Nanchong"^^xsd:string ;
+    lab5:name_ascii "Nanchong"^^xsd:string ;
+    lab5:population "6183000"^^xsd:long ;
+    owl:sameAs lab5:nanchong .
+
+lab5:nanjing a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "32.05"^^xsd:float ;
+    lab5:longitude "118.7667"^^xsd:float ;
+    lab5:name "Nanjing"^^xsd:string ;
+    lab5:name_ascii "Nanjing"^^xsd:string ;
+    lab5:population "7496000"^^xsd:long ;
+    owl:sameAs lab5:nanjing .
+
+lab5:nanning a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangxi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "22.8192"^^xsd:float ;
+    lab5:longitude "108.315"^^xsd:float ;
+    lab5:name "Nanning"^^xsd:string ;
+    lab5:name_ascii "Nanning"^^xsd:string ;
+    lab5:population "7153300"^^xsd:long ;
+    owl:sameAs lab5:nanning .
+
+lab5:nantong a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "31.9829"^^xsd:float ;
+    lab5:longitude "120.8873"^^xsd:float ;
+    lab5:name "Nantong"^^xsd:string ;
+    lab5:name_ascii "Nantong"^^xsd:string ;
+    lab5:population "7282835"^^xsd:long ;
+    owl:sameAs lab5:nantong .
+
+lab5:ningbo a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Zhejiang"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "29.875"^^xsd:float ;
+    lab5:longitude "121.5492"^^xsd:float ;
+    lab5:name "Ningbo"^^xsd:string ;
+    lab5:name_ascii "Ningbo"^^xsd:string ;
+    lab5:population "7639000"^^xsd:long ;
+    owl:sameAs lab5:ningbo .
+
+lab5:onitsha a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Anambra"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:nigeria ;
+    lab5:isAdminCapitalOf lab5:nigeria ;
+    lab5:isLocatedIn lab5:nigeria ;
+    lab5:isSecondLevelAdminCapitalOf lab5:nigeria ;
+    lab5:latitude "6.1667"^^xsd:float ;
+    lab5:longitude "6.7833"^^xsd:float ;
+    lab5:name "Onitsha"^^xsd:string ;
+    lab5:name_ascii "Onitsha"^^xsd:string ;
+    lab5:population "7635000"^^xsd:long ;
+    owl:sameAs lab5:onitsha .
+
+lab5:osaka a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Ōsaka"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:japan ;
+    lab5:isAdminCapitalOf lab5:japan ;
+    lab5:isFirstLevelAdminCapitalOf lab5:japan ;
+    lab5:isLocatedIn lab5:japan ;
+    lab5:latitude "34.6936"^^xsd:float ;
+    lab5:longitude "135.5019"^^xsd:float ;
+    lab5:name "Ōsaka"^^xsd:string ;
+    lab5:name_ascii "Osaka"^^xsd:string ;
+    lab5:population "14977000"^^xsd:long ;
+    owl:sameAs lab5:osaka .
+
+lab5:paris a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Île-de-France"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:france ;
+    lab5:isCapitalOf lab5:france ;
+    lab5:isLocatedIn lab5:france ;
+    lab5:latitude "48.8566"^^xsd:float ;
+    lab5:longitude "2.3522"^^xsd:float ;
+    lab5:name "Paris"^^xsd:string ;
+    lab5:name_ascii "Paris"^^xsd:string ;
+    lab5:population "11020000"^^xsd:long ;
+    owl:sameAs lab5:paris .
+
+lab5:quanzhou a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Fujian"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "24.9139"^^xsd:float ;
+    lab5:longitude "118.5858"^^xsd:float ;
+    lab5:name "Quanzhou"^^xsd:string ;
+    lab5:name_ascii "Quanzhou"^^xsd:string ;
+    lab5:population "6480000"^^xsd:long ;
+    owl:sameAs lab5:quanzhou .
+
+lab5:rio_de_janeiro a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Rio de Janeiro"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:brazil ;
+    lab5:isAdminCapitalOf lab5:brazil ;
+    lab5:isFirstLevelAdminCapitalOf lab5:brazil ;
+    lab5:isLocatedIn lab5:brazil ;
+    lab5:latitude "-22.9083"^^xsd:float ;
+    lab5:longitude "-43.1964"^^xsd:float ;
+    lab5:name "Rio de Janeiro"^^xsd:string ;
+    lab5:name_ascii "Rio de Janeiro"^^xsd:string ;
+    lab5:population "12272000"^^xsd:long ;
+    owl:sameAs lab5:rio_de_janeiro .
+
+lab5:riyadh a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Ar Riyāḑ"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:saudi_arabia ;
+    lab5:isCapitalOf lab5:saudi_arabia ;
+    lab5:isLocatedIn lab5:saudi_arabia ;
+    lab5:latitude "24.65"^^xsd:float ;
+    lab5:longitude "46.71"^^xsd:float ;
+    lab5:name "Riyadh"^^xsd:string ;
+    lab5:name_ascii "Riyadh"^^xsd:string ;
+    lab5:population "6881000"^^xsd:long ;
+    owl:sameAs lab5:riyadh .
+
+lab5:santiago a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Región Metropolitana"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:chile ;
+    lab5:isCapitalOf lab5:chile ;
+    lab5:isLocatedIn lab5:chile ;
+    lab5:latitude "-33.45"^^xsd:float ;
+    lab5:longitude "-70.6667"^^xsd:float ;
+    lab5:name "Santiago"^^xsd:string ;
+    lab5:name_ascii "Santiago"^^xsd:string ;
+    lab5:population "7007000"^^xsd:long ;
+    owl:sameAs lab5:santiago .
+
+lab5:sao_paulo a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "São Paulo"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:brazil ;
+    lab5:isAdminCapitalOf lab5:brazil ;
+    lab5:isFirstLevelAdminCapitalOf lab5:brazil ;
+    lab5:isLocatedIn lab5:brazil ;
+    lab5:latitude "-23.5504"^^xsd:float ;
+    lab5:longitude "-46.6339"^^xsd:float ;
+    lab5:name "São Paulo"^^xsd:string ;
+    lab5:name_ascii "Sao Paulo"^^xsd:string ;
+    lab5:population "22046000"^^xsd:long ;
+    owl:sameAs lab5:sao_paulo .
+
+lab5:seoul a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Seoul"^^xsd:string ;
+    lab5:cityIsLocatedIn <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/korea,_south> ;
+    lab5:isCapitalOf <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/korea,_south> ;
+    lab5:isLocatedIn <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/korea,_south> ;
+    lab5:latitude "37.5833"^^xsd:float ;
+    lab5:longitude "127.0"^^xsd:float ;
+    lab5:name "Seoul"^^xsd:string ;
+    lab5:name_ascii "Seoul"^^xsd:string ;
+    lab5:population "21794000"^^xsd:long ;
+    owl:sameAs lab5:seoul .
+
+lab5:shanghai a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Shanghai"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "31.1667"^^xsd:float ;
+    lab5:longitude "121.4667"^^xsd:float ;
+    lab5:name "Shanghai"^^xsd:string ;
+    lab5:name_ascii "Shanghai"^^xsd:string ;
+    lab5:population "22120000"^^xsd:long ;
+    owl:sameAs lab5:shanghai .
+
+lab5:shangrao a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "28.4419"^^xsd:float ;
+    lab5:longitude "117.9633"^^xsd:float ;
+    lab5:name "Shangrao"^^xsd:string ;
+    lab5:name_ascii "Shangrao"^^xsd:string ;
+    lab5:population "6579714"^^xsd:long ;
+    owl:sameAs lab5:shangrao .
+
+lab5:shenyang a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Liaoning"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "41.8039"^^xsd:float ;
+    lab5:longitude "123.4258"^^xsd:float ;
+    lab5:name "Shenyang"^^xsd:string ;
+    lab5:name_ascii "Shenyang"^^xsd:string ;
+    lab5:population "7105000"^^xsd:long ;
+    owl:sameAs lab5:shenyang .
+
+lab5:shenzhen a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "22.535"^^xsd:float ;
+    lab5:longitude "114.054"^^xsd:float ;
+    lab5:name "Shenzhen"^^xsd:string ;
+    lab5:name_ascii "Shenzhen"^^xsd:string ;
+    lab5:population "15929000"^^xsd:long ;
+    owl:sameAs lab5:shenzhen .
+
+lab5:shijiazhuang a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Hebei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "38.0422"^^xsd:float ;
+    lab5:longitude "114.5086"^^xsd:float ;
+    lab5:name "Shijiazhuang"^^xsd:string ;
+    lab5:name_ascii "Shijiazhuang"^^xsd:string ;
+    lab5:population "10784600"^^xsd:long ;
+    owl:sameAs lab5:shijiazhuang .
+
+lab5:tehran a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Tehrān"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:iran ;
+    lab5:isCapitalOf lab5:iran ;
+    lab5:isLocatedIn lab5:iran ;
+    lab5:latitude "35.7"^^xsd:float ;
+    lab5:longitude "51.4167"^^xsd:float ;
+    lab5:name "Tehran"^^xsd:string ;
+    lab5:name_ascii "Tehran"^^xsd:string ;
+    lab5:population "13633000"^^xsd:long ;
+    owl:sameAs lab5:tehran .
+
+lab5:tianjin a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Tianjin"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "39.1467"^^xsd:float ;
+    lab5:longitude "117.2056"^^xsd:float ;
+    lab5:name "Tianjin"^^xsd:string ;
+    lab5:name_ascii "Tianjin"^^xsd:string ;
+    lab5:population "10800000"^^xsd:long ;
+    owl:sameAs lab5:tianjin .
+
+lab5:tokyo a _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        lab5:City,
+        owl:Thing ;
+    lab5:admin_name "Tōkyō"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:japan ;
+    lab5:isCapitalOf lab5:japan ;
+    lab5:isLocatedIn lab5:japan ;
+    lab5:latitude "35.6897"^^xsd:float ;
+    lab5:longitude "139.6922"^^xsd:float ;
+    lab5:name "Tokyo"^^xsd:string ;
+    lab5:name_ascii "Tokyo"^^xsd:string ;
+    lab5:population "37977000"^^xsd:long ;
+    owl:sameAs lab5:tokyo .
+
+lab5:tongshan a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "34.261"^^xsd:float ;
+    lab5:longitude "117.1859"^^xsd:float ;
+    lab5:name "Tongshan"^^xsd:string ;
+    lab5:name_ascii "Tongshan"^^xsd:string ;
+    lab5:population "8669000"^^xsd:long ;
+    owl:sameAs lab5:tongshan .
+
+lab5:wuhan a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Hubei"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "30.5872"^^xsd:float ;
+    lab5:longitude "114.2881"^^xsd:float ;
+    lab5:name "Wuhan"^^xsd:string ;
+    lab5:name_ascii "Wuhan"^^xsd:string ;
+    lab5:population "8962000"^^xsd:long ;
+    owl:sameAs lab5:wuhan .
+
+<http://www.semanticweb.org/ernesto/in3067-inm713/lab5/xi'an> a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Shaanxi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "34.2667"^^xsd:float ;
+    lab5:longitude "108.9"^^xsd:float ;
+    lab5:name "Xi’an"^^xsd:string ;
+    lab5:name_ascii "Xi'an"^^xsd:string ;
+    lab5:population "7135000"^^xsd:long ;
+    owl:sameAs <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/xi'an> .
+
+lab5:yancheng a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangsu"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "33.3936"^^xsd:float ;
+    lab5:longitude "120.1339"^^xsd:float ;
+    lab5:name "Yancheng"^^xsd:string ;
+    lab5:name_ascii "Yancheng"^^xsd:string ;
+    lab5:population "7260240"^^xsd:long ;
+    owl:sameAs lab5:yancheng .
+
+lab5:yichun a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Jiangxi"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "27.8041"^^xsd:float ;
+    lab5:longitude "114.383"^^xsd:float ;
+    lab5:name "Yichun"^^xsd:string ;
+    lab5:name_ascii "Yichun"^^xsd:string ;
+    lab5:population "6048700"^^xsd:long ;
+    owl:sameAs lab5:yichun .
+
+lab5:zhanjiang a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Guangdong"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "21.1967"^^xsd:float ;
+    lab5:longitude "110.4031"^^xsd:float ;
+    lab5:name "Zhanjiang"^^xsd:string ;
+    lab5:name_ascii "Zhanjiang"^^xsd:string ;
+    lab5:population "6900000"^^xsd:long ;
+    owl:sameAs lab5:zhanjiang .
+
+lab5:zhengzhou a _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isFirstLevelAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:latitude "34.7492"^^xsd:float ;
+    lab5:longitude "113.6605"^^xsd:float ;
+    lab5:name "Zhengzhou"^^xsd:string ;
+    lab5:name_ascii "Zhengzhou"^^xsd:string ;
+    lab5:population "7005000"^^xsd:long ;
+    owl:sameAs lab5:zhengzhou .
+
+lab5:zhoukou a _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:City,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    lab5:admin_name "Henan"^^xsd:string ;
+    lab5:cityIsLocatedIn lab5:china ;
+    lab5:isAdminCapitalOf lab5:china ;
+    lab5:isLocatedIn lab5:china ;
+    lab5:isSecondLevelAdminCapitalOf lab5:china ;
+    lab5:latitude "33.625"^^xsd:float ;
+    lab5:longitude "114.6418"^^xsd:float ;
+    lab5:name "Zhoukou"^^xsd:string ;
+    lab5:name_ascii "Zhoukou"^^xsd:string ;
+    lab5:population "9901000"^^xsd:long ;
+    owl:sameAs lab5:zhoukou .
+
+owl:Nothing a owl:Class ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL159C29,
+        _:ub1bL174C34,
+        _:ub1bL184C49,
+        _:ub1bL194C50,
+        dbo:City,
+        dbo:Country,
+        lab5:AdminCapitalCity,
+        lab5:CapitalCity,
+        lab5:FirstLevelAdminCapitalCity,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Nothing,
+        owl:Thing ;
+    owl:equivalentClass owl:Nothing ;
+    owl:sameAs owl:Nothing .
+
+"10979000"^^xsd:long a xsd:decimal,
+        xsd:integer,
+        xsd:long ;
+    owl:sameAs "10979000"^^xsd:long .
+
+"Bangalore"^^xsd:string a xsd:string ;
+    owl:sameAs "Bangalore"^^xsd:string .
+
+"Bangkok"^^xsd:string a xsd:string ;
+    owl:sameAs "Bangkok"^^xsd:string .
+
+"Baoding"^^xsd:string a xsd:string ;
+    owl:sameAs "Baoding"^^xsd:string .
+
+"Bijie"^^xsd:string a xsd:string ;
+    owl:sameAs "Bijie"^^xsd:string .
+
+"Bogotá"^^xsd:string a xsd:string ;
+    owl:sameAs "Bogotá"^^xsd:string .
+
+"Buenos Aires"^^xsd:string a xsd:string ;
+    owl:sameAs "Buenos Aires"^^xsd:string .
+
+"Cairo"^^xsd:string a xsd:string ;
+    owl:sameAs "Cairo"^^xsd:string .
+
+"Cangzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Cangzhou"^^xsd:string .
+
+"Changchun"^^xsd:string a xsd:string ;
+    owl:sameAs "Changchun"^^xsd:string .
+
+"Changsha"^^xsd:string a xsd:string ;
+    owl:sameAs "Changsha"^^xsd:string .
+
+"Chengdu"^^xsd:string a xsd:string ;
+    owl:sameAs "Chengdu"^^xsd:string .
+
+"Chennai"^^xsd:string a xsd:string ;
+    owl:sameAs "Chennai"^^xsd:string .
+
+"Chicago"^^xsd:string a xsd:string ;
+    owl:sameAs "Chicago"^^xsd:string .
+
+"Dongguan"^^xsd:string a xsd:string ;
+    owl:sameAs "Dongguan"^^xsd:string .
+
+"Foshan"^^xsd:string a xsd:string ;
+    owl:sameAs "Foshan"^^xsd:string .
+
+"Fuyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Fuyang"^^xsd:string .
+
+"Ganzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Ganzhou"^^xsd:string .
+
+"Guangzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Guangzhou"^^xsd:string .
+
+"Guizhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Guizhou"^^xsd:string .
+
+"Handan"^^xsd:string a xsd:string ;
+    owl:sameAs "Handan"^^xsd:string .
+
+"Hangzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Hangzhou"^^xsd:string .
+
+"Hanoi"^^xsd:string a xsd:string ;
+    owl:sameAs "Hanoi"^^xsd:string .
+
+"Hefei"^^xsd:string a xsd:string ;
+    owl:sameAs "Hefei"^^xsd:string .
+
+"Hengyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Hengyang"^^xsd:string .
+
+"Heze"^^xsd:string a xsd:string ;
+    owl:sameAs "Heze"^^xsd:string .
+
+"Ho Chi Minh City"^^xsd:string a xsd:string ;
+    owl:sameAs "Ho Chi Minh City"^^xsd:string .
+
+"Hong Kong"^^xsd:string a xsd:string ;
+    owl:sameAs "Hong Kong"^^xsd:string .
+
+"Huanggang"^^xsd:string a xsd:string ;
+    owl:sameAs "Huanggang"^^xsd:string .
+
+"Hubei"^^xsd:string a xsd:string ;
+    owl:sameAs "Hubei"^^xsd:string .
+
+"Istanbul"^^xsd:string a xsd:string ;
+    owl:sameAs "Istanbul"^^xsd:string .
+
+"Jining"^^xsd:string a xsd:string ;
+    owl:sameAs "Jining"^^xsd:string .
+
+"Karachi"^^xsd:string a xsd:string ;
+    owl:sameAs "Karachi"^^xsd:string .
+
+"Kunming"^^xsd:string a xsd:string ;
+    owl:sameAs "Kunming"^^xsd:string .
+
+"Lahore"^^xsd:string a xsd:string ;
+    owl:sameAs "Lahore"^^xsd:string .
+
+"Linyi"^^xsd:string a xsd:string ;
+    owl:sameAs "Linyi"^^xsd:string .
+
+"London"^^xsd:string a xsd:string ;
+    owl:sameAs "London"^^xsd:string .
+
+"Los Angeles"^^xsd:string a xsd:string ;
+    owl:sameAs "Los Angeles"^^xsd:string .
+
+"Luoyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Luoyang"^^xsd:string .
+
+"Mahārāshtra"^^xsd:string a xsd:string ;
+    owl:sameAs "Mahārāshtra"^^xsd:string .
+
+"Maoming"^^xsd:string a xsd:string ;
+    owl:sameAs "Maoming"^^xsd:string .
+
+"Mexico City"^^xsd:string a xsd:string ;
+    owl:sameAs "Mexico City"^^xsd:string .
+
+"Miami"^^xsd:string a xsd:string ;
+    owl:sameAs "Miami"^^xsd:string .
+
+"Moscow"^^xsd:string a xsd:string ;
+    owl:sameAs "Moscow"^^xsd:string .
+
+"Mumbai"^^xsd:string a xsd:string ;
+    owl:sameAs "Mumbai"^^xsd:string .
+
+"Nagoya"^^xsd:string a xsd:string ;
+    owl:sameAs "Nagoya"^^xsd:string .
+
+"Nanchong"^^xsd:string a xsd:string ;
+    owl:sameAs "Nanchong"^^xsd:string .
+
+"Nanjing"^^xsd:string a xsd:string ;
+    owl:sameAs "Nanjing"^^xsd:string .
+
+"Nanning"^^xsd:string a xsd:string ;
+    owl:sameAs "Nanning"^^xsd:string .
+
+"Nantong"^^xsd:string a xsd:string ;
+    owl:sameAs "Nantong"^^xsd:string .
+
+"Nanyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Nanyang"^^xsd:string .
+
+"Ningbo"^^xsd:string a xsd:string ;
+    owl:sameAs "Ningbo"^^xsd:string .
+
+"Onitsha"^^xsd:string a xsd:string ;
+    owl:sameAs "Onitsha"^^xsd:string .
+
+"Oxford" a xsd:string ;
+    owl:sameAs "Oxford" .
+
+"Paris"^^xsd:string a xsd:string ;
+    owl:sameAs "Paris"^^xsd:string .
+
+"Pune"^^xsd:string a xsd:string ;
+    owl:sameAs "Pune"^^xsd:string .
+
+"Quanzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Quanzhou"^^xsd:string .
+
+"Riyadh"^^xsd:string a xsd:string ;
+    owl:sameAs "Riyadh"^^xsd:string .
+
+"Santiago"^^xsd:string a xsd:string ;
+    owl:sameAs "Santiago"^^xsd:string .
+
+"Shangrao"^^xsd:string a xsd:string ;
+    owl:sameAs "Shangrao"^^xsd:string .
+
+"Shaoyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Shaoyang"^^xsd:string .
+
+"Shenyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Shenyang"^^xsd:string .
+
+"Shenzhen"^^xsd:string a xsd:string ;
+    owl:sameAs "Shenzhen"^^xsd:string .
+
+"Shijiazhuang"^^xsd:string a xsd:string ;
+    owl:sameAs "Shijiazhuang"^^xsd:string .
+
+"Sichuan"^^xsd:string a xsd:string ;
+    owl:sameAs "Sichuan"^^xsd:string .
+
+"São Paulo"^^xsd:string a xsd:string ;
+    owl:sameAs "São Paulo"^^xsd:string .
+
+"Tangshan"^^xsd:string a xsd:string ;
+    owl:sameAs "Tangshan"^^xsd:string .
+
+"Tehran"^^xsd:string a xsd:string ;
+    owl:sameAs "Tehran"^^xsd:string .
+
+"Tokyo"^^xsd:string a xsd:string ;
+    owl:sameAs "Tokyo"^^xsd:string .
+
+"Tongshan"^^xsd:string a xsd:string ;
+    owl:sameAs "Tongshan"^^xsd:string .
+
+"Weifang"^^xsd:string a xsd:string ;
+    owl:sameAs "Weifang"^^xsd:string .
+
+"Wuhan"^^xsd:string a xsd:string ;
+    owl:sameAs "Wuhan"^^xsd:string .
+
+"Xinyang"^^xsd:string a xsd:string ;
+    owl:sameAs "Xinyang"^^xsd:string .
+
+"Yancheng"^^xsd:string a xsd:string ;
+    owl:sameAs "Yancheng"^^xsd:string .
+
+"Yantai"^^xsd:string a xsd:string ;
+    owl:sameAs "Yantai"^^xsd:string .
+
+"Yichun"^^xsd:string a xsd:string ;
+    owl:sameAs "Yichun"^^xsd:string .
+
+"Zhanjiang"^^xsd:string a xsd:string ;
+    owl:sameAs "Zhanjiang"^^xsd:string .
+
+"Zhejiang"^^xsd:string a xsd:string ;
+    owl:sameAs "Zhejiang"^^xsd:string .
+
+"Zhengzhou"^^xsd:string a xsd:string ;
+    owl:sameAs "Zhengzhou"^^xsd:string .
+
+"Zhoukou"^^xsd:string a xsd:string ;
+    owl:sameAs "Zhoukou"^^xsd:string .
+
+"Zhumadian"^^xsd:string a xsd:string ;
+    owl:sameAs "Zhumadian"^^xsd:string .
+
+"Zunyi"^^xsd:string a xsd:string ;
+    owl:sameAs "Zunyi"^^xsd:string .
+
+"Ōsaka"^^xsd:string a xsd:string ;
+    owl:sameAs "Ōsaka"^^xsd:string .
+
+dbo:capital a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has capital" ;
+    rdfs:domain _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:range _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        owl:Thing ;
+    rdfs:subPropertyOf dbo:capital,
+        lab5:hasCity ;
+    owl:equivalentProperty dbo:capital ;
+    owl:inverseOf lab5:isCapitalOf ;
+    owl:sameAs dbo:capital .
+
+lab5:admin_name a owl:DatatypeProperty ;
+    rdfs:comment "Administrative name of a city" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf lab5:admin_name ;
+    owl:equivalentProperty lab5:admin_name ;
+    owl:sameAs lab5:admin_name .
+
+lab5:angola a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:luanda ;
+    lab5:hasCity lab5:luanda ;
+    lab5:iso2code "AO"^^xsd:string ;
+    lab5:iso3code "AGO"^^xsd:string ;
+    lab5:name "Angola"^^xsd:string ;
+    owl:sameAs lab5:angola .
+
+lab5:argentina a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:buenos_aires ;
+    lab5:hasCity lab5:buenos_aires ;
+    lab5:iso2code "AR"^^xsd:string ;
+    lab5:iso3code "ARG"^^xsd:string ;
+    lab5:name "Argentina"^^xsd:string ;
+    owl:sameAs lab5:argentina .
+
+lab5:bangladesh a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:dhaka ;
+    lab5:hasCity lab5:dhaka ;
+    lab5:iso2code "BD"^^xsd:string ;
+    lab5:iso3code "BGD"^^xsd:string ;
+    lab5:name "Bangladesh"^^xsd:string ;
+    owl:sameAs lab5:bangladesh .
+
+lab5:chile a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:santiago ;
+    lab5:hasCity lab5:santiago ;
+    lab5:iso2code "CL"^^xsd:string ;
+    lab5:iso3code "CHL"^^xsd:string ;
+    lab5:name "Chile"^^xsd:string ;
+    owl:sameAs lab5:chile .
+
+lab5:colombia a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:bogota ;
+    lab5:hasCity lab5:bogota ;
+    lab5:iso2code "CO"^^xsd:string ;
+    lab5:iso3code "COL"^^xsd:string ;
+    lab5:name "Colombia"^^xsd:string ;
+    owl:sameAs lab5:colombia .
+
+<http://www.semanticweb.org/ernesto/in3067-inm713/lab5/congo_(kinshasa)> a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:kinshasa ;
+    lab5:hasCity lab5:kinshasa ;
+    lab5:iso2code "CD"^^xsd:string ;
+    lab5:iso3code "COD"^^xsd:string ;
+    lab5:name "Congo (Kinshasa)"^^xsd:string ;
+    owl:sameAs <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/congo_(kinshasa)> .
+
+lab5:egypt a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:cairo ;
+    lab5:hasCity lab5:cairo ;
+    lab5:iso2code "EG"^^xsd:string ;
+    lab5:iso3code "EGY"^^xsd:string ;
+    lab5:name "Egypt"^^xsd:string ;
+    owl:sameAs lab5:egypt .
+
+lab5:france a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:paris ;
+    lab5:hasCity lab5:paris ;
+    lab5:iso2code "FR"^^xsd:string ;
+    lab5:iso3code "FRA"^^xsd:string ;
+    lab5:name "France"^^xsd:string ;
+    owl:sameAs lab5:france .
+
+lab5:hong_kong a _:ub1bL150C26,
+        _:ub1bL159C29,
+        dbo:City,
+        dbo:Country,
+        lab5:City,
+        lab5:Country,
+        owl:Thing ;
+    lab5:cityIsLocatedIn lab5:hong_kong ;
+    lab5:hasCity lab5:hong_kong ;
+    lab5:isLocatedIn lab5:hong_kong ;
+    lab5:iso2code "HK"^^xsd:string ;
+    lab5:iso3code "HKG"^^xsd:string ;
+    lab5:latitude "22.305"^^xsd:float ;
+    lab5:longitude "114.185"^^xsd:float ;
+    lab5:name "Hong Kong"^^xsd:string ;
+    lab5:name_ascii "Hong Kong"^^xsd:string ;
+    lab5:population "7347000"^^xsd:long ;
+    owl:sameAs lab5:hong_kong .
+
+lab5:indonesia a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:jakarta ;
+    lab5:hasCity lab5:jakarta ;
+    lab5:iso2code "ID"^^xsd:string ;
+    lab5:iso3code "IDN"^^xsd:string ;
+    lab5:name "Indonesia"^^xsd:string ;
+    owl:sameAs lab5:indonesia .
+
+lab5:iran a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:tehran ;
+    lab5:hasCity lab5:tehran ;
+    lab5:iso2code "IR"^^xsd:string ;
+    lab5:iso3code "IRN"^^xsd:string ;
+    lab5:name "Iran"^^xsd:string ;
+    owl:sameAs lab5:iran .
+
+lab5:isFirstLevelAdminCapitalOf a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    rdfs:range _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:cityIsLocatedIn,
+        lab5:isAdminCapitalOf,
+        lab5:isFirstLevelAdminCapitalOf,
+        lab5:isLocatedIn ;
+    owl:equivalentProperty lab5:isFirstLevelAdminCapitalOf ;
+    owl:sameAs lab5:isFirstLevelAdminCapitalOf .
+
+lab5:isSecondLevelAdminCapitalOf a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    rdfs:range _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:cityIsLocatedIn,
+        lab5:isAdminCapitalOf,
+        lab5:isLocatedIn,
+        lab5:isSecondLevelAdminCapitalOf ;
+    owl:equivalentProperty lab5:isSecondLevelAdminCapitalOf ;
+    owl:sameAs lab5:isSecondLevelAdminCapitalOf .
+
+<http://www.semanticweb.org/ernesto/in3067-inm713/lab5/korea,_south> a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:seoul ;
+    lab5:hasCity lab5:seoul ;
+    lab5:iso2code "KR"^^xsd:string ;
+    lab5:iso3code "KOR"^^xsd:string ;
+    lab5:name "Korea, South"^^xsd:string ;
+    owl:sameAs <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/korea,_south> .
+
+lab5:malaysia a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:kuala_lumpur ;
+    lab5:hasCity lab5:kuala_lumpur ;
+    lab5:iso2code "MY"^^xsd:string ;
+    lab5:iso3code "MYS"^^xsd:string ;
+    lab5:name "Malaysia"^^xsd:string ;
+    owl:sameAs lab5:malaysia .
+
+lab5:mexico a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:mexico_city ;
+    lab5:hasCity lab5:mexico_city ;
+    lab5:iso2code "MX"^^xsd:string ;
+    lab5:iso3code "MEX"^^xsd:string ;
+    lab5:name "Mexico"^^xsd:string ;
+    owl:sameAs lab5:mexico .
+
+lab5:peru a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:lima ;
+    lab5:hasCity lab5:lima ;
+    lab5:iso2code "PE"^^xsd:string ;
+    lab5:iso3code "PER"^^xsd:string ;
+    lab5:name "Peru"^^xsd:string ;
+    owl:sameAs lab5:peru .
+
+lab5:philippines a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:manila ;
+    lab5:hasCity lab5:manila ;
+    lab5:iso2code "PH"^^xsd:string ;
+    lab5:iso3code "PHL"^^xsd:string ;
+    lab5:name "Philippines"^^xsd:string ;
+    owl:sameAs lab5:philippines .
+
+lab5:russia a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:moscow ;
+    lab5:hasCity lab5:moscow ;
+    lab5:iso2code "RU"^^xsd:string ;
+    lab5:iso3code "RUS"^^xsd:string ;
+    lab5:name "Russia"^^xsd:string ;
+    owl:sameAs lab5:russia .
+
+lab5:saudi_arabia a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:riyadh ;
+    lab5:hasCity lab5:riyadh ;
+    lab5:iso2code "SA"^^xsd:string ;
+    lab5:iso3code "SAU"^^xsd:string ;
+    lab5:name "Saudi Arabia"^^xsd:string ;
+    owl:sameAs lab5:saudi_arabia .
+
+lab5:sudan a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:khartoum ;
+    lab5:hasCity lab5:khartoum ;
+    lab5:iso2code "SD"^^xsd:string ;
+    lab5:iso3code "SDN"^^xsd:string ;
+    lab5:name "Sudan"^^xsd:string ;
+    owl:sameAs lab5:sudan .
+
+lab5:tanzania a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:dar_es_salaam ;
+    lab5:hasCity lab5:dar_es_salaam ;
+    lab5:iso2code "TZ"^^xsd:string ;
+    lab5:iso3code "TZA"^^xsd:string ;
+    lab5:name "Tanzania"^^xsd:string ;
+    owl:sameAs lab5:tanzania .
+
+lab5:thailand a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:bangkok ;
+    lab5:hasCity lab5:bangkok ;
+    lab5:iso2code "TH"^^xsd:string ;
+    lab5:iso3code "THA"^^xsd:string ;
+    lab5:name "Thailand"^^xsd:string ;
+    owl:sameAs lab5:thailand .
+
+owl:FunctionalProperty owl:sameAs owl:FunctionalProperty .
+
+owl:NamedIndividual owl:sameAs owl:NamedIndividual .
+
+"Anhui"^^xsd:string a xsd:string ;
+    owl:sameAs "Anhui"^^xsd:string .
+
+"Beijing"^^xsd:string a xsd:string ;
+    owl:sameAs "Beijing"^^xsd:string .
+
+"Chongqing"^^xsd:string a xsd:string ;
+    owl:sameAs "Chongqing"^^xsd:string .
+
+"Dar es Salaam"^^xsd:string a xsd:string ;
+    owl:sameAs "Dar es Salaam"^^xsd:string .
+
+"Delhi"^^xsd:string a xsd:string ;
+    owl:sameAs "Delhi"^^xsd:string .
+
+"Dhaka"^^xsd:string a xsd:string ;
+    owl:sameAs "Dhaka"^^xsd:string .
+
+"Hunan"^^xsd:string a xsd:string ;
+    owl:sameAs "Hunan"^^xsd:string .
+
+"Jakarta"^^xsd:string a xsd:string ;
+    owl:sameAs "Jakarta"^^xsd:string .
+
+"Jiangxi"^^xsd:string a xsd:string ;
+    owl:sameAs "Jiangxi"^^xsd:string .
+
+"Khartoum"^^xsd:string a xsd:string ;
+    owl:sameAs "Khartoum"^^xsd:string .
+
+"Kinshasa"^^xsd:string a xsd:string ;
+    owl:sameAs "Kinshasa"^^xsd:string .
+
+"Kuala Lumpur"^^xsd:string a xsd:string ;
+    owl:sameAs "Kuala Lumpur"^^xsd:string .
+
+"Lagos"^^xsd:string a xsd:string ;
+    owl:sameAs "Lagos"^^xsd:string .
+
+"Lima"^^xsd:string a xsd:string ;
+    owl:sameAs "Lima"^^xsd:string .
+
+"Luanda"^^xsd:string a xsd:string ;
+    owl:sameAs "Luanda"^^xsd:string .
+
+"Manila"^^xsd:string a xsd:string ;
+    owl:sameAs "Manila"^^xsd:string .
+
+"New York"^^xsd:string a xsd:string ;
+    owl:sameAs "New York"^^xsd:string .
+
+"Rio de Janeiro"^^xsd:string a xsd:string ;
+    owl:sameAs "Rio de Janeiro"^^xsd:string .
+
+"Seoul"^^xsd:string a xsd:string ;
+    owl:sameAs "Seoul"^^xsd:string .
+
+"Shanghai"^^xsd:string a xsd:string ;
+    owl:sameAs "Shanghai"^^xsd:string .
+
+"Tianjin"^^xsd:string a xsd:string ;
+    owl:sameAs "Tianjin"^^xsd:string .
+
+lab5:isCapitalOf a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        owl:Thing ;
+    rdfs:range _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:cityIsLocatedIn,
+        lab5:isCapitalOf,
+        lab5:isLocatedIn ;
+    owl:equivalentProperty lab5:isCapitalOf ;
+    owl:sameAs lab5:isCapitalOf .
+
+lab5:turkey a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasAdminCapital lab5:istanbul ;
+    lab5:hasCity lab5:istanbul ;
+    lab5:iso2code "TR"^^xsd:string ;
+    lab5:iso3code "TUR"^^xsd:string ;
+    lab5:name "Turkey"^^xsd:string ;
+    owl:sameAs lab5:turkey .
+
+"Jiangsu"^^xsd:string a xsd:string ;
+    owl:sameAs "Jiangsu"^^xsd:string .
+
+lab5:hasCity a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:range _:ub1bL150C26,
+        dbo:City,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:hasCity ;
+    owl:equivalentProperty lab5:hasCity ;
+    owl:sameAs lab5:hasCity .
+
+lab5:isAdminCapitalOf a owl:ObjectProperty ;
+    rdfs:domain _:ub1bL150C26,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        owl:Thing ;
+    rdfs:range _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:cityIsLocatedIn,
+        lab5:isAdminCapitalOf,
+        lab5:isLocatedIn ;
+    owl:equivalentProperty lab5:isAdminCapitalOf ;
+    owl:sameAs lab5:isAdminCapitalOf .
+
+lab5:united_kingdom a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:NamedIndividual,
+        owl:Thing ;
+    dbo:capital lab5:london ;
+    lab5:hasCity lab5:london,
+        lab5:oxford ;
+    lab5:iso2code "GB"^^xsd:string ;
+    lab5:iso3code "GBR"^^xsd:string ;
+    lab5:name "United Kingdom"^^xsd:string ;
+    owl:sameAs lab5:united_kingdom .
+
+owl:Restriction owl:sameAs owl:Restriction .
+
+"Hebei"^^xsd:string a xsd:string ;
+    owl:sameAs "Hebei"^^xsd:string .
+
+"Shandong"^^xsd:string a xsd:string ;
+    owl:sameAs "Shandong"^^xsd:string .
+
+"Guangdong"^^xsd:string a xsd:string ;
+    owl:sameAs "Guangdong"^^xsd:string .
+
+"Henan"^^xsd:string a xsd:string ;
+    owl:sameAs "Henan"^^xsd:string .
+
+lab5:cityIsLocatedIn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:ub1bL150C26,
+        dbo:City,
+        owl:Thing ;
+    rdfs:range _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    rdfs:subPropertyOf lab5:cityIsLocatedIn,
+        lab5:isLocatedIn ;
+    owl:equivalentProperty lab5:cityIsLocatedIn ;
+    owl:inverseOf lab5:hasCity ;
+    owl:sameAs lab5:cityIsLocatedIn .
+
+lab5:isLocatedIn a owl:ObjectProperty ;
+    rdfs:subPropertyOf lab5:isLocatedIn ;
+    owl:equivalentProperty lab5:isLocatedIn ;
+    owl:sameAs lab5:isLocatedIn .
+
+lab5:vietnam a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:hanoi ;
+    lab5:hasAdminCapital lab5:ho_chi_minh_city ;
+    lab5:hasCity lab5:hanoi,
+        lab5:ho_chi_minh_city ;
+    lab5:iso2code "VN"^^xsd:string ;
+    lab5:iso3code "VNM"^^xsd:string ;
+    lab5:name "Vietnam"^^xsd:string ;
+    owl:sameAs lab5:vietnam .
+
+lab5:brazil a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasAdminCapital lab5:rio_de_janeiro,
+        lab5:sao_paulo ;
+    lab5:hasCity lab5:rio_de_janeiro,
+        lab5:sao_paulo ;
+    lab5:iso2code "BR"^^xsd:string ;
+    lab5:iso3code "BRA"^^xsd:string ;
+    lab5:name "Brazil"^^xsd:string ;
+    owl:sameAs lab5:brazil .
+
+lab5:nigeria a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasAdminCapital lab5:lagos,
+        lab5:onitsha ;
+    lab5:hasCity lab5:lagos,
+        lab5:onitsha ;
+    lab5:iso2code "NG"^^xsd:string ;
+    lab5:iso3code "NGA"^^xsd:string ;
+    lab5:name "Nigeria"^^xsd:string ;
+    owl:sameAs lab5:nigeria .
+
+lab5:pakistan a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasAdminCapital lab5:karachi,
+        lab5:lahore ;
+    lab5:hasCity lab5:karachi,
+        lab5:lahore ;
+    lab5:iso2code "PK"^^xsd:string ;
+    lab5:iso3code "PAK"^^xsd:string ;
+    lab5:name "Pakistan"^^xsd:string ;
+    owl:sameAs lab5:pakistan .
+
+lab5:united_states a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasCity lab5:chicago,
+        lab5:los_angeles,
+        lab5:miami,
+        lab5:new_york ;
+    lab5:iso2code "US"^^xsd:string ;
+    lab5:iso3code "USA"^^xsd:string ;
+    lab5:name "United States"^^xsd:string ;
+    owl:sameAs lab5:united_states .
+
+owl:Class owl:sameAs owl:Class .
+
+owl:DatatypeProperty owl:sameAs owl:DatatypeProperty .
+
+owl:ObjectProperty owl:sameAs owl:ObjectProperty .
+
+owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
+lab5:japan a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:tokyo ;
+    lab5:hasAdminCapital lab5:nagoya,
+        lab5:osaka ;
+    lab5:hasCity lab5:nagoya,
+        lab5:osaka,
+        lab5:tokyo ;
+    lab5:iso2code "JP"^^xsd:string ;
+    lab5:iso3code "JPN"^^xsd:string ;
+    lab5:name "Japan"^^xsd:string ;
+    owl:sameAs lab5:japan .
+
+lab5:SecondLevelAdminCapitalCity a owl:Class ;
+    rdfs:comment "minor - lower-level admin capital (e.g. Fayetteville, AR)" ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL194C50,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:SecondLevelAdminCapitalCity,
+        owl:Thing ;
+    owl:equivalentClass lab5:SecondLevelAdminCapitalCity ;
+    owl:sameAs lab5:SecondLevelAdminCapitalCity .
+
+lab5:CapitalCity a owl:Class ;
+    rdfs:comment "primary - country's capital (e.g. Washington D.C.)" ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL174C34,
+        dbo:City,
+        lab5:CapitalCity,
+        owl:Thing ;
+    owl:equivalentClass lab5:CapitalCity ;
+    owl:sameAs lab5:CapitalCity .
+
+lab5:india a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    lab5:hasAdminCapital lab5:ahmadabad,
+        lab5:bangalore,
+        lab5:chennai,
+        lab5:delhi,
+        lab5:hyderabad,
+        lab5:kolkata,
+        lab5:mumbai ;
+    lab5:hasCity lab5:ahmadabad,
+        lab5:bangalore,
+        lab5:chennai,
+        lab5:delhi,
+        lab5:hyderabad,
+        lab5:kolkata,
+        lab5:mumbai,
+        lab5:pune ;
+    lab5:iso2code "IN"^^xsd:string ;
+    lab5:iso3code "IND"^^xsd:string ;
+    lab5:name "India"^^xsd:string ;
+    owl:sameAs lab5:india .
+
+lab5:Country owl:sameAs lab5:Country .
+
+lab5:FirstLevelAdminCapitalCity a owl:Class ;
+    rdfs:comment "admin - first-level admin capital (e.g. Little Rock, AR)" ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL184C49,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        lab5:FirstLevelAdminCapitalCity,
+        owl:Thing ;
+    owl:equivalentClass lab5:FirstLevelAdminCapitalCity ;
+    owl:sameAs lab5:FirstLevelAdminCapitalCity .
+
+rdfs:Datatype owl:sameAs rdfs:Datatype .
+
+dbo:Country a owl:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:subClassOf _:ub1bL159C29,
+        dbo:Country,
+        owl:Thing ;
+    owl:equivalentClass dbo:Country ;
+    owl:sameAs dbo:Country .
+
+lab5:AdminCapitalCity a owl:Class ;
+    rdfs:subClassOf _:ub1bL150C26,
+        dbo:City,
+        lab5:AdminCapitalCity,
+        owl:Thing ;
+    owl:equivalentClass lab5:AdminCapitalCity ;
+    owl:sameAs lab5:AdminCapitalCity .
+
+lab5:City owl:sameAs lab5:City .
+
+xsd:decimal a rdfs:Datatype ;
+    owl:disjointWith xsd:float,
+        xsd:string ;
+    owl:sameAs xsd:decimal .
+
+xsd:integer a rdfs:Datatype ;
+    owl:sameAs xsd:integer .
+
+xsd:long a rdfs:Datatype ;
+    owl:sameAs xsd:long .
+
+dbo:City a owl:Class ;
+    rdfs:label "City"@en ;
+    rdfs:subClassOf _:ub1bL150C26,
+        dbo:City,
+        owl:Thing ;
+    owl:equivalentClass dbo:City ;
+    owl:sameAs dbo:City .
+
+owl:Thing a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass owl:Thing ;
+    owl:sameAs owl:Thing .
+
+lab5:china a _:ub1bL159C29,
+        dbo:Country,
+        lab5:Country,
+        owl:Thing ;
+    dbo:capital lab5:beijing ;
+    lab5:hasAdminCapital lab5:changchun,
+        lab5:changsha,
+        lab5:chengdu,
+        lab5:chongqing,
+        lab5:dongguan,
+        lab5:foshan,
+        lab5:ganzhou,
+        lab5:guangzhou,
+        lab5:hangzhou,
+        lab5:hefei,
+        lab5:heze,
+        lab5:huanggang,
+        lab5:kunming,
+        <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/lu'an>,
+        lab5:maoming,
+        lab5:nanchong,
+        lab5:nanjing,
+        lab5:nanning,
+        lab5:nantong,
+        lab5:ningbo,
+        lab5:quanzhou,
+        lab5:shanghai,
+        lab5:shangrao,
+        lab5:shenyang,
+        lab5:shenzhen,
+        lab5:shijiazhuang,
+        lab5:tianjin,
+        lab5:tongshan,
+        lab5:wuhan,
+        <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/xi'an>,
+        lab5:yancheng,
+        lab5:yichun,
+        lab5:zhanjiang,
+        lab5:zhengzhou,
+        lab5:zhoukou ;
+    lab5:hasCity lab5:baoding,
+        lab5:beijing,
+        lab5:bijie,
+        lab5:cangzhou,
+        lab5:changchun,
+        lab5:changsha,
+        lab5:chengdu,
+        lab5:chongqing,
+        lab5:dongguan,
+        lab5:foshan,
+        lab5:fuyang,
+        lab5:ganzhou,
+        lab5:guangzhou,
+        lab5:handan,
+        lab5:hangzhou,
+        lab5:hefei,
+        lab5:hengyang,
+        lab5:heze,
+        lab5:huanggang,
+        lab5:jining,
+        lab5:kunming,
+        lab5:linyi,
+        <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/lu'an>,
+        lab5:luoyang,
+        lab5:maoming,
+        lab5:nanchong,
+        lab5:nanjing,
+        lab5:nanning,
+        lab5:nantong,
+        lab5:nanyang,
+        lab5:ningbo,
+        lab5:quanzhou,
+        lab5:shanghai,
+        lab5:shangrao,
+        lab5:shaoyang,
+        lab5:shenyang,
+        lab5:shenzhen,
+        lab5:shijiazhuang,
+        lab5:tangshan,
+        lab5:tianjin,
+        lab5:tongshan,
+        lab5:weifang,
+        lab5:wuhan,
+        <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/xi'an>,
+        lab5:xinyang,
+        lab5:yancheng,
+        lab5:yantai,
+        lab5:yichun,
+        lab5:zhanjiang,
+        lab5:zhengzhou,
+        lab5:zhoukou,
+        lab5:zhumadian,
+        lab5:zunyi ;
+    lab5:iso2code "CN"^^xsd:string ;
+    lab5:iso3code "CHN"^^xsd:string ;
+    lab5:name "China"^^xsd:string ;
+    owl:sameAs lab5:china .
+
+xsd:float a rdfs:Datatype ;
+    owl:disjointWith xsd:string ;
+    owl:sameAs xsd:float .
+
+xsd:string a rdfs:Datatype ;
+    owl:sameAs xsd:string .
+
+_:ub1bL194C50 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL194C50 ;
+    owl:equivalentClass _:ub1bL194C50 ;
+    owl:onProperty lab5:isSecondLevelAdminCapitalOf ;
+    owl:sameAs _:ub1bL194C50 ;
+    owl:someValuesFrom dbo:Country .
+
+_:ub1bL174C34 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL174C34 ;
+    owl:equivalentClass _:ub1bL174C34 ;
+    owl:onProperty lab5:isCapitalOf ;
+    owl:sameAs _:ub1bL174C34 ;
+    owl:someValuesFrom dbo:Country .
+
+_:ub1bL184C49 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL150C26,
+        _:ub1bL184C49 ;
+    owl:equivalentClass _:ub1bL184C49 ;
+    owl:onProperty lab5:isFirstLevelAdminCapitalOf ;
+    owl:sameAs _:ub1bL184C49 ;
+    owl:someValuesFrom dbo:Country .
+
+_:ub1bL159C29 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL159C29 ;
+    owl:equivalentClass _:ub1bL159C29 ;
+    owl:onProperty dbo:capital ;
+    owl:sameAs _:ub1bL159C29 ;
+    owl:someValuesFrom dbo:City .
+
+_:ub1bL150C26 a owl:Restriction ;
+    rdfs:subClassOf _:ub1bL150C26 ;
+    owl:equivalentClass _:ub1bL150C26 ;
+    owl:onProperty lab5:cityIsLocatedIn ;
+    owl:sameAs _:ub1bL150C26 ;
+    owl:someValuesFrom dbo:Country .
+

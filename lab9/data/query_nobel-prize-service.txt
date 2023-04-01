@@ -1,0 +1,15 @@
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX np: <http://data.nobelprize.org/terms/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?label ?spouse 
+WHERE { 
+  ?laur rdf:type np:Laureate . 
+  ?laur rdfs:label ?label . 
+  ?laur owl:sameAs ?kglau . 
+  SERVICE <http://dbpedia.org/sparql> { 
+    ?dblau owl:sameAs ?kglau .
+    ?dblau dbo:spouse ?spouse .
+  } 
+}

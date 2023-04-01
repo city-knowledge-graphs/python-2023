@@ -1,0 +1,32 @@
+@prefix city: <http://www.example.org/university/london/city#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+city:ernesto a foaf:Person .
+
+city:academic-year-2021 {
+	city:ernesto city:teaches city:INM713 .
+	city:INM713 rdf:type city:Module .
+	city:INM713 city:module_type "Elective"^^xsd:string .
+	city:fei a foaf:Person .
+	city:zac a foaf:Person .
+	city:fei city:studentOf city:INM713 .
+	city:zac city:studentOf city:INM713 . 
+}
+
+city:academic-year-2021 dbo:year "2021"^^xsd:gYear .
+
+
+city:academic-year-2022 {
+	city:ernesto city:teaches city:IN3067-INM713 .
+	city:IN3067-INM713 rdf:type city:Module .
+	city:IN3067-INM713 city:module_type "Elective"^^xsd:string .
+	city:jack a foaf:Person .
+	city:emma a foaf:Person .
+	city:jack city:studentOf city:IN3067-INM713 .
+	city:emma city:studentOf city:IN3067-INM713 . 
+}
+
+city:academic-year-2022 dbo:year "2022"^^xsd:gYear .

@@ -1,0 +1,97 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tto: <http://example.org/tuto/ontology#> .
+@prefix ttr: <http://example.org/tuto/resource#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tto:Animal a rdfs:Class ;
+    rdfs:label "animal" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Creature .
+
+tto:Cat a rdfs:Class ;
+    rdfs:label "cat" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+tto:Creature a rdfs:Class ;
+    rdfs:label "creature" ;
+    rdfs:isDefinedBy tto: .
+
+tto:Dog a rdfs:Class ;
+    rdfs:label "dog" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+tto:Monkey a rdfs:Class ;
+    rdfs:label "monkey" ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:subClassOf tto:Animal .
+
+tto:pet a rdf:Property ;
+    rdfs:label "domestic animal" ;
+    rdfs:domain dbo:Person ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range tto:Animal .
+
+tto:sex a rdf:Property ;
+    rdfs:label "sex" ;
+    rdfs:domain tto:Creature ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range xsd:string .
+
+tto:weight a rdf:Property ;
+    rdfs:label "weight" ;
+    rdfs:comment "weight in kilograms" ;
+    rdfs:domain tto:Creature ;
+    rdfs:isDefinedBy tto: ;
+    rdfs:range xsd:decimal .
+
+ttr:Eve a dbo:Person ;
+    rdfs:label "Eve" ;
+    dbo:parent ttr:William ;
+    dbp:birthDate "2006-11-03"^^xsd:date ;
+    tto:sex "female" .
+
+ttr:SnuffMonkey a tto:Monkey ;
+    rdfs:label "Snuff" ;
+    tto:color "golden" ;
+    tto:sex "male" ;
+    tto:weight 3.6 .
+
+ttr:John a dbo:Person ;
+    rdfs:label "John" ;
+    dbp:birthDate "1942-02-02"^^xsd:date ;
+    tto:pet ttr:LunaCat,
+        ttr:TomCat ;
+    tto:sex "male" .
+
+ttr:LunaCat a tto:Cat ;
+    rdfs:label "Luna" ;
+    tto:color "violet" ;
+    tto:sex "female" ;
+    tto:weight 4.2 .
+
+ttr:RexDog a tto:Dog ;
+    rdfs:label "Rex" ;
+    tto:color "brown" ;
+    tto:sex "male" ;
+    tto:weight 8.8 .
+
+ttr:TomCat a tto:Cat ;
+    rdfs:label "Tom" ;
+    tto:color "grey" ;
+    tto:sex "male" ;
+    tto:weight 5.8 .
+
+ttr:William a dbo:Person ;
+    rdfs:label "William" ;
+    dbo:parent ttr:John ;
+    dbp:birthDate "1978-07-20"^^xsd:date ;
+    tto:pet ttr:RexDog ;
+    tto:sex "male" .
+
+dbo:Person rdfs:subClassOf tto:Creature .
+

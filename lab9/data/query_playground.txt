@@ -1,0 +1,7 @@
+PREFIX ttr: <http://example.org/tuto/resource#>
+PREFIX tto: <http://example.org/tuto/ontology#>
+PREFIX dbp: <http://dbpedia.org/property/>
+SELECT ?pet ?owner where {
+?pet a tto:Animal .
+OPTIONAL {?owner tto:pet ?pet}
+}

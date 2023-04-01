@@ -1,0 +1,10 @@
+PREFIX lab5: <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?country ?city ?pop WHERE {
+	?city rdf:type lab5:City .
+    ?city lab5:isCapitalOf ?country .
+    ?city lab5:population ?pop .
+    FILTER (xsd:integer(?pop) > 5000000)
+}
+ORDER BY DESC(?pop)
