@@ -74,7 +74,7 @@ def queryGraphDBRepo(endpoint_url, query, attempts=3):
 
 
 
-#test="world-cities"
+test="world-cities"
 test="nobel-prizes" 
 test="named-graphs" 
 
@@ -82,12 +82,13 @@ loadData = True
 #loadData = False  #If already loaded
 path_to_onto_file=None
 
+localhost = "http://127.0.0.1:7200"
 
 if test=="world-cities":
 
     ##REPOSITORY URL AND SPARQL ENDPOINT
     ##To be updated with your local Endpoint URL
-    graphdb_endpoint = "http://192.168.0.18:7200/repositories/Lab6_repository_automatic"
+    graphdb_endpoint = localhost + "/repositories/lab_graphdb"
     
     #PATH TO DATA
     path_to_data_file = "./data/worldcities-free-100-task2.ttl"
@@ -109,7 +110,7 @@ if test=="world-cities":
 
 elif test=="nobel-prizes":
     
-    graphdb_endpoint = "http://192.168.0.18:7200/repositories/NobelPrize"
+    graphdb_endpoint = localhost + "/repositories/NobelPrize"
     path_to_onto_file = "../files/nobel-prize-ontology.rdf"
     path_to_data_file = "../files/nobelprize_kg.nt"
     
@@ -121,12 +122,12 @@ elif test=="nobel-prizes":
     
 
 else:
-    graphdb_endpoint = "http://192.168.0.18:7200/repositories/namedGraphs"    
+    graphdb_endpoint = localhost + "/repositories/namedGraphs"    
     path_to_data_file = "named_graphs.ttl"
     format="trig"
     
-    query_file="./data/query_named_default.txt"
-    #query_file="./data/query_named1.txt"
+    #query_file="./data/query_named_simple.txt"
+    query_file="./data/query_named1.txt"
     #query_file="./data/query_named2.txt"
     #query_file="./data/query_named_all.txt"
     #query_file="./data/query_named_from.txt"    
