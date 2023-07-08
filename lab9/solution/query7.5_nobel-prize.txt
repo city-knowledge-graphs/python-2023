@@ -1,0 +1,14 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX np: <http://data.nobelprize.org/terms/>
+
+SELECT DISTINCT ?country (COUNT(?laur) AS ?num_laur) WHERE {
+?laur rdf:type np:Laureate .
+?laur dbo:birthPlace ?country .
+?country rdf:type dbo:Country .
+}
+GROUP BY ?country
+HAVING (COUNT(?laur) > 10)
+ORDER BY DESC(?num_laur)

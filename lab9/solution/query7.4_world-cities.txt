@@ -1,0 +1,8 @@
+PREFIX lab5: <http://www.semanticweb.org/ernesto/in3067-inm713/lab5/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?country (COUNT(?city) AS ?num_cities) WHERE {
+	?country lab5:hasCity ?city .
+}
+GROUP BY ?country
+ORDER BY DESC(?num_cities)

@@ -43,6 +43,7 @@ def compareWithReference(reference_mappings_file, system_mappings_file):
 
 #P, R, and F can only be obtained if a reference alignment exists.    
 compareWithReference("data/anatomy-reference-mappings.ttl", "data/anatomy-example-system-mappings.ttl")
+compareWithReference("data/reference-mappings-pizza.ttl", "data/system-mappings-pizza.ttl")
 
 # For the lab you should compare, for example, 
 # cmt-confOf-reference.ttl with the cmt-confOf-your-system.ttl you generate.

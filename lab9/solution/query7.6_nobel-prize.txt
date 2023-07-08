@@ -1,0 +1,17 @@
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX np: <http://data.nobelprize.org/terms/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+SELECT DISTINCT ?label ?country 
+WHERE { 
+  ?laur rdf:type np:Laureate . 
+  ?laur rdfs:label ?label . 
+  ?laur dbo:birthPlace ?country . 
+  ?country rdf:type dbo:Country . 
+  ?country owl:sameAs ?dbr . 
+  SERVICE <http://dbpedia.org/sparql> { 
+    ?dbr dbo:populationTotal ?pop . 
+    FILTER (?pop < 1000000) 
+  } 
+}

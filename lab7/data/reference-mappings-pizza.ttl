@@ -1,0 +1,70 @@
+@prefix city: <http://www.semanticweb.org/city/in3067-inm713/2023/restaurants#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pizza: <http://www.co-ode.org/ontologies/pizza/pizza.owl#> .
+
+city:AmericanPizza owl:equivalentClass pizza:American .
+
+city:Anchovies owl:equivalentClass pizza:AnchoviesTopping .
+
+city:Artichokes owl:equivalentClass pizza:ArtichokeTopping .
+
+city:Capers owl:equivalentClass pizza:CaperTopping .
+
+city:Cheese owl:equivalentClass pizza:CheeseTopping .
+
+city:Chicken owl:equivalentClass pizza:ChickenTopping .
+
+city:Country owl:equivalentClass pizza:Country .
+
+city:Food owl:equivalentClass pizza:Food .
+
+city:Fruit owl:equivalentClass pizza:FruitTopping .
+
+city:Garlic owl:equivalentClass pizza:GarlicTopping .
+
+city:GoatCheese owl:equivalentClass pizza:GoatsCheeseTopping .
+
+city:Gorgonzola owl:equivalentClass pizza:GorgonzolaTopping .
+
+city:GreenPepper owl:equivalentClass pizza:GreenPepperTopping .
+
+city:Ham owl:equivalentClass pizza:HamTopping .
+
+city:JalapenoPepper owl:equivalentClass pizza:JalapenoPepperTopping .
+
+city:MargheritaPizza owl:equivalentClass pizza:Margherita .
+
+city:Meat owl:equivalentClass pizza:MeatTopping .
+
+city:MeatPizza owl:equivalentClass pizza:MeatyPizza .
+
+city:Mozzarella owl:equivalentClass pizza:MozzarellaTopping .
+
+city:Mushroom owl:equivalentClass pizza:MushroomTopping .
+
+city:MushroomPizza owl:equivalentClass pizza:Mushroom .
+
+city:NamedPizza owl:equivalentClass pizza:NamedPizza .
+
+city:Olives owl:equivalentClass pizza:OliveTopping .
+
+city:Onion owl:equivalentClass pizza:OnionTopping .
+
+city:Pepper owl:equivalentClass pizza:PepperTopping .
+
+city:Pizza owl:equivalentClass pizza:Pizza .
+
+city:Rosemary owl:equivalentClass pizza:RosemaryTopping .
+
+city:Sauce owl:equivalentClass pizza:SauceTopping .
+
+city:SeaFood owl:equivalentClass pizza:FishTopping .
+
+city:Spinach owl:equivalentClass pizza:SpinachTopping .
+
+city:Tomato owl:equivalentClass pizza:TomatoTopping .
+
+city:VegetarianPizza owl:equivalentClass pizza:VegetarianPizza .
+
+city:hasIngredient owl:equivalentProperty pizza:hasIngredient .
+
